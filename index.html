@@ -181,7 +181,7 @@
 <div class="header">
   <div class="header-icon">🖥️</div>
   <div>
-    <h1 id="appTitle">Rà soát thiết bị CNTT</h1>
+    <h1 id="appTitle">Thông  thiết bị CNTT</h1>
     <p id="appSubtitle">Đơn vị · Phiếu khảo sát thiết bị · Hạn gửi: <span id="deadline">—</span></p>
   </div>
   <div class="header-actions">
@@ -189,6 +189,7 @@
     <button class="btn btn-ghost btn-sm" id="btnLogin" onclick="openLogin()">🔐 Quản trị</button>
     <button class="btn btn-ghost btn-sm" id="btnLogout" style="display:none" onclick="doLogout()">🚪 Đăng xuất</button>
     <button class="btn btn-ghost btn-sm" id="btnExport" style="display:none" onclick="exportExcel()">📥 Xuất Excel</button>
+    <button class="btn btn-ghost btn-sm" id="btnExportCsv" style="display:none" onclick="exportCsv()">📄 Xuất CSV</button>
   </div>
 </div>
 
@@ -235,9 +236,8 @@
           <label>Tình trạng <span class="req">*</span></label>
           <select id="f_tinhtrang">
             <option value="">-- Chọn --</option>
-            <option>Hoạt động tốt</option>
-            <option>Hoạt động — cần nâng cấp</option>
-            <option>Hỏng — cần sửa</option>
+            <option>Hoạt động</option>
+            <option>Không hoạt động</option>
             <option>Hỏng — đề nghị thanh lý</option>
           </select>
         </div>
@@ -254,11 +254,11 @@
         </div>
         <div>
           <label>Bưu cục / Bộ phận <span class="req">*</span></label>
-          <input type="text" id="f_bophan" placeholder="Bưu cục Thành phố / Phòng CNTT">
+          <input type="text" id="f_bophan" placeholder="Trung tâm Dịch vụ vận hành ../Bưu cục ....">
         </div>
         <div>
           <label>Chức danh</label>
-          <input type="text" id="f_chucdanh" placeholder="Giao dịch viên / Kỹ thuật viên">
+          <input type="text" id="f_chucdanh" placeholder="Trưởng bưu cục/ nhân viên nghiệp vụ/ chuyên viên">
         </div>
         <div>
           <label>Số điện thoại</label>
@@ -605,6 +605,7 @@ function updateAuthUI() {
   document.getElementById('btnLogin').style.display   = isAdmin ? 'none' : '';
   document.getElementById('btnLogout').style.display  = isAdmin ? '' : 'none';
   document.getElementById('btnExport').style.display  = isAdmin ? '' : 'none';
+  document.getElementById('btnExportCsv').style.display = isAdmin ? '' : 'none';
   document.getElementById('btnClearData').style.display = isAdmin ? '' : 'none';
   document.getElementById('colActions').style.display   = isAdmin ? '' : 'none';
 
@@ -875,22 +876,74 @@ function renderStats() {
 function exportExcel() {
   if (records.length === 0) { showToast('Không có dữ liệu để xuất', 'error'); return; }
   const rows = records.map(r => ({
-    'Thời gian': r.thoiGian, 'Nhóm': r.nhom, 'Tình trạng': r.tinhtrang,
-    'Họ tên': r.hoten, 'Bộ phận': r.bophan, 'Chức danh': r.chucdanh||'',
-    'SĐT': r.sdt||'', 'Hãng': r.hang||'', 'Model': r.model||'',
-    'Serial': r.serial||'', 'Mã tài sản': r.mataiSan||'', 'Năm mua': r.nam||'',
-    'Nguồn gốc': r.nguongoc||'', 'Hostname': r.hostname||'', 'CPU': r.cpu||'',
-    'RAM (GB)': r.ram||'', 'Ổ cứng': r.hdd||'', 'IP': r.ip||'', 'MAC': r.mac||'',
-    'OS': r.os||'', 'Office': r.office||'', 'Ghi chú': r.ghichu||''
+    'Thoi gian':   r.thoiGian,
+    'Nhom':        r.nhom,
+    'Tinh trang':  r.tinhtrang,
+    'Ho ten':      r.hoten,
+    'Bo phan':     r.bophan,
+    'Chuc danh':   r.chucdanh||'',
+    'SDT':         r.sdt||'',
+    'Hang':        r.hang||'',
+    'Model':       r.model||'',
+    'Serial':      r.serial||'',
+    'Ma tai san':  r.mataiSan||'',
+    'Nam mua':     r.nam||'',
+    'Nguon goc':   r.nguongoc||'',
+    'Hostname':    r.hostname||'',
+    'CPU':         r.cpu||'',
+    'RAM GB':      r.ram||'',
+    'O cung':      r.hdd||'',
+    'IP':          r.ip||'',
+    'MAC':         r.mac||'',
+    'He dieu hanh':r.os||'',
+    'Office':      r.office||'',
+    'Ghi chu':     r.ghichu||''
   }));
+
   const ws = XLSX.utils.json_to_sheet(rows);
+
+  // Đặt độ rộng cột
+  ws['!cols'] = [
+    {wch:18},{wch:22},{wch:28},{wch:22},{wch:22},{wch:18},
+    {wch:14},{wch:14},{wch:20},{wch:16},{wch:14},{wch:10},
+    {wch:16},{wch:20},{wch:28},{wch:8},{wch:20},{wch:16},
+    {wch:18},{wch:28},{wch:22},{wch:30}
+  ];
+
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'DuLieu');
-  XLSX.writeFile(wb, 'khaosat_thietbi_' + new Date().toLocaleDateString('vi-VN').replace(/\//g,'-') + '.xlsx');
+
+  // Xuất dạng .xlsx (Unicode chuẩn, mở được bằng Excel/LibreOffice)
+  XLSX.writeFile(wb, 'khaosat_thietbi_' + new Date().toLocaleDateString('vi-VN').replace(/\//g,'-') + '.xlsx', { bookType: 'xlsx', type: 'binary' });
   showToast('Đã xuất Excel!', 'success');
 }
 
-// ==================== TABS ====================
+// ==================== EXPORT CSV (UTF-8 BOM) ====================
+function exportCsv() {
+  if (records.length === 0) { showToast('Không có dữ liệu để xuất', 'error'); return; }
+  const headers = ['Thoi gian','Nhom','Tinh trang','Ho ten','Bo phan','Chuc danh','SDT',
+    'Hang','Model','Serial','Ma tai san','Nam mua','Nguon goc','Hostname','CPU',
+    'RAM GB','O cung','IP','MAC','He dieu hanh','Office','Ghi chu'];
+  const escCsv = v => '"' + String(v||'').replace(/"/g,'""') + '"';
+  const lines = [headers.map(escCsv).join(',')];
+  records.forEach(r => {
+    lines.push([
+      r.thoiGian, r.nhom, r.tinhtrang, r.hoten, r.bophan,
+      r.chucdanh||'', r.sdt||'', r.hang||'', r.model||'', r.serial||'',
+      r.mataiSan||'', r.nam||'', r.nguongoc||'', r.hostname||'', r.cpu||'',
+      r.ram||'', r.hdd||'', r.ip||'', r.mac||'', r.os||'', r.office||'', r.ghichu||''
+    ].map(escCsv).join(','));
+  });
+  // BOM UTF-8 \uFEFF giúp Excel nhận đúng tiếng Việt
+  const blob = new Blob(['\uFEFF' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'khaosat_thietbi_' + new Date().toLocaleDateString('vi-VN').replace(/\//g,'-') + '.csv';
+  a.click();
+  showToast('Đã xuất CSV (UTF-8)!', 'success');
+}
+
+// ==================== EXPORT CSV (UTF-8 BOM) ====================
 function switchTab(name, el) {
   ['form','data','stats'].forEach(t => document.getElementById('tab-'+t).style.display = 'none');
   document.getElementById('tab-'+name).style.display = '';
