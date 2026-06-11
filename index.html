@@ -626,8 +626,10 @@ async function loadFromGitHub(tok, owner, repo, file) {
       headers: { Authorization: 'token ' + tok, Accept: 'application/vnd.github.v3+json' }
     });
     if (res.status === 404) {
-      // File chưa tồn tại — OK, sẽ tạo mới khi lưu
-      records = []; ghSha = ''; return true;
+      // File data.json chưa tồn tại — OK, sẽ tạo mới khi gửi phiếu đầu tiên
+      records = []; ghSha = '';
+      saveLocal();
+      return true;
     }
     if (!res.ok) { showToast('Lỗi kết nối GitHub: ' + res.status, 'error'); return false; }
     const json = await res.json();
@@ -644,6 +646,19 @@ async function loadFromGitHub(tok, owner, repo, file) {
 
 async function saveToGitHub() {
   if (!ghToken) return;
+  // Nếu chưa có SHA, kiểm tra file đã tồn tại chưa
+  if (!ghSha) {
+    try {
+      const check = await fetch(`https://api.github.com/repos/${ghOwner}/${ghRepo}/contents/${ghFile}`, {
+        headers: { Authorization: 'token ' + ghToken }
+      });
+      if (check.ok) {
+        const j = await check.json();
+        ghSha = j.sha; // File đã tồn tại, lấy SHA
+      }
+      // Nếu 404 → file chưa có, ghSha = '' → GitHub sẽ tạo mới
+    } catch(e) {}
+  }
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(records, null, 2))));
   const body = { message: 'Update data ' + new Date().toISOString(), content, committer: { name: 'KhaoSat App', email: 'app@khaosat.local' } };
   if (ghSha) body.sha = ghSha;
@@ -653,7 +668,22 @@ async function saveToGitHub() {
       headers: { Authorization: 'token ' + ghToken, 'Content-Type': 'application/json' },
       body: JSON.stringify(body)
     });
-    if (!res.ok) { const e = await res.json(); showToast('Lỗi lưu GitHub: ' + (e.message||res.status), 'error'); return false; }
+    if (!res.ok) {
+      const e = await res.json();
+      let msg = e.message || ('HTTP ' + res.status);
+      if (res.status === 401) msg = 'Token không hợp lệ hoặc hết hạn — vui lòng đăng nhập lại';
+      if (res.status === 403) msg = 'TOKEN THIẾU QUYỀN WRITE! Vào GitHub → Developer settings → Fine-grained tokens → sửa token → chọn "Only select repositories" → Contents: Read & Write';
+      if (res.status === 404) msg = 'Không tìm thấy repo "' + ghOwner + '/' + ghRepo + '" — kiểm tra lại Owner và tên Repo';
+      if (res.status === 409) {
+        showToast('Xung đột SHA, đang tải lại...', 'info');
+        await loadFromGitHub(ghToken, ghOwner, ghRepo, ghFile);
+        return await saveToGitHub();
+      }
+      showToast('❌ ' + msg, 'error');
+      document.getElementById('statusText').textContent = '⚠️ Lỗi lưu: ' + msg;
+      document.getElementById('statusDot').className = 'status-dot dot-disconnected';
+      return false;
+    }
     const json = await res.json();
     ghSha = json.content.sha;
     return true;
