@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": 1781172736906,
+    "thoiGian": "17:12:16 11/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động",
+    "hoten": "Nnn",
+    "bophan": "trung tam",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 240 G8 Notebook PC  ",
+    "serial": "5CG20516S8    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-DVVH-PM1",
+    "cpu": "Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz  ",
+    "ram": "15.7 GB",
+    "hdd": "PHD 3.0 Silicon-Power USB Device  ",
+    "ip": "192.168.198.1",
+    "mac": "00:50:56:C0:00:01  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
+  }
+]
