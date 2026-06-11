@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khảo sát thiết bị CNTT</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  :root {
+    --teal: #0f6b6b;
+    --teal-light: #e6f4f4;
+    --teal-mid: #1a8a8a;
+    --accent: #e07b2a;
+    --bg: #f2f5f7;
+    --card: #ffffff;
+    --border: #d0dde0;
+    --text: #1a2a2a;
+    --muted: #5a7070;
+    --red: #c0392b;
+    --green: #27ae60;
+    --radius: 10px;
+    --shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); font-size: 14px; }
+
+  /* HEADER */
+  .header {
+    background: linear-gradient(135deg, var(--teal) 0%, #0a4a4a 100%);
+    color: white; padding: 18px 24px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .header-icon { font-size: 36px; }
+  .header h1 { font-size: 20px; font-weight: 700; }
+  .header p { font-size: 12px; opacity: 0.8; margin-top: 3px; }
+  .header-actions { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+
+  /* LAYOUT */
+  .container { max-width: 960px; margin: 0 auto; padding: 20px 16px; }
+
+  /* CARDS */
+  .card {
+    background: var(--card); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 20px; margin-bottom: 16px;
+  }
+  .card-title {
+    font-weight: 700; font-size: 15px; color: var(--teal);
+    margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+  }
+
+  /* FORM */
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .form-full { grid-column: 1 / -1; }
+  label { display: block; font-size: 12px; font-weight: 600; color: var(--muted); margin-bottom: 4px; }
+  label .req { color: var(--red); }
+  input, select, textarea {
+    width: 100%; padding: 8px 10px; border: 1.5px solid var(--border);
+    border-radius: 6px; font-size: 13px; color: var(--text);
+    background: #fff; transition: border 0.2s;
+  }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: var(--teal); }
+  textarea { resize: vertical; min-height: 60px; }
+
+  /* BUTTONS */
+  .btn {
+    padding: 8px 16px; border-radius: 6px; border: none;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 6px; transition: 0.2s;
+  }
+  .btn-primary { background: var(--teal); color: white; }
+  .btn-primary:hover { background: var(--teal-mid); }
+  .btn-accent { background: var(--accent); color: white; }
+  .btn-accent:hover { background: #c96f20; }
+  .btn-outline {
+    background: transparent; color: var(--teal);
+    border: 1.5px solid var(--teal);
+  }
+  .btn-outline:hover { background: var(--teal-light); }
+  .btn-sm { padding: 5px 10px; font-size: 12px; }
+  .btn-danger { background: var(--red); color: white; }
+  .btn-ghost { background: rgba(255,255,255,0.15); color: white; border: 1.5px solid rgba(255,255,255,0.4); }
+  .btn-ghost:hover { background: rgba(255,255,255,0.25); }
+
+  /* STATUS BAR */
+  .status-bar {
+    background: var(--teal-light); border: 1.5px solid #b2d8d8;
+    border-radius: var(--radius); padding: 12px 16px;
+    margin-bottom: 16px; font-size: 13px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .status-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .dot-connected { background: var(--green); }
+  .dot-disconnected { background: #999; }
+
+  /* TOAST */
+  #toast {
+    position: fixed; bottom: 24px; right: 24px; z-index: 9999;
+    padding: 12px 20px; border-radius: 8px; color: white;
+    font-weight: 600; font-size: 13px; display: none;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  #toast.show { display: block; }
+  #toast.success { background: var(--green); }
+  #toast.error { background: var(--red); }
+  #toast.info { background: var(--teal); }
+
+  /* TABLE */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: var(--teal); color: white; padding: 9px 10px; text-align: left; font-weight: 600; }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  tr:hover td { background: var(--teal-light); }
+
+  /* BADGE */
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 20px;
+    font-size: 11px; font-weight: 700;
+  }
+  .badge-ok { background: #d4f5e0; color: #1a7a40; }
+  .badge-warn { background: #fff3d4; color: #8a5a00; }
+  .badge-bad { background: #fde8e8; color: #8a1a1a; }
+
+  /* MODAL */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 1000; display: none;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: white; border-radius: var(--radius);
+    padding: 28px; max-width: 420px; width: 90%;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  }
+  .modal h2 { margin-bottom: 16px; color: var(--teal); font-size: 16px; }
+  .modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; }
+
+  /* STATS */
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .stat-card {
+    background: var(--teal-light); border-radius: 8px; padding: 14px 16px;
+    border-left: 4px solid var(--teal);
+  }
+  .stat-val { font-size: 28px; font-weight: 800; color: var(--teal); }
+  .stat-lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  /* TABS */
+  .tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+  .tab {
+    padding: 7px 16px; border-radius: 6px; border: none;
+    background: var(--border); color: var(--muted);
+    cursor: pointer; font-size: 13px; font-weight: 600;
+  }
+  .tab.active { background: var(--teal); color: white; }
+
+  /* SECTION */
+  .section-num {
+    width: 26px; height: 26px; background: var(--teal); color: white;
+    border-radius: 50%; display: inline-flex; align-items: center;
+    justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0;
+  }
+
+  /* PERIPHERALS */
+  .peripheral-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .peripheral-row input[type=checkbox] { width: auto; }
+
+  /* FILTER ROW */
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+  .filter-row input, .filter-row select { width: auto; min-width: 160px; }
+
+  @media (max-width: 600px) {
+    .form-grid { grid-template-columns: 1fr; }
+    .header-actions { margin-left: 0; width: 100%; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-icon">🖥️</div>
+  <div>
+    <h1 id="appTitle">Rà soát thiết bị CNTT</h1>
+    <p id="appSubtitle">Đơn vị · Phiếu khảo sát thiết bị · Hạn gửi: <span id="deadline">—</span></p>
+  </div>
+  <div class="header-actions">
+    <button class="btn btn-ghost btn-sm" onclick="openSettings()">⚙️ Cài đặt</button>
+    <button class="btn btn-ghost btn-sm" id="btnLogin" onclick="openLogin()">🔐 Quản trị</button>
+    <button class="btn btn-ghost btn-sm" id="btnLogout" style="display:none" onclick="doLogout()">🚪 Đăng xuất</button>
+    <button class="btn btn-ghost btn-sm" id="btnExport" style="display:none" onclick="exportExcel()">📥 Xuất Excel</button>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- STATUS -->
+  <div class="status-bar" id="statusBar">
+    <div class="status-dot dot-disconnected" id="statusDot"></div>
+    <span id="statusText">Chưa kết nối. <a href="#" onclick="openLogin();return false">Đăng nhập quản trị</a> để lưu dữ liệu.</span>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('form', this)">📝 Nhập phiếu</button>
+    <button class="tab" onclick="switchTab('data', this)" id="tabData">📦 Kho dữ liệu</button>
+    <button class="tab" onclick="switchTab('stats', this)">📊 Thống kê</button>
+  </div>
+
+  <!-- ============ TAB: FORM ============ -->
+  <div id="tab-form">
+
+    <!-- NHÓM THIẾT BỊ -->
+    <div class="card">
+      <div class="card-title"><span class="section-num">1</span> Nhóm thiết bị</div>
+      <div class="form-grid">
+        <div>
+          <label>Nhóm thiết bị <span class="req">*</span></label>
+          <select id="f_nhom" onchange="toggleMayTinh()">
+            <option value="">-- Chọn nhóm --</option>
+            <option>Máy tính (Laptop)</option>
+            <option>Máy tính (Desktop)</option>
+            <option>Máy in</option>
+            <option>Máy photocopy</option>
+            <option>Đầu đọc mã vạch</option>
+            <option>UPS / Bộ lưu điện</option>
+            <option>Thiết bị mạng (Switch/Router)</option>
+            <option>Điện thoại bàn (IP Phone)</option>
+            <option>Máy chiếu</option>
+            <option>Màn hình rời</option>
+            <option>Thiết bị khác</option>
+          </select>
+        </div>
+        <div>
+          <label>Tình trạng <span class="req">*</span></label>
+          <select id="f_tinhtrang">
+            <option value="">-- Chọn --</option>
+            <option>Hoạt động tốt</option>
+            <option>Hoạt động — cần nâng cấp</option>
+            <option>Hỏng — cần sửa</option>
+            <option>Hỏng — đề nghị thanh lý</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- THÔNG TIN NGƯỜI SỬ DỤNG -->
+    <div class="card">
+      <div class="card-title"><span class="section-num">2</span> Thông tin người sử dụng / đơn vị</div>
+      <div class="form-grid">
+        <div>
+          <label>Họ và tên người dùng <span class="req">*</span></label>
+          <input type="text" id="f_hoten" placeholder="Nguyễn Văn A">
+        </div>
+        <div>
+          <label>Bưu cục / Bộ phận <span class="req">*</span></label>
+          <input type="text" id="f_bophan" placeholder="Bưu cục Thành phố / Phòng CNTT">
+        </div>
+        <div>
+          <label>Chức danh</label>
+          <input type="text" id="f_chucdanh" placeholder="Giao dịch viên / Kỹ thuật viên">
+        </div>
+        <div>
+          <label>Số điện thoại</label>
+          <input type="text" id="f_sdt" placeholder="0900 000 000">
+        </div>
+      </div>
+    </div>
+
+    <!-- THÔNG TIN THIẾT BỊ -->
+    <div class="card">
+      <div class="card-title"><span class="section-num">3</span> Thông tin thiết bị</div>
+      <div class="form-grid">
+        <div>
+          <label>Hãng sản xuất</label>
+          <input type="text" id="f_hang" placeholder="Dell / HP / Lenovo…">
+        </div>
+        <div>
+          <label>Model / Tên máy</label>
+          <input type="text" id="f_model" placeholder="Inspiron 3520 / LaserJet Pro…">
+        </div>
+        <div>
+          <label>Số serial (S/N)</label>
+          <input type="text" id="f_serial" placeholder="SN1234567890">
+        </div>
+        <div>
+          <label>Mã tài sản</label>
+          <input type="text" id="f_mataiSan" placeholder="TS-2024-001">
+        </div>
+        <div>
+          <label>Năm sản xuất / mua</label>
+          <input type="text" id="f_nam" placeholder="2020">
+        </div>
+        <div>
+          <label>Nguồn gốc</label>
+          <select id="f_nguongoc">
+            <option value="">-- Chọn --</option>
+            <option>Mua mới</option>
+            <option>Cấp từ Tổng công ty</option>
+            <option>Điều chuyển nội bộ</option>
+            <option>Khác</option>
+          </select>
+        </div>
+
+        <!-- Phần chỉ hiện khi là máy tính -->
+        <div id="pc_section" style="display:none" class="form-full">
+          <hr style="margin:8px 0; border-color: var(--border)">
+          <p style="font-size:12px; color:var(--muted); margin-bottom:10px">📌 Thông số phần cứng (máy tính)</p>
+          <div class="form-grid">
+            <div>
+              <label>Tên máy (Hostname)</label>
+              <input type="text" id="f_hostname" placeholder="PC-BUUCUC-01">
+            </div>
+            <div>
+              <label>CPU</label>
+              <input type="text" id="f_cpu" placeholder="Intel Core i5-10400">
+            </div>
+            <div>
+              <label>RAM (GB)</label>
+              <input type="text" id="f_ram" placeholder="8">
+            </div>
+            <div>
+              <label>Ổ cứng</label>
+              <input type="text" id="f_hdd" placeholder="SSD 256GB">
+            </div>
+            <div>
+              <label>Địa chỉ IP</label>
+              <input type="text" id="f_ip" placeholder="192.168.1.100">
+            </div>
+            <div>
+              <label>Địa chỉ MAC</label>
+              <input type="text" id="f_mac" placeholder="AA:BB:CC:DD:EE:FF">
+            </div>
+            <div>
+              <label>Hệ điều hành</label>
+              <input type="text" id="f_os" placeholder="Windows 10 Pro 64-bit">
+            </div>
+            <div>
+              <label>Office / Phần mềm chính</label>
+              <input type="text" id="f_office" placeholder="Microsoft Office 2019">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-full">
+          <label>Ghi chú</label>
+          <textarea id="f_ghichu" placeholder="Mô tả thêm tình trạng, đề xuất, lịch sử sửa chữa…"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- THIẾT BỊ KÈM (chỉ hiện khi là máy tính) -->
+    <div class="card" id="peripheral_card" style="display:none">
+      <div class="card-title"><span class="section-num">4</span> Thiết bị dùng kèm máy tính</div>
+      <p style="font-size:12px; color:var(--muted); margin-bottom:12px">Tích để khai báo trong cùng phiếu này</p>
+      <div id="peripherals">
+        <div class="peripheral-row">
+          <input type="checkbox" id="p_mayin"> <label for="p_mayin" style="margin:0">🖨️ Máy in</label>
+          <input type="text" id="p_mayin_info" placeholder="Hãng, model, S/N" style="flex:1; display:none">
+        </div>
+        <div class="peripheral-row">
+          <input type="checkbox" id="p_barcode"> <label for="p_barcode" style="margin:0">📷 Đầu đọc mã vạch</label>
+          <input type="text" id="p_barcode_info" placeholder="Hãng, model, S/N" style="flex:1; display:none">
+        </div>
+        <div class="peripheral-row">
+          <input type="checkbox" id="p_ups"> <label for="p_ups" style="margin:0">🔋 UPS / Bộ lưu điện</label>
+          <input type="text" id="p_ups_info" placeholder="Hãng, model, công suất" style="flex:1; display:none">
+        </div>
+        <div class="peripheral-row">
+          <input type="checkbox" id="p_manhinh"> <label for="p_manhinh" style="margin:0">🖥️ Màn hình rời</label>
+          <input type="text" id="p_manhinh_info" placeholder="Hãng, kích thước, S/N" style="flex:1; display:none">
+        </div>
+      </div>
+    </div>
+
+    <!-- TỰ ĐỘNG LẤY THÔNG TIN MÁY -->
+    <div class="card" style="border: 2px dashed var(--teal); background: var(--teal-light)">
+      <div class="card-title">⚡ Tự động điền từ file BAT</div>
+      <p style="font-size:13px; color:var(--muted); margin-bottom:12px">
+        Chạy file <b>lay_thong_tin.bat</b> trước để thu thập thông tin máy, sau đó tải file JSON kết quả lên đây để tự động điền form.
+      </p>
+      <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center">
+        <button class="btn btn-accent" onclick="downloadBat()">⬇️ Tải file lay_thong_tin.bat</button>
+        <label class="btn btn-outline" style="cursor:pointer; margin:0">
+          📂 Tải file JSON kết quả
+          <input type="file" accept=".json" style="display:none" onchange="loadJsonFile(this)">
+        </label>
+      </div>
+      <div id="batStatus" style="margin-top:10px; font-size:13px; display:none"></div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:24px">
+      <button class="btn btn-primary" onclick="submitPhieu()">✅ Gửi phiếu</button>
+      <button class="btn btn-outline" onclick="resetForm()">🔄 Làm mới</button>
+    </div>
+
+  </div><!-- /tab-form -->
+
+  <!-- ============ TAB: DATA ============ -->
+  <div id="tab-data" style="display:none">
+    <div class="card">
+      <div class="card-title">📦 Dữ liệu đã ghi nhận <span id="countBadge" style="background:var(--teal);color:white;border-radius:20px;padding:2px 10px;font-size:12px;margin-left:4px">0</span></div>
+
+      <div class="filter-row">
+        <input type="text" id="filterText" placeholder="🔍 Tìm kiếm..." oninput="renderTable()">
+        <select id="filterNhom" onchange="renderTable()">
+          <option value="">Tất cả nhóm</option>
+          <option>Máy tính (Laptop)</option>
+          <option>Máy tính (Desktop)</option>
+          <option>Máy in</option>
+          <option>Máy photocopy</option>
+          <option>Đầu đọc mã vạch</option>
+          <option>UPS / Bộ lưu điện</option>
+          <option>Thiết bị mạng (Switch/Router)</option>
+          <option>Điện thoại bàn (IP Phone)</option>
+          <option>Thiết bị khác</option>
+        </select>
+        <select id="filterTT" onchange="renderTable()">
+          <option value="">Tất cả tình trạng</option>
+          <option>Hoạt động tốt</option>
+          <option>Hoạt động — cần nâng cấp</option>
+          <option>Hỏng — cần sửa</option>
+          <option>Hỏng — đề nghị thanh lý</option>
+        </select>
+        <button class="btn btn-danger btn-sm" id="btnClearData" style="display:none" onclick="clearData()">🗑️ Xóa tất cả</button>
+      </div>
+
+      <div class="table-wrap">
+        <table id="dataTable">
+          <thead>
+            <tr>
+              <th>#</th><th>Nhóm</th><th>Họ tên / Bộ phận</th>
+              <th>Hãng / Model</th><th>Serial</th><th>Tình trạng</th>
+              <th id="colActions" style="display:none">Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="dataBody"></tbody>
+        </table>
+      </div>
+      <p id="emptyMsg" style="text-align:center;color:var(--muted);padding:24px;display:none">Chưa có dữ liệu. Nhập phiếu để bắt đầu.</p>
+    </div>
+  </div>
+
+  <!-- ============ TAB: STATS ============ -->
+  <div id="tab-stats" style="display:none">
+    <div class="card">
+      <div class="card-title">📊 Tổng quan</div>
+      <div class="stats-grid" id="statsGrid"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">📋 Theo nhóm thiết bị</div>
+      <div id="statsNhom"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">🏢 Theo bưu cục / bộ phận</div>
+      <div id="statsBophan"></div>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<!-- MODAL: LOGIN -->
+<div class="modal-overlay" id="modalLogin">
+  <div class="modal">
+    <h2>🔐 Đăng nhập quản trị</h2>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:14px">
+      Nhập GitHub Personal Access Token để kết nối kho dữ liệu.<br>
+      Tạo tại: <b>GitHub → Settings → Developer settings → Fine-grained tokens</b><br>
+      Cấp quyền <b>Contents: Read &amp; Write</b> cho repo của bạn.
+    </p>
+    <label>GitHub Token <span class="req">*</span></label>
+    <input type="password" id="inputToken" placeholder="github_pat_xxx…" style="margin-bottom:10px">
+    <label>Owner / Tên tài khoản GitHub <span class="req">*</span></label>
+    <input type="text" id="inputOwner" placeholder="your-username" style="margin-bottom:10px">
+    <label>Repo <span class="req">*</span></label>
+    <input type="text" id="inputRepo" placeholder="khao-sat-thiet-bi" style="margin-bottom:10px">
+    <label>Tên file dữ liệu</label>
+    <input type="text" id="inputFile" placeholder="data.json" style="margin-bottom:4px">
+    <div class="modal-actions">
+      <button class="btn btn-outline" onclick="closeLogin()">Hủy</button>
+      <button class="btn btn-primary" onclick="doLogin()">Kết nối</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL: SETTINGS -->
+<div class="modal-overlay" id="modalSettings">
+  <div class="modal">
+    <h2>⚙️ Cài đặt ứng dụng</h2>
+    <label>Tên tổ chức / đơn vị</label>
+    <input type="text" id="sTitle" placeholder="Bưu điện tỉnh Hà Tĩnh" style="margin-bottom:10px">
+    <label>Hạn gửi phiếu</label>
+    <input type="date" id="sDeadline" style="margin-bottom:10px">
+    <label>Ghi chú hiển thị (thông tin liên hệ…)</label>
+    <textarea id="sNote" placeholder="Đ/c Nguyễn Văn A — SĐT: 0900 000 000"></textarea>
+    <div class="modal-actions">
+      <button class="btn btn-outline" onclick="closeSettings()">Hủy</button>
+      <button class="btn btn-primary" onclick="saveSettings()">Lưu</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast"></div>
+
+<script>
+// ==================== STATE ====================
+let records = [];
+let ghToken = '', ghOwner = '', ghRepo = '', ghFile = 'data.json', ghSha = '';
+let isAdmin = false;
+
+// ==================== INIT ====================
+window.onload = () => {
+  loadLocal();
+  loadSettings();
+  loadCreds();
+  togglePeripherals();
+  renderAll();
+};
+
+function loadLocal() {
+  try { records = JSON.parse(localStorage.getItem('khaosat_records') || '[]'); } catch { records = []; }
+}
+function saveLocal() {
+  localStorage.setItem('khaosat_records', JSON.stringify(records));
+}
+
+function loadCreds() {
+  ghToken = localStorage.getItem('gh_token') || '';
+  ghOwner = localStorage.getItem('gh_owner') || '';
+  ghRepo  = localStorage.getItem('gh_repo')  || '';
+  ghFile  = localStorage.getItem('gh_file')  || 'data.json';
+  if (ghToken) { isAdmin = true; updateAuthUI(); }
+}
+
+function loadSettings() {
+  const title    = localStorage.getItem('app_title')    || 'Rà soát thiết bị CNTT';
+  const subtitle = localStorage.getItem('app_org')      || 'Đơn vị';
+  const deadline = localStorage.getItem('app_deadline') || '';
+  document.getElementById('appTitle').textContent    = title;
+  document.getElementById('appSubtitle').innerHTML   = subtitle + ' · Phiếu khảo sát thiết bị · Hạn gửi: <span id="deadline">' + (deadline || '—') + '</span>';
+}
+
+// ==================== SETTINGS ====================
+function openSettings() {
+  document.getElementById('sTitle').value    = localStorage.getItem('app_title')    || '';
+  document.getElementById('sDeadline').value = localStorage.getItem('app_deadline') || '';
+  document.getElementById('sNote').value     = localStorage.getItem('app_org')      || '';
+  document.getElementById('modalSettings').classList.add('open');
+}
+function closeSettings() { document.getElementById('modalSettings').classList.remove('open'); }
+function saveSettings() {
+  localStorage.setItem('app_title',    document.getElementById('sTitle').value);
+  localStorage.setItem('app_deadline', document.getElementById('sDeadline').value);
+  localStorage.setItem('app_org',      document.getElementById('sNote').value);
+  closeSettings();
+  loadSettings();
+  showToast('Đã lưu cài đặt', 'success');
+}
+
+// ==================== AUTH ====================
+function openLogin() {
+  document.getElementById('inputToken').value = ghToken;
+  document.getElementById('inputOwner').value = ghOwner;
+  document.getElementById('inputRepo').value  = ghRepo;
+  document.getElementById('inputFile').value  = ghFile;
+  document.getElementById('modalLogin').classList.add('open');
+}
+function closeLogin() { document.getElementById('modalLogin').classList.remove('open'); }
+
+async function doLogin() {
+  const tok   = document.getElementById('inputToken').value.trim();
+  const owner = document.getElementById('inputOwner').value.trim();
+  const repo  = document.getElementById('inputRepo').value.trim();
+  const file  = document.getElementById('inputFile').value.trim() || 'data.json';
+  if (!tok || !owner || !repo) { showToast('Vui lòng điền đầy đủ', 'error'); return; }
+
+  showToast('Đang kết nối…', 'info');
+  // Test connection + load data
+  const ok = await loadFromGitHub(tok, owner, repo, file);
+  if (ok) {
+    ghToken = tok; ghOwner = owner; ghRepo = repo; ghFile = file;
+    localStorage.setItem('gh_token', tok);
+    localStorage.setItem('gh_owner', owner);
+    localStorage.setItem('gh_repo',  repo);
+    localStorage.setItem('gh_file',  file);
+    isAdmin = true;
+    updateAuthUI();
+    closeLogin();
+    renderAll();
+    showToast('✅ Kết nối thành công! Đã tải ' + records.length + ' bản ghi', 'success');
+  }
+}
+
+function doLogout() {
+  ghToken = ''; isAdmin = false;
+  localStorage.removeItem('gh_token');
+  updateAuthUI();
+  showToast('Đã đăng xuất', 'info');
+  renderAll();
+}
+
+function updateAuthUI() {
+  document.getElementById('btnLogin').style.display   = isAdmin ? 'none' : '';
+  document.getElementById('btnLogout').style.display  = isAdmin ? '' : 'none';
+  document.getElementById('btnExport').style.display  = isAdmin ? '' : 'none';
+  document.getElementById('btnClearData').style.display = isAdmin ? '' : 'none';
+  document.getElementById('colActions').style.display   = isAdmin ? '' : 'none';
+
+  const dot  = document.getElementById('statusDot');
+  const text = document.getElementById('statusText');
+  if (isAdmin) {
+    dot.className = 'status-dot dot-connected';
+    text.textContent = '✅ Đã kết nối GitHub: ' + ghOwner + '/' + ghRepo + ' (' + ghFile + ')';
+  } else {
+    dot.className = 'status-dot dot-disconnected';
+    text.innerHTML = 'Chưa kết nối. <a href="#" onclick="openLogin();return false">Đăng nhập quản trị</a> để lưu dữ liệu lên GitHub.';
+  }
+}
+
+// ==================== GITHUB API ====================
+async function loadFromGitHub(tok, owner, repo, file) {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${file}`, {
+      headers: { Authorization: 'token ' + tok, Accept: 'application/vnd.github.v3+json' }
+    });
+    if (res.status === 404) {
+      // File chưa tồn tại — OK, sẽ tạo mới khi lưu
+      records = []; ghSha = ''; return true;
+    }
+    if (!res.ok) { showToast('Lỗi kết nối GitHub: ' + res.status, 'error'); return false; }
+    const json = await res.json();
+    ghSha = json.sha;
+    const content = atob(json.content.replace(/\n/g, ''));
+    records = JSON.parse(content);
+    saveLocal();
+    return true;
+  } catch (e) {
+    showToast('Lỗi: ' + e.message, 'error');
+    return false;
+  }
+}
+
+async function saveToGitHub() {
+  if (!ghToken) return;
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(records, null, 2))));
+  const body = { message: 'Update data ' + new Date().toISOString(), content, committer: { name: 'KhaoSat App', email: 'app@khaosat.local' } };
+  if (ghSha) body.sha = ghSha;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${ghOwner}/${ghRepo}/contents/${ghFile}`, {
+      method: 'PUT',
+      headers: { Authorization: 'token ' + ghToken, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) { const e = await res.json(); showToast('Lỗi lưu GitHub: ' + (e.message||res.status), 'error'); return false; }
+    const json = await res.json();
+    ghSha = json.content.sha;
+    return true;
+  } catch (e) {
+    showToast('Lỗi mạng: ' + e.message, 'error');
+    return false;
+  }
+}
+
+// ==================== FORM ====================
+function toggleMayTinh() {
+  const nhom = document.getElementById('f_nhom').value;
+  const isPC = nhom.includes('Máy tính');
+  document.getElementById('pc_section').style.display      = isPC ? '' : 'none';
+  document.getElementById('peripheral_card').style.display = isPC ? '' : 'none';
+}
+
+// Toggle peripheral detail input
+['mayin','barcode','ups','manhinh'].forEach(id => {
+  document.getElementById('p_' + id).addEventListener('change', function() {
+    document.getElementById('p_' + id + '_info').style.display = this.checked ? 'inline-block' : 'none';
+  });
+});
+function togglePeripherals() {}
+
+function resetForm() {
+  ['f_nhom','f_tinhtrang','f_hoten','f_bophan','f_chucdanh','f_sdt',
+   'f_hang','f_model','f_serial','f_mataiSan','f_nam','f_nguongoc','f_ghichu',
+   'f_hostname','f_cpu','f_ram','f_hdd','f_ip','f_mac','f_os','f_office']
+    .forEach(id => { const el = document.getElementById(id); if(el) el.value = ''; });
+  ['mayin','barcode','ups','manhinh'].forEach(id => {
+    document.getElementById('p_' + id).checked = false;
+    document.getElementById('p_' + id + '_info').style.display = 'none';
+    document.getElementById('p_' + id + '_info').value = '';
+  });
+  toggleMayTinh();
+}
+
+async function submitPhieu() {
+  const nhom = document.getElementById('f_nhom').value;
+  const tt   = document.getElementById('f_tinhtrang').value;
+  const ten  = document.getElementById('f_hoten').value.trim();
+  const bp   = document.getElementById('f_bophan').value.trim();
+  if (!nhom || !tt || !ten || !bp) { showToast('Vui lòng điền các trường bắt buộc (*)', 'error'); return; }
+
+  const isPC = nhom.includes('Máy tính');
+  const peripherals = [];
+  ['mayin','barcode','ups','manhinh'].forEach(id => {
+    if (document.getElementById('p_' + id).checked) {
+      peripherals.push({ loai: document.getElementById('p_' + id).nextElementSibling.textContent.trim(), info: document.getElementById('p_' + id + '_info').value });
+    }
+  });
+
+  const phieu = {
+    id: Date.now(),
+    thoiGian: new Date().toLocaleString('vi-VN'),
+    nhom, tinhtrang: tt, hoten: ten, bophan: bp,
+    chucdanh: document.getElementById('f_chucdanh').value,
+    sdt:      document.getElementById('f_sdt').value,
+    hang:     document.getElementById('f_hang').value,
+    model:    document.getElementById('f_model').value,
+    serial:   document.getElementById('f_serial').value,
+    mataiSan: document.getElementById('f_mataiSan').value,
+    nam:      document.getElementById('f_nam').value,
+    nguongoc: document.getElementById('f_nguongoc').value,
+    ghichu:   document.getElementById('f_ghichu').value,
+    ...(isPC ? {
+      hostname: document.getElementById('f_hostname').value,
+      cpu:      document.getElementById('f_cpu').value,
+      ram:      document.getElementById('f_ram').value,
+      hdd:      document.getElementById('f_hdd').value,
+      ip:       document.getElementById('f_ip').value,
+      mac:      document.getElementById('f_mac').value,
+      os:       document.getElementById('f_os').value,
+      office:   document.getElementById('f_office').value,
+    } : {}),
+    peripherals
+  };
+
+  records.push(phieu);
+  saveLocal();
+
+  if (ghToken) {
+    showToast('Đang lưu lên GitHub…', 'info');
+    const ok = await saveToGitHub();
+    if (ok) showToast('✅ Đã gửi phiếu thành công!', 'success');
+  } else {
+    showToast('✅ Đã lưu phiếu (chưa kết nối GitHub)', 'success');
+  }
+
+  resetForm();
+  renderAll();
+}
+
+// ==================== TABLE ====================
+function renderTable() {
+  const q     = document.getElementById('filterText').value.toLowerCase();
+  const nhom  = document.getElementById('filterNhom').value;
+  const tt    = document.getElementById('filterTT').value;
+
+  let filtered = records.filter(r => {
+    const hay = (r.hoten+r.bophan+r.hang+r.model+r.serial+r.nhom).toLowerCase();
+    return (!q || hay.includes(q)) && (!nhom || r.nhom === nhom) && (!tt || r.tinhtrang === tt);
+  });
+
+  const tbody = document.getElementById('dataBody');
+  document.getElementById('countBadge').textContent = records.length;
+  document.getElementById('emptyMsg').style.display = records.length === 0 ? '' : 'none';
+
+  tbody.innerHTML = filtered.map((r,i) => `
+    <tr>
+      <td>${i+1}</td>
+      <td>${r.nhom}</td>
+      <td><b>${r.hoten}</b><br><small style="color:var(--muted)">${r.bophan}</small></td>
+      <td>${r.hang||'—'} ${r.model||''}</td>
+      <td style="font-family:monospace;font-size:12px">${r.serial||'—'}</td>
+      <td>${badgeHTML(r.tinhtrang)}</td>
+      <td style="display:${isAdmin?'':'none'}">
+        <button class="btn btn-danger btn-sm" onclick="deleteRecord(${r.id})">🗑️</button>
+      </td>
+    </tr>
+  `).join('');
+}
+
+function badgeHTML(tt) {
+  if (!tt) return '—';
+  if (tt.includes('tốt'))      return `<span class="badge badge-ok">${tt}</span>`;
+  if (tt.includes('nâng cấp')) return `<span class="badge badge-warn">${tt}</span>`;
+  return `<span class="badge badge-bad">${tt}</span>`;
+}
+
+async function deleteRecord(id) {
+  if (!confirm('Xóa bản ghi này?')) return;
+  records = records.filter(r => r.id !== id);
+  saveLocal();
+  if (ghToken) await saveToGitHub();
+  renderAll();
+  showToast('Đã xóa', 'info');
+}
+
+async function clearData() {
+  if (!confirm('Xóa TOÀN BỘ dữ liệu? Không thể hoàn tác.')) return;
+  records = [];
+  saveLocal();
+  if (ghToken) await saveToGitHub();
+  renderAll();
+  showToast('Đã xóa toàn bộ dữ liệu', 'info');
+}
+
+// ==================== STATS ====================
+function renderStats() {
+  // Tổng quan
+  const total = records.length;
+  const hoatDong = records.filter(r => r.tinhtrang && r.tinhtrang.includes('Hoạt động')).length;
+  const hong = records.filter(r => r.tinhtrang && r.tinhtrang.includes('Hỏng')).length;
+  const bophanSet = new Set(records.map(r => r.bophan).filter(Boolean));
+
+  document.getElementById('statsGrid').innerHTML = `
+    <div class="stat-card"><div class="stat-val">${total}</div><div class="stat-lbl">Tổng bản ghi</div></div>
+    <div class="stat-card"><div class="stat-val" style="color:var(--green)">${hoatDong}</div><div class="stat-lbl">Hoạt động</div></div>
+    <div class="stat-card"><div class="stat-val" style="color:var(--red)">${hong}</div><div class="stat-lbl">Hỏng / Cần sửa</div></div>
+    <div class="stat-card"><div class="stat-val">${bophanSet.size}</div><div class="stat-lbl">Bưu cục / Bộ phận</div></div>
+  `;
+
+  // Theo nhóm
+  const nhomMap = {};
+  records.forEach(r => { nhomMap[r.nhom] = (nhomMap[r.nhom]||0) + 1; });
+  document.getElementById('statsNhom').innerHTML = Object.entries(nhomMap).sort((a,b)=>b[1]-a[1]).map(([n,c]) => `
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+      <div style="width:${Math.round(c/total*200)}px;min-width:4px;height:20px;background:var(--teal);border-radius:4px"></div>
+      <span style="font-size:13px">${n}</span>
+      <b style="margin-left:auto;color:var(--teal)">${c}</b>
+    </div>
+  `).join('') || '<p style="color:var(--muted)">Chưa có dữ liệu</p>';
+
+  // Theo bộ phận
+  const bpMap = {};
+  records.forEach(r => { if(r.bophan) bpMap[r.bophan] = (bpMap[r.bophan]||0) + 1; });
+  document.getElementById('statsBophan').innerHTML = Object.entries(bpMap).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([n,c]) => `
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+      <span style="font-size:13px;flex:1">${n}</span>
+      <div style="width:${Math.round(c/total*180)}px;min-width:4px;height:16px;background:var(--accent);border-radius:4px"></div>
+      <b style="color:var(--accent);min-width:24px;text-align:right">${c}</b>
+    </div>
+  `).join('') || '<p style="color:var(--muted)">Chưa có dữ liệu</p>';
+}
+
+// ==================== EXPORT ====================
+function exportExcel() {
+  if (records.length === 0) { showToast('Không có dữ liệu để xuất', 'error'); return; }
+  const rows = records.map(r => ({
+    'Thời gian': r.thoiGian, 'Nhóm': r.nhom, 'Tình trạng': r.tinhtrang,
+    'Họ tên': r.hoten, 'Bộ phận': r.bophan, 'Chức danh': r.chucdanh||'',
+    'SĐT': r.sdt||'', 'Hãng': r.hang||'', 'Model': r.model||'',
+    'Serial': r.serial||'', 'Mã tài sản': r.mataiSan||'', 'Năm mua': r.nam||'',
+    'Nguồn gốc': r.nguongoc||'', 'Hostname': r.hostname||'', 'CPU': r.cpu||'',
+    'RAM (GB)': r.ram||'', 'Ổ cứng': r.hdd||'', 'IP': r.ip||'', 'MAC': r.mac||'',
+    'OS': r.os||'', 'Office': r.office||'', 'Ghi chú': r.ghichu||''
+  }));
+  const ws = XLSX.utils.json_to_sheet(rows);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'DuLieu');
+  XLSX.writeFile(wb, 'khaosat_thietbi_' + new Date().toLocaleDateString('vi-VN').replace(/\//g,'-') + '.xlsx');
+  showToast('Đã xuất Excel!', 'success');
+}
+
+// ==================== TABS ====================
+function switchTab(name, el) {
+  ['form','data','stats'].forEach(t => document.getElementById('tab-'+t).style.display = 'none');
+  document.getElementById('tab-'+name).style.display = '';
+  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  if (name === 'data')  renderTable();
+  if (name === 'stats') renderStats();
+}
+
+function renderAll() {
+  renderTable();
+  renderStats();
+}
+
+// ==================== BAT + JSON AUTO-FILL ====================
+function downloadBat() {
+  // Nội dung rút gọn của file bat (phiên bản inline để tải)
+  const batContent = `@echo off\r\nchcp 65001 >nul 2>&1\r\nsetlocal EnableDelayedExpansion\r\ntitle Lay thong tin may tinh...\r\ncolor 0A\r\necho.\r\necho  Dang thu thap thong tin may, vui long cho...\r\necho.\r\nset "OUTFILE=%~dp0thong_tin_may.json"\r\nset "HOSTNAME_VAL=%COMPUTERNAME%"\r\nset "USERNAME_VAL=%USERNAME%"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic computersystem get manufacturer 2^>nul') do if not defined MFR set "MFR=%%i"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic computersystem get model 2^>nul') do if not defined MDL set "MDL=%%i"\r\nfor /f "tokens=* delims= " %%a in ("!MFR!") do set "MFR=%%a"\r\nfor /f "tokens=* delims= " %%a in ("!MDL!") do set "MDL=%%a"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic bios get serialnumber 2^>nul') do if not defined SN set "SN=%%i"\r\nfor /f "tokens=* delims= " %%a in ("!SN!") do set "SN=%%a"\r\nif /i "!SN!"=="To be filled by O.E.M." set "SN="\r\nfor /f "skip=1 tokens=*" %%i in ('wmic cpu get name 2^>nul') do if not defined CPU set "CPU=%%i"\r\nfor /f "tokens=* delims= " %%a in ("!CPU!") do set "CPU=%%a"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic computersystem get TotalPhysicalMemory 2^>nul') do if not defined RAM_BYTES set "RAM_BYTES=%%i"\r\nfor /f %%r in ('powershell -nologo -command "try{[math]::Round(%RAM_BYTES%/1GB,1)}catch{0}" 2^>nul') do set "RAM_GB=%%r"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic diskdrive get model 2^>nul') do if not defined HDD set "HDD=%%i"\r\nfor /f "tokens=* delims= " %%a in ("!HDD!") do set "HDD=%%a"\r\nfor /f "tokens=2 delims=:" %%i in ('ipconfig 2^>nul ^| findstr /i "IPv4"') do if not defined IP for /f "tokens=* delims= " %%a in ("%%i") do set "IP=%%a"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic nic where "NetEnabled=True" get MACAddress 2^>nul') do if not defined MAC set "MAC=%%i"\r\nfor /f "tokens=* delims= " %%a in ("!MAC!") do set "MAC=%%a"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic os get caption 2^>nul') do if not defined OS set "OS=%%i"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic os get osarchitecture 2^>nul') do if not defined ARCH set "ARCH=%%i"\r\nfor /f "tokens=* delims= " %%a in ("!OS!") do set "OS=%%a"\r\nfor /f "tokens=* delims= " %%a in ("!ARCH!") do set "ARCH=%%a"\r\nset "OFFICE=Khong tim thay"\r\nif exist "%ProgramFiles%\\Microsoft Office\\root\\Office16\\WINWORD.EXE" set "OFFICE=Microsoft Office 2016/2019/365"\r\nif exist "%ProgramFiles(x86)%\\Microsoft Office\\root\\Office16\\WINWORD.EXE" set "OFFICE=Microsoft Office 2016/2019/365"\r\nif exist "%ProgramFiles%\\Microsoft Office\\Office15\\WINWORD.EXE" set "OFFICE=Microsoft Office 2013"\r\nset "PC_TYPE=Desktop"\r\nfor /f "skip=1 tokens=*" %%i in ('wmic systemenclosure get chassistypes 2^>nul') do if not defined CHASSIS set "CHASSIS=%%i"\r\necho !CHASSIS! | findstr /r "{8}" >nul 2>&1 && set "PC_TYPE=Laptop"\r\necho !CHASSIS! | findstr /r "{9}" >nul 2>&1 && set "PC_TYPE=Laptop"\r\necho !CHASSIS! | findstr /r "{10}" >nul 2>&1 && set "PC_TYPE=Laptop"\r\necho { > "!OUTFILE!"\r\necho   "hostname": "!HOSTNAME_VAL!", >> "!OUTFILE!"\r\necho   "username": "!USERNAME_VAL!", >> "!OUTFILE!"\r\necho   "hang":     "!MFR!", >> "!OUTFILE!"\r\necho   "model":    "!MDL!", >> "!OUTFILE!"\r\necho   "serial":   "!SN!", >> "!OUTFILE!"\r\necho   "cpu":      "!CPU!", >> "!OUTFILE!"\r\necho   "ram":      "!RAM_GB!", >> "!OUTFILE!"\r\necho   "hdd":      "!HDD!", >> "!OUTFILE!"\r\necho   "ip":       "!IP!", >> "!OUTFILE!"\r\necho   "mac":      "!MAC!", >> "!OUTFILE!"\r\necho   "os":       "!OS! !ARCH!", >> "!OUTFILE!"\r\necho   "office":   "!OFFICE!", >> "!OUTFILE!"\r\necho   "loai":     "!PC_TYPE!", >> "!OUTFILE!"\r\necho   "timestamp": "%date% %time%" >> "!OUTFILE!"\r\necho } >> "!OUTFILE!"\r\necho.\r\necho  Da ghi file: !OUTFILE!\r\necho  Hay tai file nay len trang web de tu dong dien form.\r\necho.\r\necho  Nhan phim bat ky de dong...\r\npause >nul\r\n`;
+  const blob = new Blob([batContent], { type: 'application/octet-stream' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'lay_thong_tin.bat';
+  a.click();
+  showToast('✅ Đã tải file lay_thong_tin.bat', 'success');
+}
+
+function loadJsonFile(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const d = JSON.parse(e.target.result);
+      autoFillFromData(d);
+    } catch(err) {
+      showToast('❌ File JSON không hợp lệ: ' + err.message, 'error');
+    }
+  };
+  reader.readAsText(file, 'utf-8');
+}
+
+function autoFillFromData(d) {
+  const set = (id, val) => { const el = document.getElementById(id); if(el && val) el.value = val; };
+
+  // Chọn nhóm máy tính
+  const nhomEl = document.getElementById('f_nhom');
+  if (d.loai === 'Laptop') nhomEl.value = 'Máy tính (Laptop)';
+  else nhomEl.value = 'Máy tính (Desktop)';
+  toggleMayTinh();
+
+  // Thông tin thiết bị
+  set('f_hang',     d.hang);
+  set('f_model',    d.model);
+  set('f_serial',   d.serial);
+  set('f_hostname', d.hostname);
+  set('f_cpu',      d.cpu);
+  set('f_ram',      d.ram ? d.ram + ' GB' : '');
+  set('f_hdd',      d.hdd);
+  set('f_ip',       d.ip);
+  set('f_mac',      d.mac);
+  set('f_os',       d.os);
+  set('f_office',   d.office);
+
+  // Hiển thị trạng thái
+  const st = document.getElementById('batStatus');
+  st.style.display = '';
+  st.innerHTML = `✅ <b>Đã điền tự động!</b> Máy: <b>${d.hang||''} ${d.model||''}</b> | 
+    Hostname: <b>${d.hostname||'—'}</b> | Serial: <b>${d.serial||'—'}</b> | 
+    IP: <b>${d.ip||'—'}</b> | Thu thập lúc: <i>${d.timestamp||'—'}</i>`;
+  st.style.color = 'var(--teal)';
+
+  // Scroll xuống phần thông tin người dùng
+  document.getElementById('f_hoten').focus();
+  showToast('✅ Đã tự động điền thông tin máy!', 'success');
+}
+
+// ==================== BAT + JSON AUTO-FILL ====================
+let toastTimer;
+function showToast(msg, type='info') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'show ' + type;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.className = ''; }, 3000);
+}
+</script>
+</body>
+</html>
