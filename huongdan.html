@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hướng dẫn rà soát thiết bị CNTT</title>
+
+<style>
+:root{
+    --primary:#0f5260;
+    --secondary:#eef5f6;
+    --border:#d8dee3;
+    --text:#243447;
+    --muted:#6b7280;
+    --danger:#dc2626;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background:#f3f5f7;
+    color:var(--text);
+    line-height:1.6;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:24px;
+}
+
+.header{
+    background:var(--primary);
+    color:#fff;
+    border-radius:18px;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    gap:24px;
+    margin-bottom:24px;
+}
+
+.header-icon{
+    font-size:64px;
+}
+
+.header h1{
+    font-size:42px;
+    margin-bottom:8px;
+}
+
+.header p{
+    font-size:18px;
+    opacity:.9;
+}
+
+.website-box{
+    background:#edf7f5;
+    border:2px solid #9fd0c5;
+    border-radius:14px;
+    padding:20px;
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+    margin-bottom:35px;
+}
+
+.website-box .icon{
+    font-size:34px;
+}
+
+.website-box h3{
+    color:#0f766e;
+    margin-bottom:4px;
+}
+
+.website-box a{
+    color:#0f766e;
+    font-size:30px;
+    font-weight:700;
+    text-decoration:none;
+    word-break:break-all;
+}
+
+.section-title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:35px 0 18px;
+}
+
+.section-number{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:var(--primary);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+}
+
+.section-title h2{
+    font-size:34px;
+    color:#114b5f;
+}
+
+.step{
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:22px;
+    display:flex;
+    gap:18px;
+    margin-bottom:18px;
+}
+
+.step-number{
+    min-width:42px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:var(--primary);
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    font-size:20px;
+}
+
+.step h3{
+    font-size:28px;
+    margin-bottom:6px;
+}
+
+.step p{
+    font-size:22px;
+    color:#475569;
+}
+
+.warning{
+    color:#ca8a04;
+    font-weight:600;
+    margin-top:6px;
+}
+
+.table-wrapper{
+    background:#fff;
+    border-radius:16px;
+    overflow:hidden;
+    border:1px solid var(--border);
+    margin-top:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#f1f5f9;
+    text-align:left;
+    padding:16px;
+    font-size:18px;
+}
+
+td{
+    padding:16px;
+    border-top:1px solid #e5e7eb;
+    font-size:17px;
+}
+
+.required{
+    color:var(--danger);
+    font-weight:700;
+}
+
+.note{
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:24px;
+    margin-top:24px;
+}
+
+.note h3{
+    margin-bottom:12px;
+    color:#114b5f;
+}
+
+.note ul{
+    padding-left:20px;
+}
+
+.note li{
+    margin-bottom:10px;
+}
+
+.faq{
+    margin-top:30px;
+}
+
+.faq h2{
+    margin-bottom:15px;
+    color:#114b5f;
+}
+
+details{
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:12px;
+    margin-bottom:12px;
+    padding:15px 18px;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:600;
+    font-size:18px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:40px;
+    color:var(--muted);
+    padding:20px;
+}
+
+.actions{
+    text-align:center;
+    margin-top:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:var(--primary);
+    color:#fff;
+    padding:14px 26px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+    .header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .header h1{
+        font-size:30px;
+    }
+
+    .website-box a{
+        font-size:20px;
+    }
+
+    .section-title h2{
+        font-size:24px;
+    }
+
+    .step h3{
+        font-size:22px;
+    }
+
+    .step p{
+        font-size:17px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="header-icon">💻</div>
+        <div>
+            <h1>Hướng dẫn rà soát thiết bị CNTT</h1>
+            <p>Bưu điện tỉnh Hà Tĩnh · CV 2366/BĐVN-CNTT ngày 02/06/2026 · Hạn gửi: 15/06/2026</p>
+        </div>
+    </div>
+
+    <div class="website-box">
+        <div class="icon">🌐</div>
+        <div>
+            <h3>Địa chỉ trang web rà soát:</h3>
+            <a href="https://nguyennam90.github.io/Check_thiet_bi/" target="_blank">
+                https://nguyennam90.github.io/Check_thiet_bi/
+            </a>
+            <p>Mở bằng Chrome hoặc Edge – không cần cài đặt phần mềm</p>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <div class="section-number">1</div>
+        <h2>Rà soát máy tính (Laptop / Desktop)</h2>
+    </div>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <div>
+            <h3>Mở trang web và nhấn "Làm mới thông tin máy"</h3>
+            <p>Hệ thống sẽ tự động lấy thông tin máy tính của bạn (hostname, CPU, RAM, ổ cứng, IP, MAC, serial...).</p>
+            <p class="warning">⚠ Lần đầu: trang sẽ tải xuống file lay_thong_tin.bat — hãy chạy file đó, sau đó quay lại trang.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <div>
+            <h3>Điền thông tin người sử dụng</h3>
+            <p>Các trường <span class="required">*</span> màu đỏ là bắt buộc. Các trường còn lại có thể bỏ qua nếu không có thông tin.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">3</div>
+        <div>
+            <h3>Tích chọn thiết bị đang dùng kèm (nếu có)</h3>
+            <p>Máy in, đầu đọc mã vạch, UPS… — tích vào ô tương ứng phía dưới form, điền hãng và số S/N nếu biết.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">4</div>
+        <div>
+            <h3>Nhấn "Gửi phiếu"</h3>
+            <p>Phiếu sẽ được lưu tự động lên hệ thống. Thông báo ✅ Đã gửi phiếu thành công nghĩa là hoàn tất.</p>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <div class="section-number">2</div>
+        <h2>Rà soát máy in, thiết bị mạng và thiết bị khác</h2>
+    </div>
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <div>
+            <h3>Chọn đúng nhóm thiết bị</h3>
+            <p>Ở ô "Nhóm thiết bị" đầu form, chọn nhóm phù hợp: Máy In Laser, Máy In Nhiệt, Máy Photocopy, Đầu Đọc Mã Vạch, Thiết Bị Mạng, Cân Điện Tử hoặc Thiết Bị Khác.</p>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-number">2</div>
+        <div>
+            <h3>Điền thông tin thiết bị và nhấn "Gửi phiếu"</h3>
+            <p>Mỗi thiết bị cần 1 phiếu riêng. Sau khi gửi, nhấn "Tạo phiếu mới" để tiếp tục thiết bị tiếp theo.</p>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <div class="section-number">3</div>
+        <h2>Các trường thông tin cần điền</h2>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Trường thông tin</th>
+                    <th>Yêu cầu</th>
+                    <th>Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tên Bưu cục</td>
+                    <td class="required">* Bắt buộc</td>
+                    <td>Tên đơn vị bưu cục đang công tác</td>
+                </tr>
+                <tr>
+                    <td>Họ và tên người sử dụng</td>
+                    <td class="required">* Bắt buộc</td>
+                    <td>Người trực tiếp sử dụng thiết bị</td>
+                </tr>
+                <tr>
+                    <td>Bộ phận / Phòng ban</td>
+                    <td class="required">* Bắt buộc</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tên tài sản (Theo danh mục CCDC)</td>
+                    <td class="required">* Bắt buộc</td>
+                    <td>Ví dụ: Laptop, Máy in laser A4</td>
+                </tr>
+                <tr>
+                    <td>Tình trạng</td>
+                    <td class="required">* Bắt buộc</td>
+                    <td>Tốt / Hỏng / Cần sửa chữa / Đề xuất thanh lý</td>
+                </tr>
+                <tr>
+                    <td>Serial Number</td>
+                    <td>Tùy chọn</td>
+                    <td>Dãy số/chữ in trên nhãn thiết bị</td>
+                </tr>
+                <tr>
+                    <td>Hãng, Model</td>
+                    <td>Tùy chọn</td>
+                    <td>Tự động điền khi chạy file lấy thông tin máy</td>
+                </tr>
+                <tr>
+                    <td>Mã vật tư</td>
+                    <td>Tùy chọn</td>
+                    <td>Điền nếu có phiếu kê tài sản</td>
+                </tr>
+                <tr>
+                    <td>Năm sản xuất</td>
+                    <td>Tùy chọn</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Office / Antivirus</td>
+                    <td>Tùy chọn</td>
+                    <td>Tự động điền khi chạy file lấy thông tin máy</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="note">
+        <h3>📌 Lưu ý</h3>
+        <ul>
+            <li>Nếu máy tính không kết nối internet, không thể sử dụng công cụ này — hãy báo quản trị viên.</li>
+            <li>Mỗi người điền 1 phiếu cho mỗi thiết bị. Máy in dùng kèm máy tính → tích trong phiếu máy tính, không cần tạo phiếu riêng.</li>
+            <li>Không thống kê: Server chuyên dụng, NAS, SAN.</li>
+        </ul>
+    </div>
+
+    <div class="faq">
+        <h2>Câu hỏi thường gặp</h2>
+
+        <details>
+            <summary>Nhấn "Làm mới thông tin máy" nhưng không có gì xảy ra?</summary>
+            <p>Kiểm tra trình duyệt và chạy file lay_thong_tin.bat khi được tải xuống lần đầu.</p>
+        </details>
+
+        <details>
+            <summary>Không nhớ mã vật tư, phải làm sao?</summary>
+            <p>Có thể bỏ qua nếu chưa có thông tin hoặc liên hệ quản lý tài sản.</p>
+        </details>
+
+        <details>
+            <summary>Nhấn "Gửi phiếu" nhưng báo lỗi đỏ?</summary>
+            <p>Kiểm tra các trường bắt buộc và kết nối internet.</p>
+        </details>
+
+        <details>
+            <summary>Một máy tính có nhiều người dùng thì điền thế nào?</summary>
+            <p>Người trực tiếp sử dụng chính điền thông tin và gửi phiếu.</p>
+        </details>
+
+        <details>
+            <summary>Gửi rồi có thể sửa lại không?</summary>
+            <p>Liên hệ bộ phận CNTT để được hỗ trợ cập nhật thông tin.</p>
+        </details>
+    </div>
+
+    <div class="actions">
+        <a class="btn" href="#" onclick="window.print()">🖨 In hướng dẫn</a>
+    </div>
+
+    <div class="footer">
+        <p>Bưu điện tỉnh Hà Tĩnh · Phòng/Bộ phận CNTT · 2026</p>
+        <p>
+            <a href="https://nguyennam90.github.io/Check_thiet_bi/">
+                https://nguyennam90.github.io/Check_thiet_bi/
+            </a>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
