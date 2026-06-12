@@ -63,5 +63,40 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781247004216,
+    "thoiGian": "13:50:04 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Trinh",
+    "bophan": "BCP Khánh Bình",
+    "chucdanh": "NVNV",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCPKB-02",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30 ATA Device  ",
+    "ip": "10.72.221.8",
+    "mac": "FC:AA:14:5A:D8:F8  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Symbol"
+      }
+    ]
   }
 ]
