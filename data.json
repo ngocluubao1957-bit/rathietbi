@@ -682,5 +682,40 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2013",
     "peripherals": []
+  },
+  {
+    "id": 1781260319425,
+    "thoiGian": "17:31:59 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyễn Đức Dương Dũng",
+    "bophan": "BCP Mỹ Phước 3",
+    "chucdanh": "XLNV",
+    "sdt": "0334470435",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BCPMP3-00",
+    "cpu": "Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Kingmax PCIe SSD 128GB  ",
+    "ip": "10.72.170.7",
+    "mac": "F0:2F:74:8B:7C:AE  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
