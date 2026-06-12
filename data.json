@@ -308,5 +308,36 @@
         "info": "HP 24inch"
       }
     ]
+  },
+  {
+    "id": 1781253917847,
+    "thoiGian": "15:45:17 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "CAO THỊ MỸ TRANG",
+    "bophan": "BCP BẮC TÂN UYÊN",
+    "chucdanh": "GĐ BCVH",
+    "sdt": "0948484873",
+    "hang": "dell",
+    "model": "optiplex5060",
+    "serial": "G6S5TR2",
+    "mataiSan": "",
+    "nam": "2028",
+    "nguongoc": "Mua mới",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCPBTU-6",
+    "cpu": "INTEL(R)CORE(TM) I3-8100 CPU @ 3.10gh",
+    "ram": "",
+    "hdd": "238.47GB",
+    "ip": "10.72.219.7",
+    "mac": "B8-85-84-AB-02-4C",
+    "os": "Windows 10 Pro",
+    "office": "microsoft office professional plus 2016",
+    "peripherals": [
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
