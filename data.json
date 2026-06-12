@@ -595,5 +595,40 @@
         "info": "PHILIPS 19inch"
       }
     ]
+  },
+  {
+    "id": 1781259414828,
+    "thoiGian": "17:16:54 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bùi Thị Diễm Trinh",
+    "bophan": "BCP TDM",
+    "chucdanh": "NVXLNV",
+    "sdt": "",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TDM-BCP-TR",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "KINGSTON SA400S37120G  ",
+    "ip": "10.72.137.200",
+    "mac": "0C:9D:92:CA:7A:47  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "ZEBRA"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
