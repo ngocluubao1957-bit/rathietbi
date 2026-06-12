@@ -443,5 +443,44 @@
         "info": "HP 19 inch"
       }
     ]
+  },
+  {
+    "id": 1781256626820,
+    "thoiGian": "16:30:26 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Lê Huỳnh Phương Trinh",
+    "bophan": "Services Hub Dĩ An",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-DAKHL-TRINH",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Lexar 128GB SSD ATA Device         ",
+    "ip": "10.72.154.166",
+    "mac": "74:D4:35:DE:47:90  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "MINJCODE"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "SAMSUNG 22 inch"
+      }
+    ]
   }
 ]
