@@ -277,5 +277,36 @@
         "info": "Zebra DS22"
       }
     ]
+  },
+  {
+    "id": 1781251040466,
+    "thoiGian": "14:57:20 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phùng Thái Dương",
+    "bophan": "DVVH5",
+    "chucdanh": "Tin học",
+    "sdt": "0918488736",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "Điều chuyển nội bộ",
+    "ghichu": "",
+    "hostname": "DVVH5-DUONGPT",
+    "cpu": "Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz  ",
+    "ram": "11.9 GB",
+    "hdd": "KINGSTON SA400S37240G  ",
+    "ip": "10.72.134.31",
+    "mac": "4C:ED:FB:3D:A5:6E  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "HP 24inch"
+      }
+    ]
   }
 ]
