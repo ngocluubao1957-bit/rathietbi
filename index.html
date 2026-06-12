@@ -500,7 +500,7 @@
   <div class="modal">
     <h2>⚙️ Cài đặt ứng dụng</h2>
     <label>Tên tổ chức / đơn vị</label>
-    <input type="text" id="sTitle" placeholder="Bưu điện Hồ Chí Minh" style="margin-bottom:10px">
+    <input type="text" id="sTitle" placeholder="Bưu điện tỉnh Hà Tĩnh" style="margin-bottom:10px">
     <label>Hạn gửi phiếu</label>
     <input type="date" id="sDeadline" style="margin-bottom:10px">
     <label>Ghi chú hiển thị (thông tin liên hệ…)</label>
@@ -533,6 +533,13 @@ const CONFIG = {
 let records = [];
 let ghToken = '', ghOwner = '', ghRepo = '', ghFile = 'data.json', ghSha = '';
 let isAdmin = false;
+
+function saveLocal() {
+  try { localStorage.setItem('khaosat_records', JSON.stringify(records)); } catch(e) {}
+}
+function loadLocalCache() {
+  try { return JSON.parse(localStorage.getItem('khaosat_records') || '[]'); } catch { return []; }
+}
 
 // ==================== INIT ====================
 window.onload = () => {
@@ -1051,7 +1058,7 @@ function autoFillFromData(d) {
   showToast('✅ Đã tự động điền thông tin máy!', 'success');
 }
 
-// ==================== BAT + JSON AUTO-FILL ===================
+// ==================== BAT + JSON AUTO-FILL ====================
 // Phím tắt bí mật vào chế độ admin: Ctrl+Shift+A
 document.addEventListener('keydown', e => {
   if (e.ctrlKey && e.shiftKey && e.key === 'A') { e.preventDefault(); openLogin(); }
