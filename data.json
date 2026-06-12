@@ -717,5 +717,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1781275420364,
+    "thoiGian": "21:43:40 12/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Mai Trung Đăng",
+    "bophan": "Service Hub Bến Cát",
+    "chucdanh": "Giám Đốc BCVH",
+    "sdt": "0944929678",
+    "hang": "HP            ",
+    "model": "HP Laptop 15s-fq2xxx  ",
+    "serial": "5CD2120PFL    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "PC-100822",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe INTEL SSDPEKNW512G8H  ",
+    "ip": "10.72.105.13",
+    "mac": "D8:80:83:20:49:AF  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
