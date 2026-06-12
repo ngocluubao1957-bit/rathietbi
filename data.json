@@ -339,5 +339,31 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781255445788,
+    "thoiGian": "16:10:45 12/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Mai Trung Đăng",
+    "bophan": "Services hub Bến Cát",
+    "chucdanh": "",
+    "sdt": "0944929678",
+    "hang": "HP",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": []
   }
 ]
