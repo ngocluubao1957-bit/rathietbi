@@ -172,5 +172,40 @@
         "info": "DELL 14 inch (nhoè)"
       }
     ]
+  },
+  {
+    "id": 1781248479247,
+    "thoiGian": "14:14:39 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phùng Thái Dương",
+    "bophan": "BCP Vĩnh Tân",
+    "chucdanh": "NVNV",
+    "sdt": "0918488736",
+    "hang": "BIOSTAR Group  ",
+    "model": "H81MHV3  ",
+    "serial": "None          ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCPVT-2",
+    "cpu": "Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "BR25 UDISK USB Device  ",
+    "ip": "10.72.150.150",
+    "mac": "B8:97:5A:E7:54:09  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Symbol LI4278"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "HP 19 inch"
+      }
+    ]
   }
 ]
