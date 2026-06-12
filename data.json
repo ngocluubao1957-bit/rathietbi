@@ -521,5 +521,44 @@
         "info": "HP 19 inch"
       }
     ]
+  },
+  {
+    "id": 1781258701965,
+    "thoiGian": "17:05:01 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "NGUYỄN THỊ QUỲNH HƯƠNG",
+    "bophan": "BCP DĨ AN",
+    "chucdanh": "NVXLNV",
+    "sdt": "",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "CANON 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "ZEBRA"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "DELL 19INCH"
+      }
+    ]
   }
 ]
