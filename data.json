@@ -24,5 +24,44 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2013",
     "peripherals": []
+  },
+  {
+    "id": 1781246656703,
+    "thoiGian": "13:44:16 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Phúc Hiền",
+    "bophan": "BCP Khánh Bình",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H81M-DS2  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCPKB-01",
+    "cpu": "Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz  ",
+    "ram": "9.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30  ",
+    "ip": "10.72.221.3",
+    "mac": "1C:1B:0D:98:C5:AB  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, Zebra ZD620"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
