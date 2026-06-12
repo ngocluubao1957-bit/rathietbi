@@ -365,5 +365,44 @@
     "os": "",
     "office": "",
     "peripherals": []
+  },
+  {
+    "id": 1781256019812,
+    "thoiGian": "16:20:19 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lê Thị Anh",
+    "bophan": "Services Hub Dĩ An",
+    "chucdanh": "GDV",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "B2SK862       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-DAKHL-ANH",
+    "cpu": "Intel(R) Core(TM) i3-4160T CPU @ 3.10GHz  ",
+    "ram": "7.4 GB",
+    "hdd": "Lexar 128GB SSD  ",
+    "ip": "10.72.154.168",
+    "mac": "64:00:6A:09:51:F4  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "DATAMAX"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "PHILIPS 24 inch"
+      }
+    ]
   }
 ]
