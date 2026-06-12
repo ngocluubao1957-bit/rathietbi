@@ -656,5 +656,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781259881203,
+    "thoiGian": "17:24:41 12/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phung Thai Duong",
+    "bophan": "TTVH5",
+    "chucdanh": "Tin hoc",
+    "sdt": "0918488736",
+    "hang": "HP            ",
+    "model": "HP Laptop 15s-du1xxx  ",
+    "serial": "CND1506TBB    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "TRAIMOILON",
+    "cpu": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "SK hynix BC711 HFM256GD3JX013N  ",
+    "ip": "10.74.0.49",
+    "mac": "4C:D5:77:74:3C:FF  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
   }
 ]
