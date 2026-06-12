@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": 1781246459592,
+    "thoiGian": "13:40:59 12/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phùng Thái Dương",
+    "bophan": "TTVH5",
+    "chucdanh": "Tin học",
+    "sdt": "0918488736",
+    "hang": "HP            ",
+    "model": "HP Laptop 15s-du1xxx  ",
+    "serial": "CND1506TBB    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "TRAIMOILON",
+    "cpu": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "SK hynix BC711 HFM256GD3JX013N  ",
+    "ip": "10.72.150.146",
+    "mac": "00:E0:4C:36:58:52  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
+  }
+]
