@@ -207,5 +207,40 @@
         "info": "HP 19 inch"
       }
     ]
+  },
+  {
+    "id": 1781250598305,
+    "thoiGian": "14:49:58 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Võ Thị Kim Quyên",
+    "bophan": "BCP Bình An",
+    "chucdanh": "TBC",
+    "sdt": "0854124755",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "Khác",
+    "ghichu": "Mở các ứng dụng chậm",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "18128523400011"
+      }
+    ]
   }
 ]
