@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Báo cáo thiết bị CNTT</title>
+<title>Khảo sát thiết bị CNTT</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
   :root {
@@ -181,7 +181,7 @@
 <div class="header">
   <div class="header-icon">🖥️</div>
   <div>
-    <h1 id="appTitle">Thông  thiết bị CNTT</h1>
+    <h1 id="appTitle">Rà soát thiết bị CNTT</h1>
     <p id="appSubtitle">Đơn vị · Phiếu khảo sát thiết bị · Hạn gửi: <span id="deadline">—</span></p>
   </div>
   <div class="header-actions">
@@ -236,8 +236,9 @@
           <label>Tình trạng <span class="req">*</span></label>
           <select id="f_tinhtrang">
             <option value="">-- Chọn --</option>
-            <option>Hoạt động</option>
-            <option>Không hoạt động</option>
+            <option>Hoạt động tốt</option>
+            <option>Hoạt động — cần nâng cấp</option>
+            <option>Hỏng — cần sửa</option>
             <option>Hỏng — đề nghị thanh lý</option>
           </select>
         </div>
@@ -254,11 +255,11 @@
         </div>
         <div>
           <label>Bưu cục / Bộ phận <span class="req">*</span></label>
-          <input type="text" id="f_bophan" placeholder="Trung tâm Dịch vụ vận hành ../Bưu cục ....">
+          <input type="text" id="f_bophan" placeholder="Bưu cục Thành phố / Phòng CNTT">
         </div>
         <div>
           <label>Chức danh</label>
-          <input type="text" id="f_chucdanh" placeholder="Trưởng bưu cục/ nhân viên nghiệp vụ/ chuyên viên">
+          <input type="text" id="f_chucdanh" placeholder="Giao dịch viên / Kỹ thuật viên">
         </div>
         <div>
           <label>Số điện thoại</label>
@@ -464,22 +465,32 @@
 <div class="modal-overlay" id="modalLogin">
   <div class="modal">
     <h2>🔐 Đăng nhập quản trị</h2>
-    <p style="font-size:13px;color:var(--muted);margin-bottom:14px">
-      Nhập GitHub Personal Access Token để kết nối kho dữ liệu.<br>
-      Tạo tại: <b>GitHub → Settings → Developer settings → Fine-grained tokens</b><br>
-      Cấp quyền <b>Contents: Read &amp; Write</b> cho repo của bạn.
-    </p>
-    <label>GitHub Token <span class="req">*</span></label>
-    <input type="password" id="inputToken" placeholder="github_pat_xxx…" style="margin-bottom:10px">
-    <label>Owner / Tên tài khoản GitHub <span class="req">*</span></label>
-    <input type="text" id="inputOwner" placeholder="your-username" style="margin-bottom:10px">
-    <label>Repo <span class="req">*</span></label>
-    <input type="text" id="inputRepo" placeholder="khao-sat-thiet-bi" style="margin-bottom:10px">
-    <label>Tên file dữ liệu</label>
-    <input type="text" id="inputFile" placeholder="data.json" style="margin-bottom:4px">
+    
+    <!-- Đăng nhập nhanh bằng mật khẩu -->
+    <div style="background:var(--teal-light);border-radius:8px;padding:14px;margin-bottom:16px">
+      <label style="font-weight:700;color:var(--teal)">Mật khẩu quản trị <span class="req">*</span></label>
+      <input type="password" id="inputAdminKey" placeholder="Nhập mật khẩu admin..." style="margin-top:6px">
+      <p style="font-size:12px;color:var(--muted);margin-top:6px">Liên hệ admin để lấy mật khẩu</p>
+    </div>
+
+    <!-- Nâng cao: dùng token riêng -->
+    <details style="margin-bottom:4px">
+      <summary style="font-size:12px;color:var(--muted);cursor:pointer">⚙️ Nâng cao: kết nối GitHub repo khác</summary>
+      <div style="margin-top:10px">
+        <label>GitHub Token</label>
+        <input type="password" id="inputToken" placeholder="github_pat_xxx…" style="margin-bottom:8px">
+        <label>Owner</label>
+        <input type="text" id="inputOwner" placeholder="username" style="margin-bottom:8px">
+        <label>Repo</label>
+        <input type="text" id="inputRepo" placeholder="ten-repo" style="margin-bottom:8px">
+        <label>File dữ liệu</label>
+        <input type="text" id="inputFile" placeholder="data.json">
+      </div>
+    </details>
+
     <div class="modal-actions">
       <button class="btn btn-outline" onclick="closeLogin()">Hủy</button>
-      <button class="btn btn-primary" onclick="doLogin()">Kết nối</button>
+      <button class="btn btn-primary" onclick="doLogin()">Đăng nhập</button>
     </div>
   </div>
 </div>
@@ -505,6 +516,19 @@
 <div id="toast"></div>
 
 <script>
+// ==================== CẤU HÌNH (inject bởi GitHub Actions) ====================
+const CONFIG = {
+  token:    '__GH_TOKEN__',
+  owner:    '__GH_OWNER__',
+  repo:     '__GH_REPO__',
+  file:     '__GH_FILE__',
+  title:    '__APP_TITLE__',
+  org:      '__APP_ORG__',
+  deadline: '__APP_DEADLINE__',
+  adminKey: '__ADMIN_KEY__'
+};
+// =============================================================
+
 // ==================== STATE ====================
 let records = [];
 let ghToken = '', ghOwner = '', ghRepo = '', ghFile = 'data.json', ghSha = '';
@@ -512,51 +536,60 @@ let isAdmin = false;
 
 // ==================== INIT ====================
 window.onload = () => {
-  loadLocal();
-  loadSettings();
+  applyConfig();
   loadCreds();
   togglePeripherals();
   renderAll();
 };
 
-function loadLocal() {
-  try { records = JSON.parse(localStorage.getItem('khaosat_records') || '[]'); } catch { records = []; }
-}
-function saveLocal() {
-  localStorage.setItem('khaosat_records', JSON.stringify(records));
+function applyConfig() {
+  // Áp dụng cấu hình nhúng vào giao diện
+  document.getElementById('appTitle').textContent  = CONFIG.title;
+  const dl = CONFIG.deadline || '—';
+  document.getElementById('appSubtitle').innerHTML = CONFIG.org + ' · Phiếu khảo sát thiết bị · Hạn gửi: <span id="deadline">' + dl + '</span>';
 }
 
 function loadCreds() {
-  ghToken = localStorage.getItem('gh_token') || '';
-  ghOwner = localStorage.getItem('gh_owner') || '';
-  ghRepo  = localStorage.getItem('gh_repo')  || '';
-  ghFile  = localStorage.getItem('gh_file')  || 'data.json';
-  if (ghToken) { isAdmin = true; updateAuthUI(); }
+  // Ưu tiên: CONFIG nhúng → localStorage (admin đã đăng nhập tay)
+  const savedToken = localStorage.getItem('gh_token');
+  if (savedToken) {
+    // Admin đã đăng nhập thủ công
+    ghToken = savedToken;
+    ghOwner = localStorage.getItem('gh_owner') || CONFIG.owner;
+    ghRepo  = localStorage.getItem('gh_repo')  || CONFIG.repo;
+    ghFile  = localStorage.getItem('gh_file')  || CONFIG.file;
+    isAdmin = true;
+  } else if (CONFIG.token && CONFIG.token !== 'NHAP_TOKEN_CUA_BAN_VAO_DAY') {
+    // Dùng token nhúng sẵn — người dùng thường
+    ghToken = CONFIG.token;
+    ghOwner = CONFIG.owner;
+    ghRepo  = CONFIG.repo;
+    ghFile  = CONFIG.file;
+    isAdmin = false; // Không phải admin
+  }
+  if (ghToken) {
+    updateAuthUI();
+    // Tải dữ liệu hiện có từ GitHub
+    loadFromGitHub(ghToken, ghOwner, ghRepo, ghFile).then(() => renderAll());
+  }
 }
 
-function loadSettings() {
-  const title    = localStorage.getItem('app_title')    || 'Rà soát thiết bị CNTT';
-  const subtitle = localStorage.getItem('app_org')      || 'Đơn vị';
-  const deadline = localStorage.getItem('app_deadline') || '';
-  document.getElementById('appTitle').textContent    = title;
-  document.getElementById('appSubtitle').innerHTML   = subtitle + ' · Phiếu khảo sát thiết bị · Hạn gửi: <span id="deadline">' + (deadline || '—') + '</span>';
-}
-
-// ==================== SETTINGS ====================
+// ==================== SETTINGS (chỉ admin) ====================
 function openSettings() {
-  document.getElementById('sTitle').value    = localStorage.getItem('app_title')    || '';
-  document.getElementById('sDeadline').value = localStorage.getItem('app_deadline') || '';
-  document.getElementById('sNote').value     = localStorage.getItem('app_org')      || '';
+  if (!isAdmin) { showToast('Chỉ admin mới thay đổi cài đặt', 'error'); return; }
+  document.getElementById('sTitle').value    = CONFIG.title;
+  document.getElementById('sDeadline').value = CONFIG.deadline || '';
+  document.getElementById('sNote').value     = CONFIG.org;
   document.getElementById('modalSettings').classList.add('open');
 }
 function closeSettings() { document.getElementById('modalSettings').classList.remove('open'); }
 function saveSettings() {
-  localStorage.setItem('app_title',    document.getElementById('sTitle').value);
-  localStorage.setItem('app_deadline', document.getElementById('sDeadline').value);
-  localStorage.setItem('app_org',      document.getElementById('sNote').value);
+  CONFIG.title    = document.getElementById('sTitle').value;
+  CONFIG.deadline = document.getElementById('sDeadline').value;
+  CONFIG.org      = document.getElementById('sNote').value;
   closeSettings();
-  loadSettings();
-  showToast('Đã lưu cài đặt', 'success');
+  applyConfig();
+  showToast('Đã lưu cài đặt (phiên này)', 'success');
 }
 
 // ==================== AUTH ====================
@@ -574,10 +607,22 @@ async function doLogin() {
   const owner = document.getElementById('inputOwner').value.trim();
   const repo  = document.getElementById('inputRepo').value.trim();
   const file  = document.getElementById('inputFile').value.trim() || 'data.json';
-  if (!tok || !owner || !repo) { showToast('Vui lòng điền đầy đủ', 'error'); return; }
+  const pass  = document.getElementById('inputAdminKey').value.trim();
 
+  // Đăng nhập bằng mật khẩu admin (dùng token nhúng sẵn)
+  if (pass && pass === CONFIG.adminKey) {
+    ghToken = CONFIG.token; ghOwner = CONFIG.owner; ghRepo = CONFIG.repo; ghFile = CONFIG.file;
+    isAdmin = true;
+    updateAuthUI();
+    closeLogin();
+    renderAll();
+    showToast('✅ Đã vào chế độ quản trị!', 'success');
+    return;
+  }
+
+  // Đăng nhập bằng token tùy chỉnh (override)
+  if (!tok || !owner || !repo) { showToast('Vui lòng điền đầy đủ hoặc nhập mật khẩu admin', 'error'); return; }
   showToast('Đang kết nối…', 'info');
-  // Test connection + load data
   const ok = await loadFromGitHub(tok, owner, repo, file);
   if (ok) {
     ghToken = tok; ghOwner = owner; ghRepo = repo; ghFile = file;
@@ -602,7 +647,9 @@ function doLogout() {
 }
 
 function updateAuthUI() {
-  document.getElementById('btnLogin').style.display   = isAdmin ? 'none' : '';
+  // Nút quản trị: ẩn nếu đã có token nhúng (user tự kết nối rồi)
+  const hasEmbedded = CONFIG.token && CONFIG.token !== 'NHAP_TOKEN_CUA_BAN_VAO_DAY';
+  document.getElementById('btnLogin').style.display   = (hasEmbedded || isAdmin) ? 'none' : '';
   document.getElementById('btnLogout').style.display  = isAdmin ? '' : 'none';
   document.getElementById('btnExport').style.display  = isAdmin ? '' : 'none';
   document.getElementById('btnExportCsv').style.display = isAdmin ? '' : 'none';
@@ -611,12 +658,16 @@ function updateAuthUI() {
 
   const dot  = document.getElementById('statusDot');
   const text = document.getElementById('statusText');
-  if (isAdmin) {
+  if (ghToken) {
     dot.className = 'status-dot dot-connected';
-    text.textContent = '✅ Đã kết nối GitHub: ' + ghOwner + '/' + ghRepo + ' (' + ghFile + ')';
+    if (isAdmin) {
+      text.innerHTML = '✅ Quản trị — GitHub: ' + ghOwner + '/' + ghRepo;
+    } else {
+      text.textContent = '✅ Đã kết nối — phiếu của bạn sẽ được lưu tự động';
+    }
   } else {
     dot.className = 'status-dot dot-disconnected';
-    text.innerHTML = 'Chưa kết nối. <a href="#" onclick="openLogin();return false">Đăng nhập quản trị</a> để lưu dữ liệu lên GitHub.';
+    text.innerHTML = '⚠️ Chưa cấu hình — liên hệ admin';
   }
 }
 
@@ -635,7 +686,11 @@ async function loadFromGitHub(tok, owner, repo, file) {
     if (!res.ok) { showToast('Lỗi kết nối GitHub: ' + res.status, 'error'); return false; }
     const json = await res.json();
     ghSha = json.sha;
-    const content = atob(json.content.replace(/\n/g, ''));
+    // Decode base64 → UTF-8 đúng cách
+    const b64 = json.content.replace(/\n/g, '');
+    const binStr = atob(b64);
+    const bytes = Uint8Array.from(binStr, c => c.charCodeAt(0));
+    const content = new TextDecoder('utf-8').decode(bytes);
     records = JSON.parse(content);
     saveLocal();
     return true;
@@ -647,20 +702,11 @@ async function loadFromGitHub(tok, owner, repo, file) {
 
 async function saveToGitHub() {
   if (!ghToken) return;
-  // Nếu chưa có SHA, kiểm tra file đã tồn tại chưa
-  if (!ghSha) {
-    try {
-      const check = await fetch(`https://api.github.com/repos/${ghOwner}/${ghRepo}/contents/${ghFile}`, {
-        headers: { Authorization: 'token ' + ghToken }
-      });
-      if (check.ok) {
-        const j = await check.json();
-        ghSha = j.sha; // File đã tồn tại, lấy SHA
-      }
-      // Nếu 404 → file chưa có, ghSha = '' → GitHub sẽ tạo mới
-    } catch(e) {}
-  }
-  const content = btoa(unescape(encodeURIComponent(JSON.stringify(records, null, 2))));
+  // Encode UTF-8 đúng cách — btoa() chỉ xử lý Latin-1, cần qua TextEncoder
+  const jsonStr = JSON.stringify(records, null, 2);
+  const bytes = new TextEncoder().encode(jsonStr);
+  const binStr = Array.from(bytes).map(b => String.fromCharCode(b)).join('');
+  const content = btoa(binStr);
   const body = { message: 'Update data ' + new Date().toISOString(), content, committer: { name: 'KhaoSat App', email: 'app@khaosat.local' } };
   if (ghSha) body.sha = ghSha;
   try {
@@ -875,34 +921,21 @@ function renderStats() {
 // ==================== EXPORT ====================
 function exportExcel() {
   if (records.length === 0) { showToast('Không có dữ liệu để xuất', 'error'); return; }
-  const rows = records.map(r => ({
-    'Thoi gian':   r.thoiGian,
-    'Nhom':        r.nhom,
-    'Tinh trang':  r.tinhtrang,
-    'Ho ten':      r.hoten,
-    'Bo phan':     r.bophan,
-    'Chuc danh':   r.chucdanh||'',
-    'SDT':         r.sdt||'',
-    'Hang':        r.hang||'',
-    'Model':       r.model||'',
-    'Serial':      r.serial||'',
-    'Ma tai san':  r.mataiSan||'',
-    'Nam mua':     r.nam||'',
-    'Nguon goc':   r.nguongoc||'',
-    'Hostname':    r.hostname||'',
-    'CPU':         r.cpu||'',
-    'RAM GB':      r.ram||'',
-    'O cung':      r.hdd||'',
-    'IP':          r.ip||'',
-    'MAC':         r.mac||'',
-    'He dieu hanh':r.os||'',
-    'Office':      r.office||'',
-    'Ghi chu':     r.ghichu||''
-  }));
 
-  const ws = XLSX.utils.json_to_sheet(rows);
+  // Dùng array_to_sheet để kiểm soát encoding hoàn toàn
+  const header = [
+    'Thời gian','Nhóm','Tình trạng','Họ tên','Bộ phận','Chức danh','SĐT',
+    'Hãng','Model','Serial','Mã tài sản','Năm mua','Nguồn gốc',
+    'Hostname','CPU','RAM (GB)','Ổ cứng','IP','MAC','Hệ điều hành','Office','Ghi chú'
+  ];
+  const dataRows = records.map(r => [
+    r.thoiGian||'', r.nhom||'', r.tinhtrang||'', r.hoten||'', r.bophan||'',
+    r.chucdanh||'', r.sdt||'', r.hang||'', r.model||'', r.serial||'',
+    r.mataiSan||'', r.nam||'', r.nguongoc||'', r.hostname||'', r.cpu||'',
+    r.ram||'', r.hdd||'', r.ip||'', r.mac||'', r.os||'', r.office||'', r.ghichu||''
+  ]);
 
-  // Đặt độ rộng cột
+  const ws = XLSX.utils.aoa_to_sheet([header, ...dataRows]);
   ws['!cols'] = [
     {wch:18},{wch:22},{wch:28},{wch:22},{wch:22},{wch:18},
     {wch:14},{wch:14},{wch:20},{wch:16},{wch:14},{wch:10},
@@ -912,9 +945,7 @@ function exportExcel() {
 
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'DuLieu');
-
-  // Xuất dạng .xlsx (Unicode chuẩn, mở được bằng Excel/LibreOffice)
-  XLSX.writeFile(wb, 'khaosat_thietbi_' + new Date().toLocaleDateString('vi-VN').replace(/\//g,'-') + '.xlsx', { bookType: 'xlsx', type: 'binary' });
+  XLSX.writeFile(wb, 'khaosat_thietbi_' + new Date().toLocaleDateString('vi-VN').replace(/\//g,'-') + '.xlsx');
   showToast('Đã xuất Excel!', 'success');
 }
 
@@ -1021,6 +1052,11 @@ function autoFillFromData(d) {
 }
 
 // ==================== BAT + JSON AUTO-FILL ====================
+// Phím tắt bí mật vào chế độ admin: Ctrl+Shift+A
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey && e.shiftKey && e.key === 'A') { e.preventDefault(); openLogin(); }
+});
+
 let toastTimer;
 function showToast(msg, type='info') {
   const t = document.getElementById('toast');
