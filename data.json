@@ -137,5 +137,40 @@
         "info": "KODA 19inch"
       }
     ]
+  },
+  {
+    "id": 1781247962734,
+    "thoiGian": "14:06:02 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Kim Ngân",
+    "bophan": "BCP Vĩnh Tân",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TAKHL-TU",
+    "cpu": "Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz  ",
+    "ram": "7,9 GB",
+    "hdd": "Lexar 128GB SSD     ",
+    "ip": "10.72.150.152",
+    "mac": "60:45:CB:A6:0D:72  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Zebra ZD620"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "DELL 14 inch (nhoè)"
+      }
+    ]
   }
 ]
