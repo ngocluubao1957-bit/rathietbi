@@ -242,5 +242,40 @@
         "info": "18128523400011"
       }
     ]
+  },
+  {
+    "id": 1781250946826,
+    "thoiGian": "14:55:46 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Kim Ngân",
+    "bophan": "BCP Vĩnh Tân",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCPVT-1",
+    "cpu": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Lexar 256GB SSD  ",
+    "ip": "10.72.150.147",
+    "mac": "60:45:CB:71:51:3E  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "OFF2016,KAS",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      }
+    ]
   }
 ]
