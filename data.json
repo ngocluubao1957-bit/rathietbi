@@ -482,5 +482,44 @@
         "info": "SAMSUNG 22 inch"
       }
     ]
+  },
+  {
+    "id": 1781256793661,
+    "thoiGian": "16:33:13 12/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyễn Xuân Trường",
+    "bophan": "Services Hub Dĩ An",
+    "chucdanh": "GDV",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "B5PF862       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-DAKHL-TRUNG",
+    "cpu": "Intel(R) Core(TM) i3-4160T CPU @ 3.10GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Lexar 128GB SSD  ",
+    "ip": "10.72.154.162",
+    "mac": "64:00:6A:06:2B:13  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "ZEBRA DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "HP 19 inch"
+      }
+    ]
   }
 ]
