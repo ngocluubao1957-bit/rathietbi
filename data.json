@@ -817,5 +817,40 @@
         "info": "Zebra DS22"
       }
     ]
+  },
+  {
+    "id": 1781317419894,
+    "thoiGian": "09:23:39 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Thanh Huệ",
+    "bophan": "BCP Tương Bình Hiệp",
+    "chucdanh": "Nhân viên xử lý nghiệp vụ",
+    "sdt": "0898589475",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "GBCYSR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "Cấp từ Tổng công ty",
+    "ghichu": "",
+    "hostname": "BDG-TMD-TBH-HUE",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "Lexar 256GB SSD  ",
+    "ip": "10.72.167.2",
+    "mac": "B8:85:84:A8:CA:5C  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
