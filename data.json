@@ -1317,5 +1317,31 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781344146591,
+    "thoiGian": "16:49:06 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Minh Duy",
+    "bophan": "822020 - Services Hub TDM",
+    "chucdanh": "Giao dịch viên",
+    "sdt": "0865657160",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-KHL-USER1",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "15.9 GB",
+    "hdd": "CT120BX500SSD1        ",
+    "ip": "10.72.164.6",
+    "mac": "4C:ED:FB:97:09:C3  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
