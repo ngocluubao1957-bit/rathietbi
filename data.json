@@ -852,5 +852,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1781325252413,
+    "thoiGian": "11:34:12 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Cẩm Yến",
+    "bophan": "TTDVVH5",
+    "chucdanh": "Giao dịch viên",
+    "sdt": "0925293040",
+    "hang": "HP            ",
+    "model": "HP ProDesk 400 G3 MT  ",
+    "serial": "SGH642PZS5    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "TTVH5-HUBTDM-01",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "ST1000DM003-1SB102  ",
+    "ip": "10.72.164.7",
+    "mac": "DC:4A:3E:50:39:41  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
