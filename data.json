@@ -1343,5 +1343,44 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781344907262,
+    "thoiGian": "17:01:47 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "TRẦN THỊ TRÚC ĐÀO",
+    "bophan": "822020_HUB THỦ DẦU MỘT",
+    "chucdanh": "Giao dịch viên",
+    "sdt": "0901327613",
+    "hang": "ASUS          ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "Điều chuyển nội bộ",
+    "ghichu": "TÌNH TRẠNG TỐT",
+    "hostname": "ADMIN-PC",
+    "cpu": "Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "GIGABYTE GP-GSTFS31240GNTD  ",
+    "ip": "10.72.164.128",
+    "mac": "50:EB:F6:79:92:48  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "DCGROUP"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "HP"
+      }
+    ]
   }
 ]
