@@ -1084,5 +1084,44 @@
         "info": "ZEBRA"
       }
     ]
+  },
+  {
+    "id": 1781341167309,
+    "thoiGian": "15:59:27, 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Phạm Thị Minh Tuyến",
+    "bophan": "BCP Thuận An",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Cần nâng cấp máy tính, đang dùng windows 7 32bit, rất chậm",
+    "hostname": "BDG-TABCP-CAM",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "﻿3.4 GB",
+    "hdd": "ST500DM0 02-1SB10A SCSI Disk Device  ",
+    "ip": "26.241.151.209",
+    "mac": "F4:F2:6D:02:58:76  ",
+    "os": "Windows_NT 32-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, Honey PC42D"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": ""
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
