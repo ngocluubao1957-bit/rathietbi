@@ -1154,5 +1154,36 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781342194395,
+    "thoiGian": "16:16:34, 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Phạm Thị Minh Tuyền",
+    "bophan": "BCP Thuận An",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Cần nâng cấp, sử dụng windows 7, máy cấu hình yếu",
+    "hostname": "BDG-TABCP-01",
+    "cpu": "Pentium(R) Dual-Core  CPU      E5700  @ 3.00GHz  ",
+    "ram": "﻿2 GB",
+    "hdd": "ST380215A ATA Device  ",
+    "ip": "10.72.178.34",
+    "mac": "14:DA:E9:90:86:25  ",
+    "os": "Windows_NT 32-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Honey PC42"
+      }
+    ]
   }
 ]
