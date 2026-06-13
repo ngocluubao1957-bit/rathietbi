@@ -883,5 +883,40 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781325495525,
+    "thoiGian": "11:38:15 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phạm Anh Kim",
+    "bophan": "TTVH5",
+    "chucdanh": "Giao Dịch Viên",
+    "sdt": "0839994599",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-KHL-USER11",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "GIGABYTE GP-GSTFS31240GNTD  ",
+    "ip": "10.72.164.22",
+    "mac": "4C:ED:FB:3D:9E:E4  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": ""
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": ""
+      }
+    ]
   }
 ]
