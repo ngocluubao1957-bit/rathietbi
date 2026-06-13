@@ -944,5 +944,40 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781339769415,
+    "thoiGian": "15:36:09 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lê Chí Cường",
+    "bophan": "BCP Vsip - BCVH Thuận An",
+    "chucdanh": "Trưởng BCP",
+    "sdt": "0934054388",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TA-BCPVSIP2",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WDC WD10EZEX-75WN4A1  ",
+    "ip": "10.72.181.26",
+    "mac": "4C:ED:FB:3D:8F:EE  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "symbol"
+      }
+    ]
   }
 ]
