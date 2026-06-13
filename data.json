@@ -1216,5 +1216,40 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781342453487,
+    "thoiGian": "16:20:53 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Tất Long",
+    "bophan": "Servies Hub Tân Uyên",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCPNTU-2",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "HP SSD S700 120GB  ",
+    "ip": "10.72.171.103",
+    "mac": "40:8D:5C:F7:05:7E  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, HoneyWell PC42d"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "19inch"
+      }
+    ]
   }
 ]
