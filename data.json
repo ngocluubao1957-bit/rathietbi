@@ -979,5 +979,40 @@
         "info": "symbol"
       }
     ]
+  },
+  {
+    "id": 1781339984236,
+    "thoiGian": "15:39:44 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lê Chí Cường",
+    "bophan": "BCP Vsip - BCVH Thuận An",
+    "chucdanh": "Trưởng BCP",
+    "sdt": "0934054388",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H81M-DS2  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TA-BCPVSIP4",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "5.9 GB",
+    "hdd": "ST3500414CS                     ",
+    "ip": "10.72.181.5",
+    "mac": "1C:1B:0D:60:62:7D  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "ZEBRA"
+      }
+    ]
   }
 ]
