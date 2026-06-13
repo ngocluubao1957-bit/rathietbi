@@ -1251,5 +1251,40 @@
         "info": "19inch"
       }
     ]
+  },
+  {
+    "id": 1781343605579,
+    "thoiGian": "16:40:05 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Đỗ Trần Khánh Luân",
+    "bophan": "Services Hub Bến Cát",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3050  ",
+    "serial": "40CX6P2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "TTVH5-HUBBC-02",
+    "cpu": "Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "SPCC Solid State Disk  ",
+    "ip": "10.72.135.28",
+    "mac": "D8:9E:F3:3E:9E:41  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, Zebra ZD620"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "19inch"
+      }
+    ]
   }
 ]
