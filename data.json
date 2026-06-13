@@ -1408,5 +1408,44 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781359545237,
+    "thoiGian": "21:05:45 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trần Thị Xuyên",
+    "bophan": "BCP Tân Uyên  - TTVH5",
+    "chucdanh": "Trưởng Bưu Cục",
+    "sdt": "0975972172",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCP-X",
+    "cpu": "Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30  ",
+    "ip": "10.72.217.25",
+    "mac": "88:D7:F6:7E:C7:00  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon LBP 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS2278"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "Philip 22 inh"
+      }
+    ]
   }
 ]
