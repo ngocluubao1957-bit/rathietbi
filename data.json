@@ -782,5 +782,40 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781316532930,
+    "thoiGian": "09:08:52 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Duy Hùng",
+    "bophan": "BCP Bàu Bàng",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H310M DS2 2.0  ",
+    "serial": "Default string  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-BB-BCP-TAM",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Lexar SSD NS100 512GB  ",
+    "ip": "10.72.172.13",
+    "mac": "B4:2E:99:7E:F6:96  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, Zebra 620"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      }
+    ]
   }
 ]
