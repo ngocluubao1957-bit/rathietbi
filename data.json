@@ -918,5 +918,31 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781338101008,
+    "thoiGian": "15:08:21 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "NGUYEN THUY LINH",
+    "bophan": "TTVH5",
+    "chucdanh": "XLNV - BCP PHU GIAO",
+    "sdt": "0355760155",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "GBP0TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-PG-BCP-4",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA MQ01ACF050    ",
+    "ip": "10.72.230.31",
+    "mac": "B8:85:84:A8:E4:3E  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
