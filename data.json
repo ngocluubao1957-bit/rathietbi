@@ -1185,5 +1185,36 @@
         "info": "Honey PC42"
       }
     ]
+  },
+  {
+    "id": 1781342288698,
+    "thoiGian": "16:18:08 13/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phạm Thị Minh Tuyền",
+    "bophan": "BCP Thuận An",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G6GYSR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TABCP-DAO",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "Lexar 128GB SSD  ",
+    "ip": "10.72.178.35",
+    "mac": "B8:85:84:AB:0A:4F  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
