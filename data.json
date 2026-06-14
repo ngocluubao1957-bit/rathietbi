@@ -1521,5 +1521,44 @@
         "info": "Zebra DS22"
       }
     ]
+  },
+  {
+    "id": 1781425132242,
+    "thoiGian": "15:18:52, 14/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Thu Thuỷ",
+    "bophan": "Services Hub Bến Cát",
+    "chucdanh": "XLNV",
+    "sdt": "",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Cần nâng cấp",
+    "hostname": "TTVH5-HUBBC-04",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "PH6-CE120-G        ",
+    "ip": "10.72.135.25",
+    "mac": "AC:9E:17:B7:D7:12  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP 402, Zebra ZD620"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
