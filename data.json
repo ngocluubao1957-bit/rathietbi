@@ -1447,5 +1447,44 @@
         "info": "Philip 22 inh"
       }
     ]
+  },
+  {
+    "id": 1781406243798,
+    "thoiGian": "10:04:03 14/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "HÀ PHƯƠNG THẢO",
+    "bophan": "TTVH5",
+    "chucdanh": "NVXLNV",
+    "sdt": "0977625550",
+    "hang": "Hewlett-Packard  ",
+    "model": "HP Pro 3130 Microtower PC  ",
+    "serial": "SGH026QCG3    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-DT-THAOHP",
+    "cpu": "Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "Generic- MS/MS-Pro/HG USB Device     ",
+    "ip": "10.72.154.100",
+    "mac": "6C:62:6D:01:BF:2C  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "CANON L11121E"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "HONEYWELL"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "LG"
+      }
+    ]
   }
 ]
