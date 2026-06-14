@@ -1486,5 +1486,40 @@
         "info": "LG"
       }
     ]
+  },
+  {
+    "id": 1781424978020,
+    "thoiGian": "15:16:18 14/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Huỳnh Hoa",
+    "bophan": "Services Hub Bến Cát",
+    "chucdanh": "XLNV",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H410M H V3  ",
+    "serial": "Default string  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "TTVH5-HUBBC-03",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "Lexar 256GB SSD  ",
+    "ip": "10.72.135.24",
+    "mac": "D8:5E:D3:54:59:A0  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      }
+    ]
   }
 ]
