@@ -1591,5 +1591,44 @@
         "info": "HP 19inch"
       }
     ]
+  },
+  {
+    "id": 1781507214189,
+    "thoiGian": "14:06:54 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lữ Gia Nhi",
+    "bophan": "BCP Thuận Giao",
+    "chucdanh": "TBC",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G6 Microtower PC  ",
+    "serial": "4CE225C2MH    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TABCP-BC-01",
+    "cpu": "Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "MTFDKBA256TFK-1BC1AABHA  ",
+    "ip": "10.72.183.11",
+    "mac": "00:68:EB:B7:CA:7B  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, Zebra ZD620"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
