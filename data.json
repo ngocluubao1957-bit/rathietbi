@@ -1801,5 +1801,36 @@
         "info": "Canon 2900"
       }
     ]
+  },
+  {
+    "id": 1781510359843,
+    "thoiGian": "14:59:19 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Tương",
+    "bophan": "BCP An Phú",
+    "chucdanh": "PGĐ TTVH5 Hổ trợ AP",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G6 Microtower PC  ",
+    "serial": "4CE225C2D7    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TA-AP-06",
+    "cpu": "Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "MTFDKBA256TFK-1BC1AABHA  ",
+    "ip": "10.72.182.6",
+    "mac": "00:68:EB:B8:54:D5  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      }
+    ]
   }
 ]
