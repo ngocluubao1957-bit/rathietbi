@@ -2010,5 +2010,44 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781512740095,
+    "thoiGian": "15:39:00 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Mai Thanh Tung",
+    "bophan": "BCP Dong Hoa",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H110M-DS2  ",
+    "serial": "Default string  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-DA-BCPDH4",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Lexar SSD NS100 256GB  ",
+    "ip": "10.72.191.44",
+    "mac": "E0:D5:5E:3D:B8:C1  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900, Zebra 620"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
