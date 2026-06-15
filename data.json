@@ -1731,5 +1731,44 @@
         "info": "19inch"
       }
     ]
+  },
+  {
+    "id": 1781510023376,
+    "thoiGian": "14:53:43 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Tương",
+    "bophan": "BCP An Phú",
+    "chucdanh": "PGĐ TTVH5 Hổ trợ AP",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H81M-DS2  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "PC92025",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.72.182.4",
+    "mac": "1C:1B:0D:63:D0:41  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 2900"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "19inch"
+      }
+    ]
   }
 ]
