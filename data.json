@@ -1871,5 +1871,44 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781509926178,
+    "thoiGian": "14:52:06 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "TRẦN THANH ĐỒNG",
+    "bophan": "BCP TDM",
+    "chucdanh": "NVXL NV",
+    "sdt": "",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-BCPTDM-9",
+    "cpu": "Intel(R) Core(TM) i3-9100 CPU @ 3.60GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "KINGSTON SA400S37120G  ",
+    "ip": "10.72.137.162",
+    "mac": "D4:5D:64:03:B4:16  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": ""
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": ""
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
