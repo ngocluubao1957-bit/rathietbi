@@ -1975,5 +1975,40 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781512622091,
+    "thoiGian": "15:37:02 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Doan Anh Hiep",
+    "bophan": "BCP Dong Hoa",
+    "chucdanh": "NVXLNV",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H81M-DS2  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-DA-BCPDH3",
+    "cpu": "Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "ST3500312CS      ",
+    "ip": "10.72.191.95",
+    "mac": "40:8D:5C:B8:09:68  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra DS22"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": ""
+      }
+    ]
   }
 ]
