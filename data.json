@@ -1560,5 +1560,36 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781494297720,
+    "thoiGian": "10:31:37 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Ngọc Thiên Hương",
+    "bophan": "TTVH5",
+    "chucdanh": "Chuyên viên",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G6 Microtower PC  ",
+    "serial": "4CE225C2GP    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-KTNV-HUONG",
+    "cpu": "Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "MTFDKBA256TFK-1BC1AABHA  ",
+    "ip": "10.72.134.32",
+    "mac": "00:68:EB:B7:C9:87  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "HP 19inch"
+      }
+    ]
   }
 ]
