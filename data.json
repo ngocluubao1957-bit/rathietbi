@@ -1696,5 +1696,40 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1781509881528,
+    "thoiGian": "14:51:21 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Tương",
+    "bophan": "BCP An Phú",
+    "chucdanh": "PGĐ TTVH Hổ trợ AP",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TA-BCPAP4",
+    "cpu": "Intel(R) Celeron(R) CPU G1630 @ 2.80GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Apacer AS340 120GB ATA Device  ",
+    "ip": "10.72.182.7",
+    "mac": "74:D4:35:D5:8F:C4  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Zebra ZD230"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "19inch"
+      }
+    ]
   }
 ]
