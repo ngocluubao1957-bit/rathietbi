@@ -2084,5 +2084,36 @@
         "info": "HP"
       }
     ]
+  },
+  {
+    "id": 1781519979959,
+    "thoiGian": "17:39:39 15/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lê Đức Thành",
+    "bophan": "ttvh5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "TRIGEM COMPUTER  ",
+    "model": "DG367  ",
+    "serial": "5027744800001  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TCHC-AN",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "ENMAX 256GB  ",
+    "ip": "10.72.134.34",
+    "mac": "78:F2:9E:F5:09:02  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "hp m203d"
+      }
+    ]
   }
 ]
