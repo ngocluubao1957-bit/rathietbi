@@ -2146,5 +2146,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1781576550368,
+    "thoiGian": "09:22:30 16/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "PHẠM ANH KIM",
+    "bophan": "822020_tdm",
+    "chucdanh": "GIAO DỊCH VIÊN",
+    "sdt": "0839994599",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": []
   }
 ]
