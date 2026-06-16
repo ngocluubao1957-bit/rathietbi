@@ -2115,5 +2115,36 @@
         "info": "hp m203d"
       }
     ]
+  },
+  {
+    "id": 1781572734737,
+    "thoiGian": "08:18:54 16/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyễn Thị Thanh Huệ",
+    "bophan": "BCP Tương Bình Hiệp",
+    "chucdanh": "Nhân viên xử lý nghiệp vụ",
+    "sdt": "0898589475",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "Điều chuyển nội bộ",
+    "ghichu": "",
+    "hostname": "TTVH5-TBH-01",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
