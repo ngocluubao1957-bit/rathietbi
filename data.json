@@ -4185,5 +4185,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781687048710,
+    "thoiGian": "16:04:08 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTNT",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G6N0TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KTNT-CHIATH",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.3.18",
+    "mac": "B8:85:84:A8:D7:56  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
