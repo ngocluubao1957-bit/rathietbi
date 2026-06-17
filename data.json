@@ -3083,5 +3083,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1781677791411,
+    "thoiGian": "13:29:51 17/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Ho Thi Kim Thanh",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Latitude 3460  ",
+    "serial": "6MYS3C2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTKTVC-TH-T",
+    "cpu": "Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WD Blue SA510 2.5 500GB  ",
+    "ip": "10.70.85.51",
+    "mac": "98:40:BB:0C:9B:A6  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
