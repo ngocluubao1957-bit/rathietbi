@@ -2543,5 +2543,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2013",
     "peripherals": []
+  },
+  {
+    "id": 1781668773373,
+    "thoiGian": "10:59:33 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyen Nhu Hoang Phuc",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV0056500115C9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "DESKTOP-B12AO2U",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "PNY CS900 240GB SSD  ",
+    "ip": "10.70.85.12",
+    "mac": "F4:4D:30:97:0F:C0  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "office 2016",
+    "peripherals": []
   }
 ]
