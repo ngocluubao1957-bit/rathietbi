@@ -2413,5 +2413,31 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1781666570554,
+    "thoiGian": "10:22:50 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Truong  Hai Tam",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900BA69600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KTVC-PTH-TA",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WDC WD5000AZLX-21K2TA0  ",
+    "ip": "10.70.85.57",
+    "mac": "F4:4D:30:01:5F:9B  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "office 2016",
+    "peripherals": []
   }
 ]
