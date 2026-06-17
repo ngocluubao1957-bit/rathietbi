@@ -4393,5 +4393,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781691303230,
+    "thoiGian": "17:15:03 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Vo Thanh Binh",
+    "bophan": "GD TT KTVC",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Latitude 5285  ",
+    "serial": "HB6GWD2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "WIN-KABR6266G06",
+    "cpu": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Micron 1100 SATA 256GB  ",
+    "ip": "192.168.0.96",
+    "mac": "88:B1:11:6E:26:DE  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
