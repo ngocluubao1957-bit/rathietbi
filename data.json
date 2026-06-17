@@ -3213,5 +3213,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781679314590,
+    "thoiGian": "13:55:14 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lam Ngoc Minh",
+    "bophan": "Doi Van Chuyen",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "48WBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "MINH-W10P1909",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.85.81",
+    "mac": "F8:BC:12:A5:7B:B8  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
