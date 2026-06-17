@@ -3980,5 +3980,40 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1781685606201,
+    "thoiGian": "15:40:06 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH Tân Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP ProDesk 400 G6 SFF  ",
+    "serial": "1CZ95102DV    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Màn hình sọc",
+    "hostname": "HCM-TTP1-Q7B-9",
+    "cpu": "Intel(R) Core(TM) i3-9100 CPU @ 3.60GHz  ",
+    "ram": "3,8 GB",
+    "hdd": "WDC PC SN520 SDAPNUW-128G-1006  ",
+    "ip": "10.70.23.165",
+    "mac": "9C:7B:EF:C4:4F:CE  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP 402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
