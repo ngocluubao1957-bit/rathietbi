@@ -4445,5 +4445,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781691862291,
+    "thoiGian": "17:24:22 17/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Vo Thanh Binh",
+    "bophan": "GD TT KTVC",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUSTeK COMPUTER INC.  ",
+    "model": "X456UA  ",
+    "serial": "G4N0CX13U966177  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "DESKTOP-6FLLC1A",
+    "cpu": "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "TS256GSSD370S  ",
+    "ip": "192.168.0.218",
+    "mac": "74:DF:BF:23:3C:B9  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
