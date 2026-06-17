@@ -2704,5 +2704,31 @@
     "os": "Windows_NT 32-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781670636720,
+    "thoiGian": "11:30:36 17/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyen Thi Ngoc Tam",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3520  ",
+    "serial": "1PBJZT3       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "TOMTIT",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-1235U  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe 670p SSDPEKNU512GZ NVMe INTEL 512GB  ",
+    "ip": "192.168.0.147",
+    "mac": "0C:9A:3C:EA:57:4F  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
