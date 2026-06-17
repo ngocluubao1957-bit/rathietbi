@@ -2730,5 +2730,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781670972122,
+    "thoiGian": "11:36:12, 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyen Thi Ngoc Tam",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2710  ",
+    "serial": "DTX0TSV003645044C69600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTKTVC-TH-T",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "﻿2.2 GB",
+    "hdd": "PLEXTOR PX-128M8VC ATA Device    ",
+    "ip": "10.70.85.79",
+    "mac": "F4:4D:30:97:14:76  ",
+    "os": "Windows_NT 32-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
