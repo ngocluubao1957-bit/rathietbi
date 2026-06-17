@@ -2787,5 +2787,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1781671562642,
+    "thoiGian": "11:46:02 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH Phú Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G5 MT Business PC  ",
+    "serial": "4CE041238G    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7A-5",
+    "cpu": "Intel(R) Core(TM) i3-9100 CPU @ 3.60GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "TOSHIBA DT01ACA100      ",
+    "ip": "10.70.23.70",
+    "mac": "80:E8:2C:F2:FC:D8  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
