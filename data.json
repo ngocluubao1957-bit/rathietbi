@@ -2382,5 +2382,36 @@
     "os": "Windows_7 64-bit          ",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1781666785859,
+    "thoiGian": "10:26:25, 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Phú Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "6KV8H32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7A-8",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "TOSHIBA MQ01ACF050 SCSI Disk Device  ",
+    "ip": "10.70.23.73",
+    "mac": "F8:BC:12:A4:3A:54  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
