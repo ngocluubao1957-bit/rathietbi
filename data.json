@@ -3691,5 +3691,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781683217083,
+    "thoiGian": "15:00:17 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Cong  Nhan Khai Thac",
+    "bophan": "BC KTNT",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Desktop M01-F2xxx  ",
+    "serial": "4CE349BWDJ    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KTNT-T1",
+    "cpu": "12th Gen Intel(R) Core(TM) i3-12100  ",
+    "ram": "7.7 GB",
+    "hdd": "WD PC SN740 SDDPNQD-256G-1006  ",
+    "ip": "10.70.6.240",
+    "mac": "D0:AD:08:5A:E8:C7  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
