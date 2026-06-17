@@ -2465,5 +2465,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781667565430,
+    "thoiGian": "10:39:25 17/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Hong Hue Huong",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUSTeK COMPUTER INC.  ",
+    "model": "ZenBook UX325EA_UX325EA  ",
+    "serial": "N1N0LP012267017  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "KTVC-PTH-HUONG",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  ",
+    "ram": "15.7 GB",
+    "hdd": "NVMe INTEL SSDPEKNW512G8  ",
+    "ip": "192.168.0.236",
+    "mac": "98:43:FA:51:ED:34  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
