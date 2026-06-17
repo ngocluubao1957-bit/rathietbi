@@ -3949,5 +3949,36 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781685504095,
+    "thoiGian": "15:38:24, 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Tân Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X2611G  ",
+    "serial": "DTVGLSV059410065E29600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7B-5",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "﻿1.8 GB",
+    "hdd": "ST500DM002-1BD142 ATA Device  ",
+    "ip": "10.70.23.164",
+    "mac": "C0:3F:D5:57:E0:76  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
