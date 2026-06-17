@@ -2818,5 +2818,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1781672023597,
+    "thoiGian": "11:53:43 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BC",
+    "bophan": "BCVH Phú Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "9CZBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7A-6",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Netac SSD 128GB  ",
+    "ip": "10.70.23.78",
+    "mac": "F8:BC:12:A4:34:2C  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": []
   }
 ]
