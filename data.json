@@ -2652,5 +2652,31 @@
     "os": "",
     "office": "",
     "peripherals": []
+  },
+  {
+    "id": 1781669990200,
+    "thoiGian": "11:19:50 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Huynh Thi Ngoc Dung",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV005650011669600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "DESKTOP-RJD9M6K",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Samsung SSD 860 EVO 500GB  ",
+    "ip": "10.70.85.52",
+    "mac": "F4:4D:30:96:A9:F3  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
