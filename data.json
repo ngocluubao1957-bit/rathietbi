@@ -4663,5 +4663,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2007 ",
     "peripherals": []
+  },
+  {
+    "id": 1781694391896,
+    "thoiGian": "18:06:31 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Bình Thạnh B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6XFP8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-BTB-2",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "ST1000DM010-2EP102   ",
+    "ip": "10.70.20.165",
+    "mac": "8C:EC:4B:B4:0A:F0  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
