@@ -3582,5 +3582,36 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781682996837,
+    "thoiGian": "14:56:36 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH Tân Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "58WBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "màn hình bị lem mờ",
+    "hostname": "HCM-TTP1-Q7B-2",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Netac SSD 240GB  ",
+    "ip": "10.70.23.168",
+    "mac": "F8:BC:12:A5:7B:B0  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Symbol"
+      }
+    ]
   }
 ]
