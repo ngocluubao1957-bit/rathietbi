@@ -2756,5 +2756,36 @@
     "os": "Windows_NT 32-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781671266053,
+    "thoiGian": "11:41:06 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH Phú Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNCR9M2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7A-2",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3,8 GB",
+    "hdd": "TOSHIBA DT01ACA100  ",
+    "ip": "10.70.23.75",
+    "mac": "8C:EC:4B:B3:B8:DA  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
