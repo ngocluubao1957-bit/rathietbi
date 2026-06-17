@@ -2974,5 +2974,36 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781675809808,
+    "thoiGian": "12:56:49 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "NV phát hành",
+    "bophan": "BCP Nhà Bè",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900BD09600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-NB-12",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.24.45",
+    "mac": "F4:4D:30:01:69:33  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Intermec PC43t"
+      }
+    ]
   }
 ]
