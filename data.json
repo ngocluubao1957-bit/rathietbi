@@ -4559,5 +4559,31 @@
         "info": "HPRT - XT300"
       }
     ]
+  },
+  {
+    "id": 1781693192467,
+    "thoiGian": "17:46:32 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Bình Thạnh B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "1X84QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-BTB-9",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "10.70.20.171",
+    "mac": "8C:EC:4B:44:F8:DF  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2007",
+    "peripherals": []
   }
 ]
