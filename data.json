@@ -4972,5 +4972,40 @@
         "info": "philip 22inh"
       }
     ]
+  },
+  {
+    "id": 1781709262902,
+    "thoiGian": "22:14:22 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trần Thị Xuyên",
+    "bophan": "BCP Tân Uyên / TTVH 5",
+    "chucdanh": "nhân viên xử lý nghiệp vụ ",
+    "sdt": "0975972172",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TU-BCP-01",
+    "cpu": "Intel(R) Pentium(R) CPU G3420 @ 3.20GHz  ",
+    "ram": "5.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30  ",
+    "ip": "10.72.217.38",
+    "mac": "38:2C:4A:B8:A5:C0  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "canon LBP  2900"
+      },
+      {
+        "loai": "🖥️ Màn hình rời",
+        "info": "philip 22 inh"
+      }
+    ]
   }
 ]
