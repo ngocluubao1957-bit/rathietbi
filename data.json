@@ -4367,5 +4367,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781688867518,
+    "thoiGian": "16:34:27 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTNT",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "FSZBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KTNT-KDN",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30  ",
+    "ip": "10.70.3.72",
+    "mac": "F8:BC:12:A4:33:BD  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
