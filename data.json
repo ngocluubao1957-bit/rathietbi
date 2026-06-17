@@ -4798,5 +4798,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781696491023,
+    "thoiGian": "18:41:31, 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Phú Nhuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV0056500115E9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-PN-5",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "﻿2.2 GB",
+    "hdd": "WDC WD10EZEX-21WN4A0 SCSI Disk Device  ",
+    "ip": "10.70.117.86",
+    "mac": "F4:4D:30:96:A9:6E  ",
+    "os": "Windows_7 32-bit          ",
+    "office": "Microsoft Office 2007",
+    "peripherals": []
   }
 ]
