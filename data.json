@@ -3369,5 +3369,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781681273570,
+    "thoiGian": "14:27:53 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTNT",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "CMS Co.,Ltd   ",
+    "model": "MS-7C01  ",
+    "serial": "Default string  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KTNT-T16",
+    "cpu": "Intel(R) Core(TM) i3-9100 CPU @ 3.60GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "TOSHIBA HDWD110  ",
+    "ip": "10.70.3.33",
+    "mac": "2C:F0:5D:E9:17:C1  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
