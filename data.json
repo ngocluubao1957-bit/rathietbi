@@ -4824,5 +4824,31 @@
     "os": "Windows_7 32-bit          ",
     "office": "Microsoft Office 2007",
     "peripherals": []
+  },
+  {
+    "id": 1781697480609,
+    "thoiGian": "18:58:00, 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Phú Nhuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "M2610",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-PN-4",
+    "cpu": "i3-4710",
+    "ram": "4",
+    "hdd": "HDD500GB",
+    "ip": "10.70.117.85",
+    "mac": "F4-4D-3D-01-5F-70",
+    "os": "Windows_7 64bit",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
