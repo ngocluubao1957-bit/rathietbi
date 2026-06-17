@@ -4124,5 +4124,40 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1781686679432,
+    "thoiGian": "15:57:59 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH Tân Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNC6LQ2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7B-1",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "7,8 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.23.167",
+    "mac": "8C:EC:4B:B1:BC:96  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Symbol"
+      }
+    ]
   }
 ]
