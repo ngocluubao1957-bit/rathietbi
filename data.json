@@ -4881,5 +4881,31 @@
         "info": "HP402"
       }
     ]
+  },
+  {
+    "id": 1781698354547,
+    "thoiGian": "19:12:34 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Bình Khánh",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3670  ",
+    "serial": "D7Z09R2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-NSG-PBK-01",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA DT01ACA100  ",
+    "ip": "10.70.28.162",
+    "mac": "8C:EC:4B:89:24:85  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
