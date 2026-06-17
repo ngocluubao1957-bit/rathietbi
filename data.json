@@ -2896,5 +2896,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1781674870625,
+    "thoiGian": "12:41:10 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Nhà Bè",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Hewlett-Packard  ",
+    "model": "HP Compaq 6200 Pro SFF PC  ",
+    "serial": "SGH218R272    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-NB-2",
+    "cpu": "Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.24.41",
+    "mac": "E8:39:35:5B:A5:20  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": []
   }
 ]
