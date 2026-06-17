@@ -2517,5 +2517,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781668442413,
+    "thoiGian": "10:54:02 17/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Phú Thuận",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q7A-12",
+    "cpu": "Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz  ",
+    "ram": "3.4 GB",
+    "hdd": "SPCC Solid State Disk ATA Device  ",
+    "ip": "10.70.23.77",
+    "mac": "74:D4:35:49:FE:2C  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
   }
 ]
