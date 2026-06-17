@@ -2439,5 +2439,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "office 2016",
     "peripherals": []
+  },
+  {
+    "id": 1781667266698,
+    "thoiGian": "10:34:26 17/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Truong Hai Tam",
+    "bophan": "KTVC / PTH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Inspiron 13-5378  ",
+    "serial": "7PZ61C2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "MYCOMPUTER",
+    "cpu": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "ATA ST500LM021-1KJ15 USB Device  ",
+    "ip": "192.168.0.156",
+    "mac": "68:07:15:55:63:EC  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
