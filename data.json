@@ -5997,5 +5997,36 @@
     "os": "Windows_11 64-bit          ",
     "office": "Microsoft Office 2013",
     "peripherals": []
+  },
+  {
+    "id": 1781762598853,
+    "thoiGian": "13:03:18 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Q1A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "20P5QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q1A-6",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3,9 GB",
+    "hdd": "WDC WD10EZEX-00BBHA0  ",
+    "ip": "10.70.24.15",
+    "mac": "8C:EC:4B:43:2D:F8  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Datamax"
+      }
+    ]
   }
 ]
