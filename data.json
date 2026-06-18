@@ -6054,5 +6054,40 @@
     "os": "Windows_7 64bit",
     "office": "Microsoft Office 2007",
     "peripherals": []
+  },
+  {
+    "id": 1781763271492,
+    "thoiGian": "13:14:31 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Q1A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "20H1QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q1B-7",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3,9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "10.70.24.28",
+    "mac": "8C:EC:4B:43:26:F5  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
