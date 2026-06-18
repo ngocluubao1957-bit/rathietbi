@@ -5617,5 +5617,40 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1781755268351,
+    "thoiGian": "11:01:08 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Q3",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "JDWBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q3-15",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.76.83",
+    "mac": "F8:BC:12:A6:15:A0  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402. Zebra ZD230"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Symbol"
+      }
+    ]
   }
 ]
