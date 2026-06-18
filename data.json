@@ -5971,5 +5971,31 @@
     "os": "Windows_11 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781759776622,
+    "thoiGian": "12:16:16 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "P.TH Long",
+    "bophan": "TTDV VH1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G6 Microtower PC  ",
+    "serial": "4CE146D8ZY    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-HIEU",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "15.8 GB",
+    "hdd": "SAMSUNG MZVLQ256HAJD-000H1  ",
+    "ip": "172.16.6.57",
+    "mac": "50:81:40:23:F7:A6  ",
+    "os": "Windows_11 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
   }
 ]
