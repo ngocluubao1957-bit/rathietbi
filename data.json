@@ -6591,5 +6591,36 @@
         "info": "Delfi"
       }
     ]
+  },
+  {
+    "id": 1781767315817,
+    "thoiGian": "14:21:55 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BC",
+    "bophan": "BC Hệ 1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV022720009019600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-HE1-LOC1",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Verbatim Vi550 S3  ",
+    "ip": "10.70.23.98",
+    "mac": "F4:4D:30:E2:BF:B6  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Delfi"
+      }
+    ]
   }
 ]
