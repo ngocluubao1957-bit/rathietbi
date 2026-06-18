@@ -6688,5 +6688,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1781767825561,
+    "thoiGian": "14:30:25 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BC Hệ 1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP ProDesk 400 G4 SFF  ",
+    "serial": "SGH805PBP8    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Màn hình mờ, nhòe",
+    "hostname": "HCM-HE1-NHUNG",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "PNY 250GB SATA SSD  ",
+    "ip": "10.70.23.108",
+    "mac": "18:60:24:E2:3D:C5  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
