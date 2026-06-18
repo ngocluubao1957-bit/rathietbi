@@ -5893,5 +5893,31 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1781758832158,
+    "thoiGian": "12:00:32 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Trung tam 1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3050  ",
+    "serial": "9T4YTK2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-TT1-3",
+    "cpu": "Intel(R) Core(TM) i3-7100T CPU @ 3.40GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Netac SSD 160GB  ",
+    "ip": "10.70.98.4",
+    "mac": "14:B3:1F:1B:3E:BF  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
