@@ -6155,5 +6155,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1781763917224,
+    "thoiGian": "13:25:17, 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Q1A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "3WYBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Màn hình bị sọc",
+    "hostname": "HCM-TTP1-Q1A-3",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "ST500LM021-1KJ152 ATA Device  ",
+    "ip": "10.70.24.29",
+    "mac": "50:9A:4C:15:81:9A  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
