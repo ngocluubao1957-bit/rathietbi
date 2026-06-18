@@ -6089,5 +6089,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1781763491898,
+    "thoiGian": "13:18:11 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Q1A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G7R3TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q1B-4",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "WD Green SATA SSD 2.5 250GB  ",
+    "ip": "10.70.24.4",
+    "mac": "B8:85:84:A5:9F:41  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
