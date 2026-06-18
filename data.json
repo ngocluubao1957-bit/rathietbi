@@ -6622,5 +6622,36 @@
         "info": "Delfi"
       }
     ]
+  },
+  {
+    "id": 1781767516074,
+    "thoiGian": "14:25:16 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BC Hệ 1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G674TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-HE1-VIET",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "PNY CS900 250GB SSD  ",
+    "ip": "10.70.23.107",
+    "mac": "B8:85:84:A9:1B:B9  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
