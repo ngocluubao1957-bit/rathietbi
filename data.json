@@ -5586,5 +5586,36 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016",
     "peripherals": []
+  },
+  {
+    "id": 1781754617838,
+    "thoiGian": "10:50:17 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Q3",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "20Q1QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q3-5",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "﻿7.9 GB",
+    "hdd": "TOSHIBA DT01ACA050 ATA Device  ",
+    "ip": "10.70.76.69",
+    "mac": "8C:EC:4B:43:2E:90  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
