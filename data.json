@@ -5402,5 +5402,31 @@
         "info": "Datalogic"
       }
     ]
+  },
+  {
+    "id": 1781753417550,
+    "thoiGian": "10:30:17 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Q3",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Pro Tower 280 G9 PCI Desktop PC  ",
+    "serial": "4CE422B8Y8    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q3-9",
+    "cpu": "12th Gen Intel(R) Core(TM) i3-12100  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe SAMSUNG MZVL2256HCHQ-00BH1  ",
+    "ip": "10.70.76.72",
+    "mac": "30:13:8B:64:AC:FE  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
