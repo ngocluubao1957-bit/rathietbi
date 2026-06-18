@@ -5919,5 +5919,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1781759406532,
+    "thoiGian": "12:10:06 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "P.TH - Hương",
+    "bophan": "TTDV VH1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6YHW8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-HUONG",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "ST1000DM010-2EP102   ",
+    "ip": "172.16.6.61",
+    "mac": "8C:EC:4B:B4:00:F6  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
   }
 ]
