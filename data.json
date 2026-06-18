@@ -5784,5 +5784,31 @@
         "info": "HP402"
       }
     ]
+  },
+  {
+    "id": 1781757754227,
+    "thoiGian": "11:42:34 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Trung tam 1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNB0BP2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-TT1-5",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA DT01ACA100  ",
+    "ip": "10.70.98.10",
+    "mac": "8C:EC:4B:B1:C0:E5  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
