@@ -6719,5 +6719,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1781772171296,
+    "thoiGian": "15:42:51 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "P.TH GĐ",
+    "bophan": "TTDV VH1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNCB2K2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-GDOC",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "19.8 GB",
+    "hdd": "TOSHIBA DT01ACA100 USB Device  ",
+    "ip": "172.16.6.145",
+    "mac": "8C:EC:4B:B3:B9:1D  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Canon 242"
+      }
+    ]
   }
 ]
