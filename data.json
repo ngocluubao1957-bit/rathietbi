@@ -5073,5 +5073,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1781749912928,
+    "thoiGian": "09:31:52 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Q4",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "DHZBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q4-1",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "PNY CS900 120GB SSD  ",
+    "ip": "10.70.22.227",
+    "mac": "F8:BC:12:A4:38:FC  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
