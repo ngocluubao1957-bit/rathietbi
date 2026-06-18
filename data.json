@@ -5042,5 +5042,36 @@
         "info": "DATAMAX"
       }
     ]
+  },
+  {
+    "id": 1781748874314,
+    "thoiGian": "09:14:34, 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Q4",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "X2611G",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "i3-3240",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.22.232",
+    "mac": "C0-3F-D5-57-1-C5",
+    "os": "Windows 7",
+    "office": "Microsoft Office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
