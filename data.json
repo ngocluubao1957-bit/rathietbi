@@ -6028,5 +6028,31 @@
         "info": "Datamax"
       }
     ]
+  },
+  {
+    "id": 1781763061689,
+    "thoiGian": "13:11:01 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Q1A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3020",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TPP1-Q1A-8",
+    "cpu": "i3-4150",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.24.16",
+    "mac": "F8-BC-12-A4-3A-55",
+    "os": "Windows_7 64bit",
+    "office": "Microsoft Office 2007",
+    "peripherals": []
   }
 ]
