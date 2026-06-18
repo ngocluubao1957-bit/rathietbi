@@ -6776,5 +6776,36 @@
     "os": "Windows_10 64-bit          ",
     "office": "2016",
     "peripherals": []
+  },
+  {
+    "id": 1781772705630,
+    "thoiGian": "15:51:45 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "P.TH Trung",
+    "bophan": "TTDV VH1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6YMW8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-TRUNG",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "15.8 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "172.16.6.60",
+    "mac": "84:D8:1B:36:9F:A3  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      }
+    ]
   }
 ]
