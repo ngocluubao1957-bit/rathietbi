@@ -5007,5 +5007,40 @@
         "info": "philip 22 inh"
       }
     ]
+  },
+  {
+    "id": 1781749156729,
+    "thoiGian": "09:19:16, 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Q4",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "X2710",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q4-M",
+    "cpu": "i3-6100",
+    "ram": "4",
+    "hdd": "HDD 1TB",
+    "ip": "10.70.22.228",
+    "mac": "F4-4D-30-96-9F-9F",
+    "os": "WINDOWS 7 64BIT",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "DATAMAX"
+      }
+    ]
   }
 ]
