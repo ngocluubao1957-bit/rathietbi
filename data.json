@@ -5683,5 +5683,40 @@
         "info": "Datamax"
       }
     ]
+  },
+  {
+    "id": 1781756186648,
+    "thoiGian": "11:16:26 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Phó BCP",
+    "bophan": "BCP Q3",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "ECT1250",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q3-4",
+    "cpu": "i3-14100",
+    "ram": "",
+    "hdd": "ssd 250",
+    "ip": "10.70.76.70",
+    "mac": "E8-CF-83-4D-32-E9",
+    "os": "Windows_11",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Datamax"
+      }
+    ]
   }
 ]
