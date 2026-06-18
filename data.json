@@ -5306,5 +5306,31 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1781752898220,
+    "thoiGian": "10:21:38 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Q3",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "7HYBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q3-3",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "﻿3.4 GB",
+    "hdd": "TOSHIBA MQ01ACF050 ATA Device  ",
+    "ip": "10.70.76.89",
+    "mac": "64:00:6A:42:F0:C3  ",
+    "os": "Windows_7 32-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
   }
 ]
