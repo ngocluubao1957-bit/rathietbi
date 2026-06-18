@@ -6750,5 +6750,31 @@
         "info": "Canon 242"
       }
     ]
+  },
+  {
+    "id": 1781772456493,
+    "thoiGian": "15:47:36 18/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "P.TH - P.GD",
+    "bophan": "TTDV VH1",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G7X4TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-HANG",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "15.8 GB",
+    "hdd": "PNY CS900 120GB SSD             ",
+    "ip": "172.16.6.74",
+    "mac": "B8:85:84:AA:DC:64  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "2016",
+    "peripherals": []
   }
 ]
