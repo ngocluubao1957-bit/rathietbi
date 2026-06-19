@@ -8833,5 +8833,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781855958057,
+    "thoiGian": "14:59:18 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Huynh Minh Son",
+    "bophan": "Hub270",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Z2 Mini G3 Workstation  ",
+    "serial": "4CV801W9BD    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-HUB270-SON",
+    "cpu": "Intel(R) Xeon(R) CPU E3-1280 v5 @ 3.70GHz  ",
+    "ram": "15.9 GB",
+    "hdd": "SAMSUNG MZVLW256HEHP-000H1  ",
+    "ip": "10.70.4.75",
+    "mac": "10:E7:C6:2C:1D:7D  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
