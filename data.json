@@ -7545,5 +7545,36 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781840463061,
+    "thoiGian": "10:41:03 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH Diên Hồng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G744TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-DH-6",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA MQ01ACF050  ",
+    "ip": "10.70.24.101",
+    "mac": "B8:85:84:A5:A3:2A  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
