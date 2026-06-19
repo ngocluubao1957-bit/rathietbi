@@ -8135,5 +8135,31 @@
         "info": "Datalogic"
       }
     ]
+  },
+  {
+    "id": 1781844947006,
+    "thoiGian": "11:55:47 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiep vu",
+    "bophan": "BCVH Dien Hong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "4KYBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-DH-7",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "PNY 250GB SATA SSD  ",
+    "ip": "10.70.24.102",
+    "mac": "F8:BC:12:A4:AB:19  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
