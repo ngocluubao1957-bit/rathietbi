@@ -8104,5 +8104,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1781844755459,
+    "thoiGian": "11:52:35 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vuj",
+    "bophan": "BCVH Diên Hồng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNBFHJ2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-DH-2",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3,8 GB",
+    "hdd": "Verbatim Vi550 S3  ",
+    "ip": "10.70.24.108",
+    "mac": "8C:EC:4B:B1:C3:CA  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Datalogic"
+      }
+    ]
   }
 ]
