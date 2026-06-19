@@ -8161,5 +8161,36 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781845292309,
+    "thoiGian": "12:01:32 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Trung tâm 3",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "F9X8H32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "DESKTOP-QHKN33P",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WDC WDS120G2G0A-00JH30  ",
+    "ip": "10.70.16.138",
+    "mac": "F8:BC:12:A6:1A:56  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402, Intermec PC43d"
+      }
+    ]
   }
 ]
