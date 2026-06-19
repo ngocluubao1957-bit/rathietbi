@@ -8386,5 +8386,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1781847128145,
+    "thoiGian": "12:32:08 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Tân Bình A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TBA-7",
+    "cpu": "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  ",
+    "ram": "4 GB",
+    "hdd": "PNY CS900 120GB SSD ATA Device  ",
+    "ip": "10.70.16.130",
+    "mac": "90:2B:34:9E:90:4F  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
