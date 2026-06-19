@@ -8192,5 +8192,36 @@
         "info": "HP402, Intermec PC43d"
       }
     ]
+  },
+  {
+    "id": 1781845726275,
+    "thoiGian": "12:08:46 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Bình A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X2631G  ",
+    "serial": "DTVKBSV0014300360B9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TBA-6",
+    "cpu": "Intel(R) Pentium(R) CPU G3220 @ 3.00GHz  ",
+    "ram": "1.9 GB",
+    "hdd": "WDC WDS120G2G0A-00JH30  ",
+    "ip": "10.70.16.166",
+    "mac": "C0:3F:D5:B6:9E:41  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "LibreOffice",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
