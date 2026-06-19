@@ -8937,5 +8937,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781857051639,
+    "thoiGian": "15:17:31, 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Than Thanh Hai",
+    "bophan": "Doi Van Chuyen",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3050  ",
+    "serial": "9T2PRK2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-DVC-CUDV",
+    "cpu": "Intel(R) Core(TM) i3-7100T CPU @ 3.40GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "ST500LM021-1KJ152 ATA Device  ",
+    "ip": "10.70.3.39",
+    "mac": "D8:9E:F3:94:65:E0  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
