@@ -8755,5 +8755,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781855686251,
+    "thoiGian": "14:54:46, 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyen Thi Tien",
+    "bophan": "Hub270",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X275  ",
+    "serial": "PSVAM090150430617D2703  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "IT",
+    "cpu": "Pentium(R) Dual-Core  CPU      E6700  @ 3.20GHz  ",
+    "ram": "﻿3 GB",
+    "hdd": "PLEXTOR PX-128M8VC ATA Device      ",
+    "ip": "10.70.4.11",
+    "mac": "D0:27:88:0C:DC:E4  ",
+    "os": "Windows_NT 32-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": []
   }
 ]
