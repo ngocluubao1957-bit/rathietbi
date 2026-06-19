@@ -8807,5 +8807,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781855690011,
+    "thoiGian": "14:54:50 19/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Pham Thi Cam Linh",
+    "bophan": "Hub270",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3400  ",
+    "serial": "CJ65PH3       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "DESKTOP-4AH3M2G",
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe OM3PDP3-AD NVMe KDI 512GB  ",
+    "ip": "192.168.110.155",
+    "mac": "14:85:7F:BE:8B:56  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
