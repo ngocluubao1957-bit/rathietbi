@@ -7462,5 +7462,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781839818358,
+    "thoiGian": "10:30:18 19/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "Hub270",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G5 Small Form Factor PC  ",
+    "serial": "4CE111280N    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-HUB270-30",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "SAMSUNG MZVLQ256HAJD-000H1  ",
+    "ip": "10.70.6.212",
+    "mac": "00:68:EB:B9:68:8B  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
