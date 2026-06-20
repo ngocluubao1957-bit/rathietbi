@@ -9041,5 +9041,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781921928291,
+    "thoiGian": "09:18:48 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC VTau",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Inspiron 660  ",
+    "serial": "9Y18HY1       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "VTU-KTT-137",
+    "cpu": "Intel(R) Pentium(R) CPU G2030 @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Generic- Multi-Card USB Device  ",
+    "ip": "10.74.193.137",
+    "mac": "C8:1F:66:08:C3:04  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
