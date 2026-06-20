@@ -10393,5 +10393,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781941786888,
+    "thoiGian": "14:49:46 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "Hub Thu Duc",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X2611G  ",
+    "serial": "DTVGLSV059410066059600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM_HUBTD_7",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "GIGABYTE GP-GSTFS31240GNTD  ",
+    "ip": "10.70.114.18",
+    "mac": "C0:3F:D5:57:E0:86  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
