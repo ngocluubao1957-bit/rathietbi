@@ -9275,5 +9275,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781923334272,
+    "thoiGian": "09:42:14 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC VTau",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3888  ",
+    "serial": "81HWMF3       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "VTU-KTT-158",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "XSTAR SSD 256GB  ",
+    "ip": "10.74.193.158",
+    "mac": "70:B5:E8:62:0D:FC  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
