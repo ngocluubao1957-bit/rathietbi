@@ -9795,5 +9795,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1781932201899,
+    "thoiGian": "12:10:01 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Le Duy Quan",
+    "bophan": "KHL Cu Chi",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP ProDesk 600 G5 Desktop Mini  ",
+    "serial": "8CC01132TZ    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KHLCUCHI-4",
+    "cpu": "Intel(R) Core(TM) i3-9100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "ST500LM021-1KJ152  ",
+    "ip": "10.70.23.238",
+    "mac": "38:22:E2:18:89:19  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
