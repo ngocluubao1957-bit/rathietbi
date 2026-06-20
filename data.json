@@ -9327,5 +9327,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781924199828,
+    "thoiGian": "09:56:39 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC VTau",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3670  ",
+    "serial": "44R7HY2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "VTU-KTVC-KT-05",
+    "cpu": "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz  ",
+    "ram": "15.8 GB",
+    "hdd": "Kingmax PCIe SSD 256GB  ",
+    "ip": "10.74.193.165",
+    "mac": "E4:54:E8:9B:EC:3A  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
