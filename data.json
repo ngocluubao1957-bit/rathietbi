@@ -9821,5 +9821,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781932097701,
+    "thoiGian": "12:08:17 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyen Van Nam",
+    "bophan": "KHL Cu Chi",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "1PK3QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KHLCUCHI-2",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "10.70.23.235",
+    "mac": "8C:EC:4B:43:28:52  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
