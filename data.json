@@ -9535,5 +9535,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781930352815,
+    "thoiGian": "11:39:12 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Lam Thi Lieu",
+    "bophan": "KHL Cu Chi",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV00564204C459600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-KHLCC-LIEU",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30  ",
+    "ip": "10.70.23.231",
+    "mac": "F4:4D:30:94:A5:79  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
