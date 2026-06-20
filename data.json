@@ -9223,5 +9223,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1781923023653,
+    "thoiGian": "09:37:03 20/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC VTau",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3000  ",
+    "serial": "C2NRXW3       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "VTU-KTVC-KT-15",
+    "cpu": "12th Gen Intel(R) Core(TM) i3-12100  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe PM991a NVMe Samsung 256GB  ",
+    "ip": "10.74.193.141",
+    "mac": "6C:3C:8C:38:EB:11  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
