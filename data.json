@@ -11895,5 +11895,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782119990225,
+    "thoiGian": "16:19:50 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Phong Phú",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3020",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-PP-1",
+    "cpu": "i3-4150",
+    "ram": "4",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.30.34",
+    "mac": "F8-BC-12-A5-7E-08",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
