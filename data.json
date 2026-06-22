@@ -10745,5 +10745,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "MS office 2007",
     "peripherals": []
+  },
+  {
+    "id": 1782102288522,
+    "thoiGian": "11:24:48 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Chánh Hưng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "HBZBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Mành hình bij đốm",
+    "hostname": "HCM-TTP3-Q8B-6",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "PNY CS900 120GB SSD  ",
+    "ip": "10.70.22.164",
+    "mac": "F8:BC:12:A4:34:2B  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": []
   }
 ]
