@@ -11961,5 +11961,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782120321545,
+    "thoiGian": "16:25:21 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Phong Phú",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3050",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-PP-2",
+    "cpu": "i3-7100",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.30.36",
+    "mac": "14-B3-1F-1B-AA-7E",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
