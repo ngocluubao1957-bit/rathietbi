@@ -12185,5 +12185,40 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782121882138,
+    "thoiGian": "16:51:22 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Tạo",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3668",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTAO-1",
+    "cpu": "i3-7100",
+    "ram": "4",
+    "hdd": "SSD 240",
+    "ip": "10.70.24.131",
+    "mac": "8C-EC-4B-43-2C-C4",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
