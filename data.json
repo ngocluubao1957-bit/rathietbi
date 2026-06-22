@@ -11624,5 +11624,31 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782115505384,
+    "thoiGian": "15:05:05 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hỏng — đề nghị thanh lý",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Vĩnh Lộc A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Asus Main H81",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-VLA-3",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": []
   }
 ]
