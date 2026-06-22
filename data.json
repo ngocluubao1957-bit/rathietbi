@@ -10641,5 +10641,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782101628463,
+    "thoiGian": "11:13:48 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Chánh Hưng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNC90J2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q8B-5",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "PNY 250GB SATA SSD  ",
+    "ip": "10.70.22.162",
+    "mac": "8C:EC:4B:B1:C1:B3  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
