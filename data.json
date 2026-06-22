@@ -11650,5 +11650,31 @@
     "os": "",
     "office": "",
     "peripherals": []
+  },
+  {
+    "id": 1782115578257,
+    "thoiGian": "15:06:18 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hỏng — đề nghị thanh lý",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Vĩnh Lộc A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP",
+    "model": "HP Compaq 6200",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-VLA-4",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": []
   }
 ]
