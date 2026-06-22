@@ -10719,5 +10719,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1778314439717,
+    "thoiGian": "15:13:59 9/5/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Chánh Hưng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G8L1TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q8B-4",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA MQ01ACF050  ",
+    "ip": "10.70.22.168",
+    "mac": "B8:85:84:A5:9F:D6  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": []
   }
 ]
