@@ -11589,5 +11589,40 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782115253752,
+    "thoiGian": "15:00:53 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Vĩnh Lộc A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "M210",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-VLA-2",
+    "cpu": "i3-6100",
+    "ram": "4GB",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.22.197",
+    "mac": "F4-4D-30-96-25-1B",
+    "os": "Windows 10",
+    "office": "MS Offcie 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402. Zebra ZD230"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
