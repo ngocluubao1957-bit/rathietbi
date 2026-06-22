@@ -10771,5 +10771,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "MS office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1782102451053,
+    "thoiGian": "11:27:31 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Tran Tuan Can",
+    "bophan": "Hub Binh Tan",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "HJZBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-HUBBTA",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WD Green SATA SSD 2.5 250GB  ",
+    "ip": "10.70.21.8",
+    "mac": "F8:BC:12:A4:33:99  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
