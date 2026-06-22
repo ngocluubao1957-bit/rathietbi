@@ -10967,5 +10967,31 @@
     "os": "",
     "office": "",
     "peripherals": []
+  },
+  {
+    "id": 1782103291909,
+    "thoiGian": "11:41:31 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "Hub Binh Tan",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Slim Desktop S01-pF1xxx  ",
+    "serial": "4CE0373QJ7    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM_HUBBTAN_17",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "SK hynix BC511 HFM256GDJTNI-82A0A  ",
+    "ip": "10.70.21.23",
+    "mac": "9C:7B:EF:3D:88:11  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
