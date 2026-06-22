@@ -10941,5 +10941,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782103129444,
+    "thoiGian": "11:38:49 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "Hub Binh Tan",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": []
   }
 ]
