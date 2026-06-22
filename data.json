@@ -11794,5 +11794,40 @@
     "os": "Windows_7 64-bit          ",
     "office": "MS office 2007",
     "peripherals": []
+  },
+  {
+    "id": 1782119196475,
+    "thoiGian": "16:06:36 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Lê Minh Xuân",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3020",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-LMX-1",
+    "cpu": "i3-4150",
+    "ram": "8",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.30.2",
+    "mac": "F8-8C-12-A4-34-AB",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
