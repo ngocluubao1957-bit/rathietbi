@@ -11707,5 +11707,40 @@
         "info": "Datamax"
       }
     ]
+  },
+  {
+    "id": 1782116834452,
+    "thoiGian": "15:27:14 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Hưng Long",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "5060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-HL-1",
+    "cpu": "i3-8100",
+    "ram": "4GB",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.22.130",
+    "mac": "B8-85-84-A4-49-ED",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Zebra ZD230. HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
