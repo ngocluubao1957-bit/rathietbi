@@ -11742,5 +11742,31 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782117094668,
+    "thoiGian": "15:31:34 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Hưng Long",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "H110",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-HL-2",
+    "cpu": "i3-6100",
+    "ram": "4",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.22.132",
+    "mac": "E0-D5-5E-01-95-B6",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
