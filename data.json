@@ -12084,5 +12084,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782121167744,
+    "thoiGian": "16:39:27 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Túc",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "5060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTUC-4",
+    "cpu": "i3-8100",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.117.37",
+    "mac": "B8-85-84-A5-98-78",
+    "os": "Windows 10",
+    "office": "MS offiice 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
