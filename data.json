@@ -11532,5 +11532,31 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782114096069,
+    "thoiGian": "14:41:36 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hỏng — đề nghị thanh lý",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Vĩnh Lộc B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Fujitsu",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "10.70.30.68",
+    "mac": "",
+    "os": "    ",
+    "office": "",
+    "peripherals": []
   }
 ]
