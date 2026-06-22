@@ -12018,5 +12018,40 @@
     "os": "Windows 10",
     "office": "MS office 2016",
     "peripherals": []
+  },
+  {
+    "id": 1782120891458,
+    "thoiGian": "16:34:51 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Túc",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "2610",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTUC-2",
+    "cpu": "i3-4710",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.117.35",
+    "mac": "F4-4D-30-01-61-3D",
+    "os": "Windowss 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
