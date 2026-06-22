@@ -11926,5 +11926,40 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782120165709,
+    "thoiGian": "16:22:45 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Phong Phú",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3020",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-PP-4",
+    "cpu": "i3-4150",
+    "ram": "4",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.30.35",
+    "mac": "F8-BC-12-A2-7D-CD",
+    "os": "Windows 7",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
