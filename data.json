@@ -11992,5 +11992,31 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782120664326,
+    "thoiGian": "16:31:04 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trường BCP",
+    "bophan": "BCP Tân Túc",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "M2710",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTUC-1",
+    "cpu": "i3-6100",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.117.34",
+    "mac": "F4-4D-30-96-68-50",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": []
   }
 ]
