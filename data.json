@@ -10584,5 +10584,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782101308391,
+    "thoiGian": "11:08:28 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCVH Chánh Hưng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G6P5TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "ADMIN-PC",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "Lexar SSD NS100 256GB  ",
+    "ip": "10.70.22.167",
+    "mac": "00:E0:4C:42:93:C4  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
