@@ -12255,5 +12255,40 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782122184445,
+    "thoiGian": "16:56:24 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Tân Tạo",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP",
+    "model": "280 G9",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTAO-3",
+    "cpu": "i3-12100",
+    "ram": "8",
+    "hdd": "SSD 240",
+    "ip": "10.70.24.133",
+    "mac": "30-13-8B-64-9D-7E",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Datamax"
+      }
+    ]
   }
 ]
