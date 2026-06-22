@@ -12115,5 +12115,40 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782121469799,
+    "thoiGian": "16:44:29 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Túc",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP",
+    "model": "280G9",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTUC-5",
+    "cpu": "i3-12100",
+    "ram": "8",
+    "hdd": "SSD 240",
+    "ip": "10.70.117.41",
+    "mac": "38-13-8B-64-A9-63",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Xprinter XP426B"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Datamax"
+      }
+    ]
   }
 ]
