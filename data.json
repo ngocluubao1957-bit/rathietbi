@@ -11864,5 +11864,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782119535385,
+    "thoiGian": "16:12:15 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Lê Minh Xuân",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3440",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-LMX-4",
+    "cpu": "i3-6100",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10/70.30.5",
+    "mac": "08-00-2B-E1-0B-81",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
