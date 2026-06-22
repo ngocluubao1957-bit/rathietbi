@@ -11768,5 +11768,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782118829493,
+    "thoiGian": "16:00:29, 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Cần Giờ",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "8QV8H32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-CG-1",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "Netac SSD 128GB SCSI Disk Device  ",
+    "ip": "10.70.28.152",
+    "mac": "F8:BC:12:A4:3A:AB  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": []
   }
 ]
