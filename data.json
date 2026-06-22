@@ -12220,5 +12220,40 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782122035619,
+    "thoiGian": "16:53:55 22/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Tạo",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3020",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TTAO-2",
+    "cpu": "i3-4150",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.24.132",
+    "mac": "F8-BC-12-A2-D6-E4",
+    "os": "Windows 7",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Zebra"
+      }
+    ]
   }
 ]
