@@ -12592,5 +12592,31 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782187431948,
+    "thoiGian": "11:03:51 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC Binh Duong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TTKTVC-KT",
+    "cpu": "Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "SPCC Solid State Disk  ",
+    "ip": "10.72.166.91",
+    "mac": "30:5A:3A:83:20:3D  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
