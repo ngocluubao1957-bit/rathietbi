@@ -13853,5 +13853,31 @@
     "os": "Windows10T 64-bit          ",
     "office": "MS office 2016",
     "peripherals": []
+  },
+  {
+    "id": 1782202627259,
+    "thoiGian": "15:17:07 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "P.TH - Long",
+    "bophan": "TTDV VH4",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6YDW8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TH-2",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3,8 GB",
+    "hdd": "ST1000DM010-2EP102  ",
+    "ip": "10.70.24.115",
+    "mac": "8C:EC:4B:B3:FD:4A  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": []
   }
 ]
