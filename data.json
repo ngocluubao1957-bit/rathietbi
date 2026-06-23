@@ -13002,5 +13002,36 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1782189310309,
+    "thoiGian": "11:35:10, 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Bình Thạnh A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3050  ",
+    "serial": "40Q69R2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-BTA-9",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "ST1000DM010-2EP102  ",
+    "ip": "10.70.23.51",
+    "mac": "54:BF:64:72:00:12  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
