@@ -12649,5 +12649,31 @@
         "info": "HP402"
       }
     ]
+  },
+  {
+    "id": 1782187716140,
+    "thoiGian": "11:08:36 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC Binh Duong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "To be filled by O.E.M.  ",
+    "serial": "To be filled by O.E.M.  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TTKTVC-12",
+    "cpu": "Intel(R) Pentium(R) CPU G840 @ 2.80GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Lexar 128GB SSD ATA Device  ",
+    "ip": "10.72.166.77",
+    "mac": "74:D4:35:63:96:B8  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
