@@ -13905,5 +13905,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782202980538,
+    "thoiGian": "15:23:00 23/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "PTH - GĐ",
+    "bophan": "TTDV VH4",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Aspire E5-475  ",
+    "serial": "NXGCUSV001724206E67600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TH-3",
+    "cpu": "Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WDC WDS120G2G0A-00JH30  ",
+    "ip": "192.168.0.190",
+    "mac": "3C:95:09:BB:0D:8D  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": []
   }
 ]
