@@ -12391,5 +12391,40 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782181085440,
+    "thoiGian": "09:18:05, 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Anh Lạc",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "H1X1GL2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-AL-5",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "TOSHIBA DT01ACA050 SCSI Disk Device  ",
+    "ip": "10.70.23.199",
+    "mac": "50:9A:4C:26:18:0B  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
