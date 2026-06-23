@@ -13682,5 +13682,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782199347323,
+    "thoiGian": "14:22:27, 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Q12C",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900B9C9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-Q12C-5",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "ST350031 2CS SCSI Disk Device  ",
+    "ip": "10.70.21.196",
+    "mac": "F4:4D:30:01:62:F1  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywrll"
+      }
+    ]
   }
 ]
