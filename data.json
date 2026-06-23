@@ -13351,5 +13351,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1782190653037,
+    "thoiGian": "11:57:33 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC Binh Duong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G6 Microtower PC  ",
+    "serial": "4CE225C2K3    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TTKTVC-02",
+    "cpu": "Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "MTFDKBA256TFK-1BC1AABHA  ",
+    "ip": "10.72.166.58",
+    "mac": "00:68:EB:B7:CE:E9  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
