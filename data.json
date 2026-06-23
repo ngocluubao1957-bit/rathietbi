@@ -13713,5 +13713,36 @@
         "info": "Honeywrll"
       }
     ]
+  },
+  {
+    "id": 1782199793120,
+    "thoiGian": "14:29:53 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q12C",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "20S0QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-Q12C-4",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "10.70.21.198",
+    "mac": "8C:EC:4B:43:2D:F1  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS offcie 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
