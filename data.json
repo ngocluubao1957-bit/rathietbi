@@ -13775,5 +13775,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782201892489,
+    "thoiGian": "15:04:52 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "P.TH - Long",
+    "bophan": "TTDV VH4",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "20L2QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TH-1",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Dahua C800A SSD 240GB  ",
+    "ip": "10.70.24.116",
+    "mac": "8C:EC:4B:44:FC:6C  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
