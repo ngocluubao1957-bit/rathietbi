@@ -13033,5 +13033,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782189353624,
+    "thoiGian": "11:35:53 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC Binh Duong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "System manufacturer  ",
+    "model": "System Product Name  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TTKTVC-24",
+    "cpu": "Intel(R) Pentium(R) CPU G2030 @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Lexar 128GB SSD  ",
+    "ip": "10.72.166.75",
+    "mac": "40:16:7E:72:8F:A6  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
