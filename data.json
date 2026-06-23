@@ -12483,5 +12483,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1782186471952,
+    "thoiGian": "10:47:51 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nguyen Bang Duy",
+    "bophan": "KHL Thuan An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Gigabyte Technology Co., Ltd.  ",
+    "model": "H410M H V2  ",
+    "serial": "Default string  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HUBTHUANAN",
+    "cpu": "Intel(R) Core(TM) i3-10105 CPU @ 3.70GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "Kingmax PCIe SSD 256GB  ",
+    "ip": "10.72.166.69",
+    "mac": "10:FF:E0:44:44:B2  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
