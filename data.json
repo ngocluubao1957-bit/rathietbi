@@ -12893,5 +12893,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1782188892625,
+    "thoiGian": "11:28:12 23/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Cong Nhan Khai Thac",
+    "bophan": "BC KTVC Binh Duong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUS          ",
+    "model": "All Series  ",
+    "serial": "System Serial Number  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BDG-TTKTVC-17",
+    "cpu": "Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Colorful SL300 128GB  ",
+    "ip": "10.72.166.52",
+    "mac": "D0:17:C2:A6:DE:70  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
