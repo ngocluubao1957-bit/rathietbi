@@ -14063,5 +14063,31 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782287507149,
+    "thoiGian": "14:51:47 24/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Tân Phú A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "HQW8H32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPA-12",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WDC WDS120G2G0A-00JH30  ",
+    "ip": "10.70.75.196",
+    "mac": "F8:BC:12:A4:3A:AF  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": []
   }
 ]
