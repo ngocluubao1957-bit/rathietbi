@@ -14032,5 +14032,36 @@
         "info": "Honeywell"
       }
     ]
+  },
+  {
+    "id": 1782287294344,
+    "thoiGian": "14:48:14 24/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Phú A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6XBP8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPA-3",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "PNY CS900 120GB SSD  ",
+    "ip": "10.70.75.244",
+    "mac": "8C:EC:4B:B4:0C:FC  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Libre Office",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Honeywell"
+      }
+    ]
   }
 ]
