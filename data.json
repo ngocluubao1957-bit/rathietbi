@@ -14309,5 +14309,36 @@
         "info": "datalogic"
       }
     ]
+  },
+  {
+    "id": 1782289748785,
+    "thoiGian": "15:29:08 24/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "bưu tá",
+    "bophan": "BCP Tân Phú A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6Y5Q8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPA-6",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "PNY 250GB SATA SSD  ",
+    "ip": "10.70.75.243",
+    "mac": "8C:EC:4B:B3:C1:52  ",
+    "os": "Windows_11 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
