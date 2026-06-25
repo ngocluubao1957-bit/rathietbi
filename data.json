@@ -15112,5 +15112,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782375947528,
+    "thoiGian": "15:25:47 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Hóc Môn A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "20WYPM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-HMA-3",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "10.70.21.98",
+    "mac": "8C:EC:4B:43:2A:F6  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
