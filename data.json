@@ -14596,5 +14596,40 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782369152152,
+    "thoiGian": "13:32:32 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Chánh Hiệp",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Pro Tower 280 G9 E PCI Desktop PC  ",
+    "serial": "4CE512C6QM    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TCH-8",
+    "cpu": "12th Gen Intel(R) Core(TM) i3-12100  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe KBG60ZNV256G KIOXIA  ",
+    "ip": "10.70.21.246",
+    "mac": "24:FB:E3:40:C6:DE  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
