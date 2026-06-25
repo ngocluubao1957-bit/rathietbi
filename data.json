@@ -15019,5 +15019,36 @@
         "info": "HO402"
       }
     ]
+  },
+  {
+    "id": 1782375049208,
+    "thoiGian": "15:10:49 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Hóc Môn A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X2611G  ",
+    "serial": "DTVGLSV059410066189600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-HMA-1",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "5.8 GB",
+    "hdd": "ST500DM002-1BD142 ATA Device  ",
+    "ip": "10.70.21.105",
+    "mac": "C0:3F:D5:57:E3:1E  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
