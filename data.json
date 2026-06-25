@@ -15050,5 +15050,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782376158689,
+    "thoiGian": "15:29:18, 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Hóc Môn A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X2611G  ",
+    "serial": "DTVGLSV0594100663D9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-HMA-8",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "3,8 GB",
+    "hdd": "ST500DM002-1BD142 ATA Device  ",
+    "ip": "10.70.21.99",
+    "mac": "C0:3F:D5:57:E3:34  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
