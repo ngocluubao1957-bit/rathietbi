@@ -14530,5 +14530,40 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782360475760,
+    "thoiGian": "11:07:55 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Bình B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV005650011479600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TBB-7",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "3,9 GB",
+    "hdd": "WDC WD10EZEX-21WN4A0  ",
+    "ip": "10.70.22.105",
+    "mac": "F4:4D:30:97:0E:CD  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP M201"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
