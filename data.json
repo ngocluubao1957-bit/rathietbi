@@ -15399,5 +15399,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782380038296,
+    "thoiGian": "16:33:58 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Truởng BCP",
+    "bophan": "BCP Hóc Môn B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G761TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-HMB-1",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.21.109",
+    "mac": "B8:85:84:AA:DB:8C  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      }
+    ]
   }
 ]
