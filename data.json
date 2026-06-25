@@ -14701,5 +14701,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782370155841,
+    "thoiGian": "13:49:15, 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Chánh Hiệp",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV005650011579600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TCH-1",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "WDC WD5000AZLX-60K2T SCSI Disk Device  ",
+    "ip": "10.70.21.233",
+    "mac": "F4:4D:30:97:0A:04  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
