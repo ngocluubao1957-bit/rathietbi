@@ -14631,5 +14631,40 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782369607890,
+    "thoiGian": "13:40:07 25/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Chánh Hiệp",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUSTeK COMPUTER INC.  ",
+    "model": "ASUSPRO D340MC-C_D340MC  ",
+    "serial": "K9PFCG00K26339F  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TCH-2",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "ST1000DM010-2EP102  ",
+    "ip": "10.70.21.229",
+    "mac": "04:D9:F5:BA:4B:AA  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Xprinter DT426B"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
