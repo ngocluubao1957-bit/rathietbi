@@ -17651,5 +17651,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782451161387,
+    "thoiGian": "12:19:21, 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Go Vap A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa X2710  ",
+    "serial": "DTX0RSV005650011409600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-GVA-2",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "﻿2.2 GB",
+    "hdd": "WDC WD10EZEX-21WN4A0 SCSI Disk Device  ",
+    "ip": "10.70.117.203",
+    "mac": "F4:4D:30:97:0E:CB  ",
+    "os": "Windows_7 32-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
