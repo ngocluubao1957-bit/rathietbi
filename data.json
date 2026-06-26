@@ -17114,5 +17114,31 @@
     "os": "Windows 7 64bit",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1782448556700,
+    "thoiGian": "11:35:56 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Vinhomes",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060",
+    "serial": "JNCWFL2",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-VIN-2",
+    "cpu": "Intel(R) Core(TM) i3-8100",
+    "ram": "4 Gb",
+    "hdd": "SSD 120Gb + HDD 1Tb",
+    "ip": "10.70.20.196",
+    "mac": "8C-EC-4B-B1-BD-5B",
+    "os": "Windows 10 Pro 64bit",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
