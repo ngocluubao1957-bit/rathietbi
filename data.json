@@ -15669,5 +15669,31 @@
     "os": "Windows 10 Pro 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782438780027,
+    "thoiGian": "08:53:00 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Thủ Đức",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "Veriton X2611G",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Cần nâng cấp Ram",
+    "hostname": "HCM-TTP4-TD-4",
+    "cpu": "Intel(R) Core(TM) i3-3240",
+    "ram": "2 Gb",
+    "hdd": "SSD 240Gb",
+    "ip": "10.70.16.73",
+    "mac": "C0-3F-D5-57-E3-D6",
+    "os": "Windows 10",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
