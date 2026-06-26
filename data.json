@@ -17192,5 +17192,31 @@
     "os": "Windows 10 Pro 64bit",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782448811532,
+    "thoiGian": "11:40:11 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Vinhomes",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Cần nâng cấp SSD",
+    "hostname": "HCM-TTP4-VIN-3",
+    "cpu": "Intel(R) Core(TM) i3-4150T",
+    "ram": "4 Gb",
+    "hdd": "HDD 500Gb",
+    "ip": "10.70.20.195",
+    "mac": "F8-BC-12-A4-3A-DD",
+    "os": "Windows 7 64bit",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
