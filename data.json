@@ -16701,5 +16701,40 @@
     "os": "Windows 10 Pro 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782446774102,
+    "thoiGian": "11:06:14 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Thới An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "1ZF2QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TA-9",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "Lexar SSD NS100 256GB  ",
+    "ip": "10.70.22.67",
+    "mac": "8C:EC:4B:43:2B:07  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "ZEBRA ZD620"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datalogic"
+      }
+    ]
   }
 ]
