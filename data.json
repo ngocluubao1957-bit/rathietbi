@@ -183,5 +183,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782462537637,
+    "thoiGian": "15:28:57 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyễn Thị Hương Thảo",
+    "bophan": "Trung tâm DVKH",
+    "chucdanh": "Chăm sóc KH ",
+    "sdt": "0906377292",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": ""
+      }
+    ]
   }
 ]
