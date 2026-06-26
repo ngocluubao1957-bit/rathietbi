@@ -18064,5 +18064,40 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782456166551,
+    "thoiGian": "13:42:46, 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Củ Chi",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "6PYBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-CC-4",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "WDC WD5000BEVT-80HXZT1 ATA Device  ",
+    "ip": "10.70.19.135",
+    "mac": "F8:BC:12:A2:D7:DB  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
