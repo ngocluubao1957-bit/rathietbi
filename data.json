@@ -16552,5 +16552,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782445382368,
+    "thoiGian": "10:43:02, 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Thoi An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3050  ",
+    "serial": "9TKLRK2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TA-3",
+    "cpu": "Intel(R) Core(TM) i3-7100T CPU @ 3.40GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "ST500LM0 21-1KJ152 SCSI Disk Device  ",
+    "ip": "10.70.22.88",
+    "mac": "14:B3:1F:1B:F2:4A  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2013",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
