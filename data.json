@@ -16059,5 +16059,31 @@
     "os": "Windows 10 Pro 64bit",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782440113019,
+    "thoiGian": "09:15:13 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCVH An Khánh",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP",
+    "model": "Desktop M01-F3xxx",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q2B-8",
+    "cpu": "Intel(R) Core(TM) i3-13100",
+    "ram": "8 Gb",
+    "hdd": "SSD 256Gb NVMe",
+    "ip": "10.70.20.69",
+    "mac": "24-FB-E3-43-94-AD",
+    "os": "Windows 10 Pro 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
