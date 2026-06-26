@@ -16203,5 +16203,31 @@
     "os": "Windows 10 Pro 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782440852227,
+    "thoiGian": "09:27:32 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp Vụ + Bưu tá",
+    "bophan": "BCP Quận 9",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M",
+    "serial": "C6V8H32",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-Q9-3",
+    "cpu": "Intel(R) Core(TM) i3-4150T",
+    "ram": "4 Gb",
+    "hdd": "SSD 240Gb",
+    "ip": "10.70.144.130",
+    "mac": "F8-BC-12-A4-38-7B",
+    "os": "Windows 10 Pro 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
