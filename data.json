@@ -17977,5 +17977,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782455060353,
+    "thoiGian": "13:24:20 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Gò Vấp B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 7050  ",
+    "serial": "FW0H8M2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "SUMALI",
+    "cpu": "Intel(R) Core(TM) i5-7600T CPU @ 2.80GHz  ",
+    "ram": "7.7 GB",
+    "hdd": "Kingmax SSD 240GB  ",
+    "ip": "192.168.0.187",
+    "mac": "E4:70:B8:4D:17:D7  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
