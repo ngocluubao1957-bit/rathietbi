@@ -15721,5 +15721,31 @@
     "os": "Windows 10 Pro 64bit",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782438994419,
+    "thoiGian": "08:56:34 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Thủ Đức",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TD-5",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU",
+    "ram": "4 Gb",
+    "hdd": "SSD 120Gb + HDD 1Tb",
+    "ip": "10.70.16.79",
+    "mac": "8C-EC-4B-B4-09-4B",
+    "os": "Windows 10 Pro 64bit   ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
