@@ -16517,5 +16517,40 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782445165978,
+    "thoiGian": "10:39:25 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Thới An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6WZP8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TA-4",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "ST1000DM010-2EP102   ",
+    "ip": "10.70.22.92",
+    "mac": "8C:EC:4B:B4:09:A1  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "Xpriter DT426B"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
