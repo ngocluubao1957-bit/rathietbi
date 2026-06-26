@@ -17558,5 +17558,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782450516916,
+    "thoiGian": "12:08:36 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Buu ta",
+    "bophan": "BCP Go Vap A",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "G7ZBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-GVA-10",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WDC WDS120G2G0A-00JH30  ",
+    "ip": "10.70.117.210",
+    "mac": "64:00:6A:2F:33:9C  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
