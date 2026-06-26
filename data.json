@@ -16491,5 +16491,31 @@
         "info": "HONEYWELL"
       }
     ]
+  },
+  {
+    "id": 1782444881552,
+    "thoiGian": "10:34:41 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Thới An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUSTeK COMPUTER INC.  ",
+    "model": "ASUSPRO D340MC-C  ",
+    "serial": "NA            ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TA-1",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "WD Green 2.5 240GB  ",
+    "ip": "10.70.22.69",
+    "mac": "A8:5E:45:D3:14:9A  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
