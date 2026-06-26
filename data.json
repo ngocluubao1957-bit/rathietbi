@@ -16290,5 +16290,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782441390298,
+    "thoiGian": "09:36:30 26/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCVH Bình Trưng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex Latitude 3460",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q2A-9",
+    "cpu": "Intel(R) Core(TM) i3-5005U",
+    "ram": "4 GB",
+    "hdd": "SSD 120Gb",
+    "ip": "Wifi",
+    "mac": "",
+    "os": "Windows 7 64bit",
+    "office": "Microsoft Office 2010",
+    "peripherals": []
   }
 ]
