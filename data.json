@@ -55,5 +55,36 @@
     "os": "Windows_10 64-bit          ",
     "office": "MS office 2016",
     "peripherals": []
+  },
+  {
+    "id": 1782460188269,
+    "thoiGian": "14:49:48 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Trung",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "1NY3QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TT-2",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "192.168.10.230",
+    "mac": "B0:52:16:87:EF:5D  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
