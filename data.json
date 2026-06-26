@@ -16840,5 +16840,36 @@
     "os": "Windows 7 64bit",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1782447272911,
+    "thoiGian": "11:14:32 26/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Thới An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Latitude 5480  ",
+    "serial": "D3V1QH2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TA-5",
+    "cpu": "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz  ",
+    "ram": "7.9 GB",
+    "hdd": "M.2 SSD 512GB  ",
+    "ip": "10.70.22.93",
+    "mac": "A4:4C:C8:16:07:28  ",
+    "os": "Windows_1 64-bit          ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
