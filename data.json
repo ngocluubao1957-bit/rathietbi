@@ -446,5 +446,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782467081561,
+    "thoiGian": "16:44:41 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Phú Trung",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "2054QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TPT-3",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "TOSHIBA DT01ACA050  ",
+    "ip": "10.70.30.99",
+    "mac": "8C:EC:4B:43:2B:31  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
