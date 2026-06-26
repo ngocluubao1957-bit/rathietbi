@@ -333,5 +333,31 @@
     "os": "",
     "office": "",
     "peripherals": []
+  },
+  {
+    "id": 1782463888892,
+    "thoiGian": "15:51:28 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "NÔNG VƯƠNG LAN",
+    "bophan": "TT DVKH",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "",
+    "mac": "",
+    "os": "",
+    "office": "",
+    "peripherals": []
   }
 ]
