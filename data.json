@@ -18003,5 +18003,31 @@
     "os": "Windows_10 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782456014018,
+    "thoiGian": "13:40:14 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Củ Chi",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2710  ",
+    "serial": "DTX0TSV003645044F59600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-CC-NEN",
+    "cpu": "Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Apacer AS340 240GB  ",
+    "ip": "10.70.19.131",
+    "mac": "F4:4D:30:96:27:0B  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
