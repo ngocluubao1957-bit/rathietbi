@@ -15565,5 +15565,31 @@
     "os": "Windows 10 Pro",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782438121836,
+    "thoiGian": "08:42:01 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Phước Bình",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "Chậm, cần nâng cấp ổ cứng SSD",
+    "hostname": "HCM-TTP4-PB-2",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU",
+    "ram": "4 Gb",
+    "hdd": "HDD 1Tb",
+    "ip": "10.70.20.124",
+    "mac": "",
+    "os": "Windows 11 Pro 64bit",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
