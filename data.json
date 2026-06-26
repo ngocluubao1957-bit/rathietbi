@@ -15747,5 +15747,31 @@
     "os": "Windows 10 Pro 64bit   ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782439077155,
+    "thoiGian": "08:57:57 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Thủ Đức",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TD-2",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU",
+    "ram": "4 Gb",
+    "hdd": "SSD 120Gb + HDD 500Gb",
+    "ip": "10.70.16.74",
+    "mac": "8C-EC-4B-43-2C-B3",
+    "os": "Windows 10 Pro 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
