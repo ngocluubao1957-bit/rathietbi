@@ -16640,5 +16640,40 @@
     "os": "Windows_10 64-bit          ",
     "office": "MS office 2007",
     "peripherals": []
+  },
+  {
+    "id": 1782446097013,
+    "thoiGian": "10:54:57 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Thới An",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNBG6Q2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TA-7",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "7.8 GB",
+    "hdd": "Lexar SSD NS100 256GB  ",
+    "ip": "10.70.22.90",
+    "mac": "8C:EC:4B:B1:C4:5D  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402. ZEBRA ZD230"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
