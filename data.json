@@ -15617,5 +15617,31 @@
     "os": "Windows 7 64bit",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1782438537412,
+    "thoiGian": "08:48:57 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Thủ Đức",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-TD-1",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU",
+    "ram": "4 Gb",
+    "hdd": "SSD 120Gb",
+    "ip": "10.70.16.68",
+    "mac": "B8-85-84-AB-0B-B7",
+    "os": "Windows 10 Pro 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
