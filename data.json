@@ -16675,5 +16675,31 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782446627214,
+    "thoiGian": "11:03:47 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCVH Bình Trưng",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668",
+    "serial": "20FZPM2",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP1-Q2A-3",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU",
+    "ram": "4 Gb",
+    "hdd": "SSD 128Gb",
+    "ip": "10.70.20.5",
+    "mac": "8C-EC-4B-44-FA-6E",
+    "os": "Windows 10 Pro 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
