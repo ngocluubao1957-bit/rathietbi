@@ -15799,5 +15799,31 @@
     "os": "Windows 7 64bit",
     "office": "Microsoft Office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1782439254155,
+    "thoiGian": "09:00:54 26/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Thủ Đức",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "ASUS",
+    "model": "X455LAB",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP2-TD-8",
+    "cpu": "Intel(R) Core(TM) i3-5005U",
+    "ram": "4 Gb",
+    "hdd": "SSD 120Gb",
+    "ip": "Wifi",
+    "mac": "",
+    "os": "Windows 10 Pro 64bit",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
