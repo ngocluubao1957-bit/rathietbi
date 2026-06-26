@@ -385,5 +385,31 @@
     "os": "",
     "office": "",
     "peripherals": []
+  },
+  {
+    "id": 1782464525954,
+    "thoiGian": "16:02:05 26/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Vũ Như Quỳnh",
+    "bophan": "Trung tâm dịch vụ khách hàng",
+    "chucdanh": "Chăm sóc khách hàng",
+    "sdt": "0902787802",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-66",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "10.70.35.14",
+    "mac": "",
+    "os": "Windows_NT ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
