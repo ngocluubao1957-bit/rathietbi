@@ -18161,5 +18161,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782458824072,
+    "thoiGian": "14:27:04 26/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hỏng — đề nghị thanh lý",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Củ Chi",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "M275",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP4-CC-2",
+    "cpu": "Intel(R) Core(TM) Q8400",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.19.137",
+    "mac": "D0-27-88-11-75-E7",
+    "os": "Windows_10      ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "HONEYWELL"
+      }
+    ]
   }
 ]
