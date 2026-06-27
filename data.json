@@ -657,5 +657,40 @@
     "os": "Windows_7 64-bit          ",
     "office": "MS office 2010",
     "peripherals": []
+  },
+  {
+    "id": 1782531578120,
+    "thoiGian": "10:39:38 27/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Binh Tri Dong",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3020",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-BTD-2Ỉ-4150",
+    "cpu": "",
+    "ram": "4",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.117.119",
+    "mac": "F8-BC-12-Ạ-7E-7F",
+    "os": "WINDOWS 10",
+    "office": "MS Office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402 - ZEBRA ZD230"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Datamax"
+      }
+    ]
   }
 ]
