@@ -1189,5 +1189,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782698166329,
+    "thoiGian": "08:56:06 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Gò Mây",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "H110",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-GM-10",
+    "cpu": "G4560",
+    "ram": "8",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.144.53",
+    "mac": "E0-D5-5E-5F-38-D8",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
