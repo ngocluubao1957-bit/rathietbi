@@ -304,5 +304,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782726241798,
+    "thoiGian": "16:44:01 29/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Huỳnh Thế Vũ",
+    "bophan": "TTDVKH-BĐHCM",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP 240 G8 Notebook PC  ",
+    "serial": "5CG20515ZZ    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-58",
+    "cpu": "Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz  ",
+    "ram": "7.7 GB",
+    "hdd": "MTFDHBA512QFD-1AX1AABHA  ",
+    "ip": "10.70.35.58",
+    "mac": "C0:18:03:CF:E2:1B  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
