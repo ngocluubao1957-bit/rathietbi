@@ -785,5 +785,40 @@
         "info": "datalogic"
       }
     ]
+  },
+  {
+    "id": 1782711523547,
+    "thoiGian": "12:38:43, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900B569600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q5-4",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "﻿3,9 GB",
+    "hdd": "WDC WD5000AZLX-21K2TA0 ATA Device  ",
+    "ip": "10.70.19.195",
+    "mac": "F4:4D:30:01:69:16  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP 402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datalogic"
+      }
+    ]
   }
 ]
