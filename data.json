@@ -684,5 +684,40 @@
         "info": "datamax"
       }
     ]
+  },
+  {
+    "id": 1782711326479,
+    "thoiGian": "12:35:26, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900BA49600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q5-3",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "﻿3.4 GB",
+    "hdd": "TOSHIBA HDWD105 SCSI Disk Device  ",
+    "ip": "10.70.19.196",
+    "mac": "F4:4D:30:01:5B:10  ",
+    "os": "Windows_7 32-bit          ",
+    "office": "Ms office 2007",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
