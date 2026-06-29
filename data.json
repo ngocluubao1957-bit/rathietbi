@@ -1123,5 +1123,40 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782697835655,
+    "thoiGian": "08:50:35 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Gò Mây",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "5060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-GM-6",
+    "cpu": "i3-8100",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.144.60",
+    "mac": "B8-85-84-AB-0F-75",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
