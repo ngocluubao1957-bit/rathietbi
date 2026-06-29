@@ -828,5 +828,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782696106560,
+    "thoiGian": "08:21:46 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân PHú B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPB-2",
+    "cpu": "i3-8100",
+    "ram": "4",
+    "hdd": "SSD 240",
+    "ip": "10.70.21.165",
+    "mac": "8C-EC-4B-B4-00-A9",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
