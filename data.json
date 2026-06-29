@@ -983,5 +983,36 @@
         "info": "datamax"
       }
     ]
+  },
+  {
+    "id": 1782713846848,
+    "thoiGian": "13:17:26, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q5-9",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "10.70.19.212",
+    "mac": "",
+    "os": "Windows_7 ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
