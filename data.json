@@ -719,5 +719,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782711492761,
+    "thoiGian": "12:38:12 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G8R4TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q5-2",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA MQ01ACF050  ",
+    "ip": "10.70.19.216",
+    "mac": "B8:85:84:C5:2A:C2  ",
+    "os": "Windows_N10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
