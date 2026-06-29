@@ -583,5 +583,40 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782710822192,
+    "thoiGian": "12:27:02 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Q8",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNCM8F2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q8A-1",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "Netac SSD 128GB     ",
+    "ip": "10.70.19.229",
+    "mac": "8C:EC:4B:B1:C3:3E  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2013",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datalogic"
+      }
+    ]
   }
 ]
