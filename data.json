@@ -261,5 +261,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782698812701,
+    "thoiGian": "09:06:52 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệ pvuj",
+    "bophan": "BCP Gò Mây",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3668",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-GM-3",
+    "cpu": "i3-7100",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.144.61",
+    "mac": "8C-EC-4B-43-2A-D1",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
