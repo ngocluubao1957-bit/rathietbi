@@ -424,5 +424,36 @@
         "info": "Sumbol"
       }
     ]
+  },
+  {
+    "id": 1782709839536,
+    "thoiGian": "12:10:39, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q11",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900BD89600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q11-4",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "WD      WD5000AZLX-21K2T SCSI Disk Device  ",
+    "ip": "10.70.19.165",
+    "mac": "AC:15:A2:14:27:94  ",
+    "os": "Windows_7 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
