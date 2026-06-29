@@ -1158,5 +1158,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782697996633,
+    "thoiGian": "08:53:16 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Gò Mây",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "M2710",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-GM-8",
+    "cpu": "i3-6100",
+    "ram": "4",
+    "hdd": "HDD 1TB",
+    "ip": "10.70.144.57",
+    "mac": "F4-4D-30-96-66-3A",
+    "os": "Windows 7",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
