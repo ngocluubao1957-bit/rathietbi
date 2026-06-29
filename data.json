@@ -1,36 +1,5 @@
 [
   {
-    "id": 1782459736152,
-    "thoiGian": "14:42:16 26/6/2026",
-    "nhom": "Máy tính (Desktop)",
-    "tinhtrang": "Hoạt động tốt",
-    "hoten": "Nghiệp vụ",
-    "bophan": "BCP Q12A",
-    "chucdanh": "",
-    "sdt": "",
-    "hang": "Dell Inc.     ",
-    "model": "OptiPlex 5060  ",
-    "serial": "G7S5TR2       ",
-    "mataiSan": "",
-    "nam": "",
-    "nguongoc": "",
-    "ghichu": "",
-    "hostname": "HCM-TTP4-Q12A-9",
-    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
-    "ram": "3,8 GB",
-    "hdd": "GIGABYTE GP-GSTFS31120GNTD  ",
-    "ip": "10.70.24.88",
-    "mac": "B8:85:84:AA:FD:26  ",
-    "os": "Windows_10 64-bit          ",
-    "office": "MS office 2010",
-    "peripherals": [
-      {
-        "loai": "📷 Đầu đọc mã vạch",
-        "info": "zebra"
-      }
-    ]
-  },  
-  {
     "id": 1782462537637,
     "thoiGian": "15:28:57 26/6/2026",
     "nhom": "Máy tính (Desktop)",
