@@ -292,5 +292,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782709068685,
+    "thoiGian": "11:57:48 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q11",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6YTP8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q11-5",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "ST1000DM010-2EP102  ",
+    "ip": "10.70.19.163",
+    "mac": "8C:EC:4B:B3:FC:53  ",
+    "os": "Windows10T 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Motorola"
+      }
+    ]
   }
 ]
