@@ -382,5 +382,36 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1782727669884,
+    "thoiGian": "17:07:49, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Trần Thị Minh Tâm",
+    "bophan": "TTDVKH",
+    "chucdanh": "Chuyên viên",
+    "sdt": "0943200666",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "B1RGH62       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-54",
+    "cpu": "Intel(R) Core(TM) i3-4160T CPU @ 3.10GHz  ",
+    "ram": "﻿3.4 GB",
+    "hdd": "TOSHIBA MQ01ACF050 SCSI Disk Device  ",
+    "ip": "10.70.35.54",
+    "mac": "64:00:6A:09:51:D2  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": ""
+      }
+    ]
   }
 ]
