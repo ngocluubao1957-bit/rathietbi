@@ -1088,5 +1088,40 @@
         "info": "datamax"
       }
     ]
+  },
+  {
+    "id": 1782697637943,
+    "thoiGian": "08:47:17 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Gò Mây",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3668",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-GM-1",
+    "cpu": "i3-7100",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.144.56",
+    "mac": "8C-EC-4B-45-BE-98",
+    "os": "Windows 7",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
