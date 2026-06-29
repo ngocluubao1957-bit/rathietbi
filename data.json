@@ -330,5 +330,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782726876019,
+    "thoiGian": "16:54:36 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Lê Thị Kiều Hạnh",
+    "bophan": "BĐHCM/ TT DVKH",
+    "chucdanh": "CSKH",
+    "sdt": "0961917469",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3020M  ",
+    "serial": "BPYBH32       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-44",
+    "cpu": "Intel(R) Core(TM) i3-4150T CPU @ 3.00GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "WDC WDS240G2G0A-00JH30  ",
+    "ip": "10.70.35.44",
+    "mac": "F8:BC:12:A5:7E:0E  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
