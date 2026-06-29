@@ -1212,5 +1212,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782724045020,
+    "thoiGian": "16:07:25, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Q6",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "Vostro 3668  ",
+    "serial": "1WD4QM2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q6-3",
+    "cpu": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "PNY 120GB SATA SSD SCSI Disk Device  ",
+    "ip": "10.70.144.96",
+    "mac": "B0:52:16:88:4F:97  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
