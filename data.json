@@ -649,5 +649,40 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782711052284,
+    "thoiGian": "12:30:52 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Truong BCP",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Desktop M01-F2xxx  ",
+    "serial": "4CE418BG3R    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "DESKTOP-R59OBTH",
+    "cpu": "12th Gen Intel(R) Core(TM) i3-12100  ",
+    "ram": "7.7 GB",
+    "hdd": "NVMe SAMSUNG MZVL4256HBJD-00BH1  ",
+    "ip": "10.70.19.198",
+    "mac": "2C:58:B9:93:03:54  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datamax"
+      }
+    ]
   }
 ]
