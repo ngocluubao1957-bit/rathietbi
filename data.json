@@ -1220,5 +1220,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782698288652,
+    "thoiGian": "08:58:08 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Gò Mây",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer",
+    "model": "M2710",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-GM-9",
+    "cpu": "i3-6100",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.144.54",
+    "mac": "F4-4D-30-96-27-34",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
