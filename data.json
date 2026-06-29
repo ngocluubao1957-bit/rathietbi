@@ -882,5 +882,40 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782712548354,
+    "thoiGian": "12:55:48 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "6WYS8T2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q5-12",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "ST1000DM010-2EP102  ",
+    "ip": "10.70.23.132",
+    "mac": "8C:EC:4B:B3:FF:52  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2007",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP203 - XP350B"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datamax"
+      }
+    ]
   }
 ]
