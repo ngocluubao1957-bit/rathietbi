@@ -1022,5 +1022,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782697306810,
+    "thoiGian": "08:41:46 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Phú B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPB-5",
+    "cpu": "i3-7100",
+    "ram": "4",
+    "hdd": "HDD 500GB",
+    "ip": "10.70.21.168",
+    "mac": "8C-EC-4B-44-FA-6D",
+    "os": "Windows 7",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
