@@ -1150,5 +1150,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782723344729,
+    "thoiGian": "15:55:44, 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Q6",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900A7C9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q6-4",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "﻿3.9 GB",
+    "hdd": "WDC WD5000AZLX-21K2TA0 ATA Device  ",
+    "ip": "10.70.144.92",
+    "mac": "F4:4D:30:01:68:C4  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS ofice 2007",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
