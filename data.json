@@ -851,5 +851,36 @@
         "info": "Motorola"
       }
     ]
+  },
+  {
+    "id": 1782712327917,
+    "thoiGian": "12:52:07 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q11",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3060  ",
+    "serial": "JNBN7N2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q11-7",
+    "cpu": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "TOSHIBA DT01ACA100  ",
+    "ip": "10.70.23.133",
+    "mac": "8C:EC:4B:B1:C1:78  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
