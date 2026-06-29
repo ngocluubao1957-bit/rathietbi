@@ -490,5 +490,36 @@
         "info": ""
       }
     ]
+  },
+  {
+    "id": 1782710318213,
+    "thoiGian": "12:18:38 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Q8",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 5060  ",
+    "serial": "G5P5TR2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q8A-4",
+    "cpu": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "Dahua C800 2.5 inch SATA 120GB SSD  ",
+    "ip": "10.70.19.226",
+    "mac": "B8:85:84:A5:9F:D9  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datalogic"
+      }
+    ]
   }
 ]
