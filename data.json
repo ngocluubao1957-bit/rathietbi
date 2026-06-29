@@ -552,5 +552,36 @@
         "info": "zebra"
       }
     ]
+  },
+  {
+    "id": 1782710700051,
+    "thoiGian": "12:25:00 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Buu ta",
+    "bophan": "BCP Q8",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Veriton X2611G  ",
+    "serial": "DTVGLSV059410065FD9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q8A-2",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "Verbatim Vi550 S3 ATA Device  ",
+    "ip": "10.70.19.230",
+    "mac": "C0:3F:D5:57:E2:C3  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "zebra"
+      }
+    ]
   }
 ]
