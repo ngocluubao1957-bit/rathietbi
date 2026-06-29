@@ -354,5 +354,40 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782709394381,
+    "thoiGian": "12:03:14 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Trưởng BCP",
+    "bophan": "BCP Q11",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Acer          ",
+    "model": "Extensa M2610  ",
+    "serial": "DTX0CSV01960900A719600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q11-2",
+    "cpu": "Intel(R) Core(TM) i3-4170 CPU @ 3.70GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "PNY 250GB SATA SSD  ",
+    "ip": "10.70.19.167",
+    "mac": "F4:4D:30:01:5D:E5  ",
+    "os": "Windows_10 64-bit          ",
+    "office": "MS office 2010",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "Delfi"
+      }
+    ]
   }
 ]
