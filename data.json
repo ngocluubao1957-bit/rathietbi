@@ -762,5 +762,36 @@
         "info": "datalogic"
       }
     ]
+  },
+  {
+    "id": 1782695768510,
+    "thoiGian": "08:16:08 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Phú B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "HP",
+    "model": "M01",
+    "serial": "  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HFM-TTP3-TPB-9",
+    "cpu": "I3-12100",
+    "ram": "8",
+    "hdd": "SSD 250GB",
+    "ip": "10.70.21.167",
+    "mac": "2C-58-B9-93-1A-5A",
+    "os": "Windows_10 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeeywell"
+      }
+    ]
   }
 ]
