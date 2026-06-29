@@ -948,5 +948,40 @@
         "info": "Symbol"
       }
     ]
+  },
+  {
+    "id": 1782713298003,
+    "thoiGian": "13:08:18 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiep vu",
+    "bophan": "BCP Q5",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "",
+    "model": "",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-Q5-14",
+    "cpu": "",
+    "ram": "",
+    "hdd": "",
+    "ip": "10.70.19.202",
+    "mac": "",
+    "os": "Windows_11 ",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402 - XP DT426B"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "datamax"
+      }
+    ]
   }
 ]
