@@ -793,5 +793,40 @@
         "info": "honeeywell"
       }
     ]
+  },
+  {
+    "id": 1782695961602,
+    "thoiGian": "08:19:21 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Phú B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "5060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPB-1",
+    "cpu": "i3-8100",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.21.162",
+    "mac": "B8-85-84-A8-E3-01",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "🖨️ Máy in",
+        "info": "HP402 - XP426B"
+      },
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
