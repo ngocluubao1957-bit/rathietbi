@@ -991,5 +991,36 @@
         "info": "honeywell"
       }
     ]
+  },
+  {
+    "id": 1782697192891,
+    "thoiGian": "08:39:52 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Nghiệp vụ",
+    "bophan": "BCP Tân Phú B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "5060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "BCP Tân Phú B",
+    "cpu": "i3-8100",
+    "ram": "4",
+    "hdd": "SSD 120GB",
+    "ip": "10.70.21.164",
+    "mac": "B8-85-84-A5-9F-95",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
