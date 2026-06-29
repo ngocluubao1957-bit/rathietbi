@@ -517,5 +517,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782747343002,
+    "thoiGian": "22:35:43 29/6/2026",
+    "nhom": "Máy tính (Laptop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Lê Tuyết Trinh",
+    "bophan": "TTDVKH",
+    "chucdanh": "Cán Sự",
+    "sdt": "0903043977",
+    "hang": "Dell Inc",
+    "model": "Latitude 3460",
+    "serial": "7QÝ3C2",
+    "mataiSan": "F40B8672-90B1-40C6-8595-9EEFD5C58D1E",
+    "nam": "2019",
+    "nguongoc": "Điều chuyển nội bộ",
+    "ghichu": "Từ TT Chợ Lớn cấp đã nâng cấp 2 lần- IT tên Dương Nam 0913165335 - Nhận từ năm 2024 ",
+    "hostname": "HCM-TTDVKH-57",
+    "cpu": "Intel64 Family 6 Model 61 Stepping 4 GenuineIntel ~2000 Mhz",
+    "ram": "8 GB",
+    "hdd": "223.56 GB",
+    "ip": "192.168.1.17",
+    "mac": "58-FB-84-0C-89-1F",
+    "os": "Microsoft Windows 10 Pro",
+    "office": "Microsoft Office 2016",
+    "peripherals": []
   }
 ]
