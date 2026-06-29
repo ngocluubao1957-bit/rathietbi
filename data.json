@@ -894,5 +894,36 @@
         "info": "Zebra"
       }
     ]
+  },
+  {
+    "id": 1782696421248,
+    "thoiGian": "08:27:01 29/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động tốt",
+    "hoten": "Bưu tá",
+    "bophan": "BCP Tân Phú B",
+    "chucdanh": "",
+    "sdt": "",
+    "hang": "Dell",
+    "model": "3060",
+    "serial": "",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTP3-TPB-7",
+    "cpu": "i3-8100",
+    "ram": "4",
+    "hdd": "SSD 240GB",
+    "ip": "10.70.21.166",
+    "mac": "",
+    "os": "Windows 10",
+    "office": "MS office 2016",
+    "peripherals": [
+      {
+        "loai": "📷 Đầu đọc mã vạch",
+        "info": "honeywell"
+      }
+    ]
   }
 ]
