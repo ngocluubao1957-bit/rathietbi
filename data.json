@@ -543,5 +543,31 @@
     "os": "Microsoft Windows 10 Pro",
     "office": "Microsoft Office 2016",
     "peripherals": []
+  },
+  {
+    "id": 1782785556473,
+    "thoiGian": "09:12:36 30/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Nguyễn Quỳnh Anh",
+    "bophan": "Trung tâm Dịch vụ khách hàng",
+    "chucdanh": "Chăm sóc khách hàng",
+    "sdt": "0903285027",
+    "hang": "Acer          ",
+    "model": "Veriton X2611G  ",
+    "serial": "DTVGLSV059410065BE9600  ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-47",
+    "cpu": "Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz  ",
+    "ram": "",
+    "hdd": "SPCC Solid State Disk  ",
+    "ip": "10.70.35.47",
+    "mac": "C0:3F:D5:57:E1:13  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Khong tim thay",
+    "peripherals": []
   }
 ]
