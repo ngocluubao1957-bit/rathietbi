@@ -595,5 +595,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782785884585,
+    "thoiGian": "09:18:04 30/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "NGUYỄN THỊ THANH THẢO",
+    "bophan": "TT DVKH",
+    "chucdanh": "CSKH",
+    "sdt": "0906377929",
+    "hang": "HP            ",
+    "model": "HP 280 Pro G6 Microtower PC  ",
+    "serial": "4CE1280JH2    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH--45",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "3.8 GB",
+    "hdd": "WDC PC SN530 SDBPNPZ-256G-1006  ",
+    "ip": "10.70.35.45",
+    "mac": "BC:E9:2F:A4:96:14  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
