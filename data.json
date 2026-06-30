@@ -777,5 +777,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Microsoft Office 2016/2019/365",
     "peripherals": []
+  },
+  {
+    "id": 1782786741157,
+    "thoiGian": "09:32:21 30/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Phạm Việt Phương",
+    "bophan": "TT DVKH",
+    "chucdanh": "CSKH",
+    "sdt": "",
+    "hang": "HP            ",
+    "model": "HP Desktop Pro G6 Microtower PC  ",
+    "serial": "4CE127XR97    ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-52",
+    "cpu": "Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz  ",
+    "ram": "11.8 GB",
+    "hdd": "KBG40ZNV256G KIOXIA    ",
+    "ip": "10.70.35.52",
+    "mac": "BC:E9:2F:A3:4C:17  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
