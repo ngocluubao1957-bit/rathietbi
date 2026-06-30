@@ -62,37 +62,6 @@
     ]
   },
   {
-    "id": 1782463443815,
-    "thoiGian": "15:44:03 26/6/2026",
-    "nhom": "Máy tính (Laptop)",
-    "tinhtrang": "Hoạt động — cần nâng cấp",
-    "hoten": "PHAN THỊ NGỌC THU",
-    "bophan": "TTDVKH",
-    "chucdanh": "CSKH",
-    "sdt": "",
-    "hang": "",
-    "model": "",
-    "serial": "",
-    "mataiSan": "",
-    "nam": "",
-    "nguongoc": "",
-    "ghichu": "",
-    "hostname": "",
-    "cpu": "",
-    "ram": "",
-    "hdd": "",
-    "ip": "",
-    "mac": "",
-    "os": "",
-    "office": "",
-    "peripherals": [
-      {
-        "loai": "🖨️ Máy in",
-        "info": ""
-      }
-    ]
-  },
-  {
     "id": 1782463565317,
     "thoiGian": "15:46:05 26/6/2026",
     "nhom": "Máy tính (Laptop)",
