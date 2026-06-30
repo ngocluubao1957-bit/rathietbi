@@ -569,5 +569,31 @@
     "os": "Windows_NT 64-bit          ",
     "office": "Khong tim thay",
     "peripherals": []
+  },
+  {
+    "id": 1782785766002,
+    "thoiGian": "09:16:06 30/6/2026",
+    "nhom": "Máy tính (Desktop)",
+    "tinhtrang": "Hoạt động — cần nâng cấp",
+    "hoten": "Trần Lê Thu Hiếu",
+    "bophan": "TTDVKH HCM",
+    "chucdanh": "CSKH",
+    "sdt": "0777720867",
+    "hang": "Dell Inc.     ",
+    "model": "OptiPlex 3040  ",
+    "serial": "64SD8F2       ",
+    "mataiSan": "",
+    "nam": "",
+    "nguongoc": "",
+    "ghichu": "",
+    "hostname": "HCM-TTDVKH-15",
+    "cpu": "Intel(R) Core(TM) i3-6100T CPU @ 3.20GHz  ",
+    "ram": "3.9 GB",
+    "hdd": "Netac SSD 512GB  ",
+    "ip": "10.70.35.15",
+    "mac": "18:66:DA:28:7F:EB  ",
+    "os": "Windows_NT 64-bit          ",
+    "office": "Microsoft Office 2016/2019/365",
+    "peripherals": []
   }
 ]
